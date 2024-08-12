@@ -14,20 +14,19 @@ ALLOWED_HOSTS = ["*"]
 
 ### 更多数据库配置，参考官方文档：https://docs.djangoproject.com/zh-hans/5.0/ref/databases/
 
-# # mysql 数据库配置
-# # create database xadmin default character set utf8 COLLATE utf8_general_ci;
-# # grant all on xadmin.* to server@'127.0.0.1' identified by 'KGzKjZpWBp4R4RSa';
-# DB_ENGINE = 'django.db.backends.mysql'
-# DB_HOST = 'mariadb'
-# DB_PORT = 3306
-# DB_USER = 'server'
-# DB_DATABASE = 'xadmin'
-# DB_PASSWORD = 'KGzKjZpWBp4R4RSa'
-# DB_OPTIONS = {'init_command': 'SET sql_mode="STRICT_TRANS_TABLES"', 'charset': 'utf8mb4'}
+# mysql 数据库配置
+# create database xadmin default character set utf8 COLLATE utf8_general_ci;
+# grant all on xadmin.* to server@'127.0.0.1' identified by 'KGzKjZpWBp4R4RSa';
+DB_ENGINE = 'django.db.backends.mysql'
+DB_HOST = 'mariadb'
+DB_PORT = 3306
+DB_USER = 'server'
+DB_DATABASE = 'xadmin'
+DB_PASSWORD = 'KGzKjZpWBp4R4RSa'
+DB_OPTIONS = {'init_command': 'SET sql_mode="STRICT_TRANS_TABLES"', 'charset': 'utf8mb4'}
 
-
-# sqlite3 配置，和 mysql配置 二选一, 默认sqlite数据库
-DB_ENGINE = 'django.db.backends.sqlite3'
+## sqlite3 配置，和 mysql配置 二选一, 默认sqlite数据库
+#DB_ENGINE = 'django.db.backends.sqlite3'
 
 # 缓存配置
 REDIS_HOST = "redis"
@@ -35,7 +34,10 @@ REDIS_PORT = 6379
 REDIS_PASSWORD = "nineven"
 
 # 需要将创建的应用写到里面
-XADMIN_APPS = []
+XADMIN_APPS = [
+    'logistics.apps.LogisticsConfig',
+    'demo.apps.DemoConfig',
+]
 
 # 速率限制配置
 DEFAULT_THROTTLE_RATES = {}

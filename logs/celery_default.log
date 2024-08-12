@@ -1,0 +1,505 @@
+
+Restarting celery worker (/data/xadmin/py312/bin/celery -A server worker -P prefork -l INFO --autoscale 10,3 -Q celery --heartbeat-interval 10 -n celery@%h --without-mingle)
+[2024-08-04 00:25:04,876: ERROR/MainProcess] Process 'ForkPoolWorker-3' pid:18628 exited with 'signal 1 (SIGHUP)'
+[2024-08-04 00:25:04,890: ERROR/MainProcess] Process 'ForkPoolWorker-2' pid:18627 exited with 'signal 1 (SIGHUP)'
+[2024-08-04 00:25:04,901: ERROR/MainProcess] Process 'ForkPoolWorker-1' pid:18626 exited with 'signal 1 (SIGHUP)'
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-04 00:25:09
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f84e7f20590
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-04 00:25:09,785: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-04 00:25:09,794: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-05 08:42:04,615: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-05 10:50:28
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f69dea14320
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-05 10:50:28,574: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-05 10:50:28,585: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-05 10:50:33,360: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Hitting Ctrl+C again will terminate all running tasks!
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-05 11:50:57
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f3d7d4e8590
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-05 11:50:58,201: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-05 11:50:58,215: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-05 11:51:02,609: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-05 11:51:50
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7fe954b84470
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-05 11:51:50,758: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-05 11:51:50,771: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-05 11:51:55,494: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Hitting Ctrl+C again will terminate all running tasks!
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-05 13:26:34
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f4f11c14500
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-05 13:26:35,041: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-05 13:26:35,056: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-05 13:26:39,671: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-05 13:27:22
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f47c2eabd10
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-05 13:27:22,326: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-05 13:27:22,338: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-05 13:27:27,404: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Hitting Ctrl+C again will terminate all running tasks!
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-05 13:51:21
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7ff99e7afc50
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-05 13:51:22,170: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-05 13:51:22,180: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-05 13:51:26,592: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Hitting Ctrl+C again will terminate all running tasks!
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-05 14:04:08
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f3e3bcec500
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-05 14:04:09,179: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-05 14:04:09,191: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-05 14:04:13,876: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Hitting Ctrl+C again will terminate all running tasks!
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-05 16:26:47
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f100e0107d0
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-05 16:26:47,610: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-05 16:26:47,620: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-05 16:26:52,566: INFO/MainProcess] Events of group {task} enabled by remote.
+
+Restarting celery worker (/data/xadmin/py312/bin/celery -A server worker -P prefork -l INFO --autoscale 10,3 -Q celery --heartbeat-interval 10 -n celery@%h --without-mingle)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-05 16:52:02
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f3412a145f0
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-05 16:52:02,322: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-05 16:52:02,335: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-06 13:43:46,887: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-07 07:55:42
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f90972d8560
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-07 07:55:42,632: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-07 07:55:42,642: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-07 07:55:47,161: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Hitting Ctrl+C again will terminate all running tasks!
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-07 10:17:53
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7fd45dde81d0
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-07 10:17:53,557: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-07 10:17:53,567: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-07 10:17:57,878: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Hitting Ctrl+C again will terminate all running tasks!
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-08-07 11:08:33
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7fb9beb97fb0
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-08-07 11:08:33,639: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-08-07 11:08:33,648: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-08-07 11:08:38,318: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Hitting Ctrl+C again will terminate all running tasks!
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)

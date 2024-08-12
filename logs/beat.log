@@ -1,0 +1,522 @@
+[2024-08-05 08:41:59,626: INFO/MainProcess] beat: Starting...
+[2024-08-05 08:41:59,741: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-05 08:41:59
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-05 10:50:27,998: INFO/MainProcess] beat: Starting...
+[2024-08-05 10:50:28,058: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+[2024-08-05 11:16:28,139: ERROR/MainProcess] Database gave error: OperationalError(2013, 'Lost connection to server during query')
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+MySQLdb.OperationalError: (2013, 'Lost connection to server during query')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 263, in schedule_changed
+    transaction.commit()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/transaction.py", line 40, in commit
+    get_connection(using).commit()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 323, in commit
+    self._commit()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 298, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: (2013, 'Lost connection to server during query')
+[2024-08-05 11:22:28,159: ERROR/MainProcess] Database gave error: OperationalError(2013, 'Lost connection to server during query')
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+MySQLdb.OperationalError: (2013, 'Lost connection to server during query')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 263, in schedule_changed
+    transaction.commit()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/transaction.py", line 40, in commit
+    get_connection(using).commit()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 323, in commit
+    self._commit()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 298, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: (2013, 'Lost connection to server during query')
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-05 10:50:27
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-05 11:50:57,720: INFO/MainProcess] beat: Starting...
+[2024-08-05 11:50:57,796: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-05 11:50:57
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-05 11:51:50,441: INFO/MainProcess] beat: Starting...
+[2024-08-05 11:51:50,509: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-05 11:51:50
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-05 13:26:34,515: INFO/MainProcess] beat: Starting...
+[2024-08-05 13:26:34,605: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-05 13:26:34
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-05 13:27:22,329: INFO/MainProcess] beat: Starting...
+[2024-08-05 13:27:22,392: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+[2024-08-05 13:51:21,577: INFO/MainProcess] beat: Starting...
+[2024-08-05 13:51:21,640: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+[2024-08-05 14:03:56,472: WARNING/MainProcess] Exception ignored in atexit callback
+[2024-08-05 14:03:56,472: WARNING/MainProcess] : 
+[2024-08-05 14:03:56,473: WARNING/MainProcess] <function _exit_function at 0x7fa10db63ec0>
+[2024-08-05 14:03:56,473: WARNING/MainProcess] Traceback (most recent call last):
+[2024-08-05 14:03:56,473: WARNING/MainProcess]   File "/usr/lib64/python3.12/multiprocessing/util.py", line 337, in _exit_function
+[2024-08-05 14:03:56,486: WARNING/MainProcess]     
+[2024-08-05 14:03:56,486: WARNING/MainProcess] _run_finalizers(0)
+[2024-08-05 14:03:56,486: WARNING/MainProcess]   File "/usr/lib64/python3.12/multiprocessing/util.py", line 303, in _run_finalizers
+[2024-08-05 14:03:56,487: WARNING/MainProcess]     
+[2024-08-05 14:03:56,487: WARNING/MainProcess] finalizer()
+[2024-08-05 14:03:56,487: WARNING/MainProcess]   File "/usr/lib64/python3.12/multiprocessing/util.py", line 227, in __call__
+[2024-08-05 14:03:56,488: WARNING/MainProcess]     
+[2024-08-05 14:03:56,488: WARNING/MainProcess] res = self._callback(*self._args, **self._kwargs)
+[2024-08-05 14:03:56,488: WARNING/MainProcess]  
+[2024-08-05 14:03:56,488: WARNING/MainProcess]  
+[2024-08-05 14:03:56,488: WARNING/MainProcess]  
+[2024-08-05 14:03:56,488: WARNING/MainProcess]  
+[2024-08-05 14:03:56,488: WARNING/MainProcess]  
+[2024-08-05 14:03:56,488: WARNING/MainProcess]  
+[2024-08-05 14:03:56,488: WARNING/MainProcess]  
+[2024-08-05 14:03:56,488: WARNING/MainProcess]  
+[2024-08-05 14:03:56,488: WARNING/MainProcess]  
+[2024-08-05 14:03:56,488: WARNING/MainProcess]  
+[2024-08-05 14:03:56,488: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,488: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,488: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,488: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,491: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 298, in sync
+[2024-08-05 14:03:56,491: WARNING/MainProcess]     
+[2024-08-05 14:03:56,491: WARNING/MainProcess] close_old_connections()
+[2024-08-05 14:03:56,491: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/__init__.py", line 56, in close_old_connections
+[2024-08-05 14:03:56,491: WARNING/MainProcess]     
+[2024-08-05 14:03:56,491: WARNING/MainProcess] for conn in connections.all(initialized_only=True):
+[2024-08-05 14:03:56,491: WARNING/MainProcess]  
+[2024-08-05 14:03:56,491: WARNING/MainProcess]  
+[2024-08-05 14:03:56,491: WARNING/MainProcess]  
+[2024-08-05 14:03:56,491: WARNING/MainProcess]  
+[2024-08-05 14:03:56,491: WARNING/MainProcess]  
+[2024-08-05 14:03:56,491: WARNING/MainProcess]  
+[2024-08-05 14:03:56,491: WARNING/MainProcess]  
+[2024-08-05 14:03:56,491: WARNING/MainProcess]  
+[2024-08-05 14:03:56,492: WARNING/MainProcess]  
+[2024-08-05 14:03:56,492: WARNING/MainProcess]  
+[2024-08-05 14:03:56,492: WARNING/MainProcess]  
+[2024-08-05 14:03:56,492: WARNING/MainProcess]  
+[2024-08-05 14:03:56,492: WARNING/MainProcess]  
+[2024-08-05 14:03:56,492: WARNING/MainProcess]  
+[2024-08-05 14:03:56,492: WARNING/MainProcess]  
+[2024-08-05 14:03:56,492: WARNING/MainProcess]  
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,493: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,493: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,493: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,493: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,493: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,493: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,493: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/connection.py", line 80, in all
+[2024-08-05 14:03:56,493: WARNING/MainProcess]     
+[2024-08-05 14:03:56,493: WARNING/MainProcess] if not initialized_only or hasattr(self._connections, alias)
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,493: WARNING/MainProcess]  
+[2024-08-05 14:03:56,494: WARNING/MainProcess]  
+[2024-08-05 14:03:56,494: WARNING/MainProcess]  
+[2024-08-05 14:03:56,494: WARNING/MainProcess]  
+[2024-08-05 14:03:56,494: WARNING/MainProcess]  
+[2024-08-05 14:03:56,494: WARNING/MainProcess]  
+[2024-08-05 14:03:56,494: WARNING/MainProcess]  
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,494: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/asgiref/local.py", line 117, in __getattr__
+[2024-08-05 14:03:56,495: WARNING/MainProcess]     
+[2024-08-05 14:03:56,495: WARNING/MainProcess] with self._lock_storage() as storage:
+[2024-08-05 14:03:56,495: WARNING/MainProcess]  
+[2024-08-05 14:03:56,495: WARNING/MainProcess]  
+[2024-08-05 14:03:56,495: WARNING/MainProcess]  
+[2024-08-05 14:03:56,495: WARNING/MainProcess]  
+[2024-08-05 14:03:56,495: WARNING/MainProcess]  
+[2024-08-05 14:03:56,495: WARNING/MainProcess]  
+[2024-08-05 14:03:56,495: WARNING/MainProcess]  
+[2024-08-05 14:03:56,495: WARNING/MainProcess]  
+[2024-08-05 14:03:56,495: WARNING/MainProcess]  
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,495: WARNING/MainProcess]   File "/usr/lib64/python3.12/contextlib.py", line 301, in helper
+[2024-08-05 14:03:56,496: WARNING/MainProcess]     
+[2024-08-05 14:03:56,496: WARNING/MainProcess] return _GeneratorContextManager(func, args, kwds)
+[2024-08-05 14:03:56,496: WARNING/MainProcess]  
+[2024-08-05 14:03:56,496: WARNING/MainProcess]  
+[2024-08-05 14:03:56,496: WARNING/MainProcess]  
+[2024-08-05 14:03:56,496: WARNING/MainProcess]  
+[2024-08-05 14:03:56,496: WARNING/MainProcess]  
+[2024-08-05 14:03:56,496: WARNING/MainProcess]  
+[2024-08-05 14:03:56,496: WARNING/MainProcess]  
+[2024-08-05 14:03:56,496: WARNING/MainProcess]  
+[2024-08-05 14:03:56,496: WARNING/MainProcess]  
+[2024-08-05 14:03:56,496: WARNING/MainProcess]  
+[2024-08-05 14:03:56,496: WARNING/MainProcess]  
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
+[2024-08-05 14:03:56,497: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/celery/apps/beat.py", line 159, in _sync
+[2024-08-05 14:03:56,497: WARNING/MainProcess]     
+[2024-08-05 14:03:56,497: WARNING/MainProcess] raise SystemExit()
+[2024-08-05 14:03:56,497: WARNING/MainProcess] SystemExit
+[2024-08-05 14:03:56,497: WARNING/MainProcess] : 
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-05 13:51:21
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-05 14:04:08,784: INFO/MainProcess] beat: Starting...
+[2024-08-05 14:04:08,904: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-05 14:04:08
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-05 16:26:47,449: INFO/MainProcess] beat: Starting...
+[2024-08-05 16:26:47,500: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+[2024-08-06 13:43:41,999: INFO/MainProcess] beat: Starting...
+[2024-08-06 13:43:42,099: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-06 13:43:41
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-07 07:55:42,356: INFO/MainProcess] beat: Starting...
+[2024-08-07 07:55:42,413: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-07 07:55:42
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-07 10:17:53,279: INFO/MainProcess] beat: Starting...
+[2024-08-07 10:17:53,358: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+[2024-08-07 11:08:13,348: WARNING/MainProcess] Exception ignored in: 
+[2024-08-07 11:08:13,348: WARNING/MainProcess] <module 'threading' from '/usr/lib64/python3.12/threading.py'>
+[2024-08-07 11:08:13,348: WARNING/MainProcess] Traceback (most recent call last):
+[2024-08-07 11:08:13,349: WARNING/MainProcess]   File "/usr/lib64/python3.12/threading.py", line 1595, in _shutdown
+[2024-08-07 11:08:13,350: WARNING/MainProcess]     
+[2024-08-07 11:08:13,350: WARNING/MainProcess] _main_thread._stop()
+[2024-08-07 11:08:13,350: WARNING/MainProcess]   File "/usr/lib64/python3.12/threading.py", line 1104, in _stop
+[2024-08-07 11:08:13,351: WARNING/MainProcess]     
+[2024-08-07 11:08:13,351: WARNING/MainProcess] _maintain_shutdown_locks()
+[2024-08-07 11:08:13,351: WARNING/MainProcess]   File "/usr/lib64/python3.12/threading.py", line 855, in _maintain_shutdown_locks
+[2024-08-07 11:08:13,351: WARNING/MainProcess]     
+[2024-08-07 11:08:13,351: WARNING/MainProcess] def _maintain_shutdown_locks():
+[2024-08-07 11:08:13,351: WARNING/MainProcess]  
+[2024-08-07 11:08:13,351: WARNING/MainProcess]  
+[2024-08-07 11:08:13,351: WARNING/MainProcess]  
+[2024-08-07 11:08:13,351: WARNING/MainProcess]  
+[2024-08-07 11:08:13,352: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/celery/apps/beat.py", line 159, in _sync
+[2024-08-07 11:08:13,352: WARNING/MainProcess]     
+[2024-08-07 11:08:13,352: WARNING/MainProcess] raise SystemExit()
+[2024-08-07 11:08:13,352: WARNING/MainProcess] SystemExit
+[2024-08-07 11:08:13,352: WARNING/MainProcess] : 
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-07 10:17:53
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-07 11:08:33,117: INFO/MainProcess] beat: Starting...
+[2024-08-07 11:08:33,168: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+[2024-08-07 17:04:09,796: WARNING/MainProcess] Exception ignored in atexit callback
+[2024-08-07 17:04:09,796: WARNING/MainProcess] : 
+[2024-08-07 17:04:09,796: WARNING/MainProcess] <function shutdown at 0x7f5c0c0ccc20>
+[2024-08-07 17:04:09,796: WARNING/MainProcess] Traceback (most recent call last):
+[2024-08-07 17:04:09,796: WARNING/MainProcess]   File "/usr/lib64/python3.12/logging/__init__.py", line 2265, in shutdown
+[2024-08-07 17:04:09,798: WARNING/MainProcess]     
+[2024-08-07 17:04:09,798: WARNING/MainProcess] h.close()
+[2024-08-07 17:04:09,798: WARNING/MainProcess]   File "/usr/lib64/python3.12/logging/__init__.py", line 1253, in close
+[2024-08-07 17:04:09,799: WARNING/MainProcess]     
+[2024-08-07 17:04:09,799: WARNING/MainProcess] StreamHandler.close(self)
+[2024-08-07 17:04:09,799: WARNING/MainProcess]   File "/usr/lib64/python3.12/logging/__init__.py", line 1064, in close
+[2024-08-07 17:04:09,800: WARNING/MainProcess]     
+[2024-08-07 17:04:09,800: WARNING/MainProcess] _releaseLock()
+[2024-08-07 17:04:09,800: WARNING/MainProcess]   File "/usr/lib64/python3.12/logging/__init__.py", line 243, in _releaseLock
+[2024-08-07 17:04:09,801: WARNING/MainProcess]     
+[2024-08-07 17:04:09,801: WARNING/MainProcess] def _releaseLock():
+[2024-08-07 17:04:09,801: WARNING/MainProcess]  
+[2024-08-07 17:04:09,801: WARNING/MainProcess]  
+[2024-08-07 17:04:09,801: WARNING/MainProcess]  
+[2024-08-07 17:04:09,801: WARNING/MainProcess]  
+[2024-08-07 17:04:09,801: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/celery/apps/beat.py", line 159, in _sync
+[2024-08-07 17:04:09,801: WARNING/MainProcess]     
+[2024-08-07 17:04:09,801: WARNING/MainProcess] raise SystemExit()
+[2024-08-07 17:04:09,801: WARNING/MainProcess] SystemExit
+[2024-08-07 17:04:09,801: WARNING/MainProcess] : 
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-07 11:08:33
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)

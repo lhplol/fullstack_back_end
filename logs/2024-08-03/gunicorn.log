@@ -1,0 +1,324 @@
+[2024-08-03 15:24:10 +0800] [9119] [INFO] Starting gunicorn 22.0.0
+[2024-08-03 15:24:10 +0800] [9119] [INFO] Listening at: http://0.0.0.0:8896 (9119)
+[2024-08-03 15:24:10 +0800] [9119] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-08-03 15:24:10 +0800] [9122] [INFO] Booting worker with pid: 9122
+[2024-08-03 15:24:11 +0800] [9123] [INFO] Booting worker with pid: 9123
+[2024-08-03 15:24:11 +0800] [9124] [INFO] Booting worker with pid: 9124
+[2024-08-03 15:24:11 +0800] [9125] [INFO] Booting worker with pid: 9125
+[2024-08-03 15:24:11 +0800] [9126] [INFO] Booting worker with pid: 9126
+[2024-08-03 15:24:11 +0800] [9127] [INFO] Booting worker with pid: 9127
+[2024-08-03 15:24:11 +0800] [9128] [INFO] Booting worker with pid: 9128
+[2024-08-03 15:24:11 +0800] [9129] [INFO] Booting worker with pid: 9129
+[2024-08-03 15:24:11 +0800] [9130] [INFO] Booting worker with pid: 9130
+[2024-08-03 15:24:14 +0800] [9124] [INFO] Started server process [9124]
+[2024-08-03 15:24:14 +0800] [9124] [INFO] Waiting for application startup.
+[2024-08-03 15:24:14 +0800] [9124] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:24:14 +0800] [9124] [INFO] Application startup complete.
+[2024-08-03 15:24:14 +0800] [9122] [INFO] Started server process [9122]
+[2024-08-03 15:24:14 +0800] [9122] [INFO] Waiting for application startup.
+[2024-08-03 15:24:14 +0800] [9122] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:24:14 +0800] [9122] [INFO] Application startup complete.
+[2024-08-03 15:24:14 +0800] [9127] [INFO] Started server process [9127]
+[2024-08-03 15:24:14 +0800] [9127] [INFO] Waiting for application startup.
+[2024-08-03 15:24:14 +0800] [9127] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:24:14 +0800] [9127] [INFO] Application startup complete.
+[2024-08-03 15:24:14 +0800] [9123] [INFO] Started server process [9123]
+[2024-08-03 15:24:14 +0800] [9123] [INFO] Waiting for application startup.
+[2024-08-03 15:24:14 +0800] [9123] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:24:14 +0800] [9123] [INFO] Application startup complete.
+[2024-08-03 15:24:14 +0800] [9129] [INFO] Started server process [9129]
+[2024-08-03 15:24:14 +0800] [9129] [INFO] Waiting for application startup.
+[2024-08-03 15:24:14 +0800] [9129] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:24:14 +0800] [9129] [INFO] Application startup complete.
+[2024-08-03 15:24:14 +0800] [9128] [INFO] Started server process [9128]
+[2024-08-03 15:24:14 +0800] [9128] [INFO] Waiting for application startup.
+[2024-08-03 15:24:14 +0800] [9128] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:24:14 +0800] [9128] [INFO] Application startup complete.
+[2024-08-03 15:24:14 +0800] [9126] [INFO] Started server process [9126]
+[2024-08-03 15:24:14 +0800] [9126] [INFO] Waiting for application startup.
+[2024-08-03 15:24:14 +0800] [9126] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:24:14 +0800] [9126] [INFO] Application startup complete.
+[2024-08-03 15:24:14 +0800] [9125] [INFO] Started server process [9125]
+[2024-08-03 15:24:14 +0800] [9125] [INFO] Waiting for application startup.
+[2024-08-03 15:24:14 +0800] [9125] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:24:14 +0800] [9125] [INFO] Application startup complete.
+[2024-08-03 15:24:14 +0800] [9130] [INFO] Started server process [9130]
+[2024-08-03 15:24:14 +0800] [9130] [INFO] Waiting for application startup.
+[2024-08-03 15:24:14 +0800] [9130] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:24:14 +0800] [9130] [INFO] Application startup complete.
+[2024-08-03 15:28:07 +0800] [9119] [INFO] Handling signal: int
+[2024-08-03 15:28:07 +0800] [9130] [INFO] Shutting down
+[2024-08-03 15:28:07 +0800] [9126] [INFO] Shutting down
+[2024-08-03 15:28:07 +0800] [9125] [INFO] Shutting down
+[2024-08-03 15:28:07 +0800] [9122] [INFO] Shutting down
+[2024-08-03 15:28:07 +0800] [9127] [INFO] Shutting down
+[2024-08-03 15:28:07 +0800] [9124] [INFO] Shutting down
+[2024-08-03 15:28:07 +0800] [9129] [INFO] Shutting down
+[2024-08-03 15:28:07 +0800] [9128] [INFO] Shutting down
+[2024-08-03 15:28:07 +0800] [9123] [INFO] Shutting down
+[2024-08-03 15:28:07 +0800] [9130] [INFO] Finished server process [9130]
+[2024-08-03 15:28:07 +0800] [9126] [INFO] Finished server process [9126]
+[2024-08-03 15:28:07 +0800] [9125] [INFO] Finished server process [9125]
+[2024-08-03 15:28:07 +0800] [9119] [ERROR] Worker (pid:9130) was sent SIGINT!
+[2024-08-03 15:28:07 +0800] [9119] [ERROR] Worker (pid:9125) was sent SIGINT!
+[2024-08-03 15:28:07 +0800] [9119] [ERROR] Worker (pid:9126) was sent SIGINT!
+[2024-08-03 15:28:07 +0800] [9122] [INFO] Finished server process [9122]
+[2024-08-03 15:28:07 +0800] [9127] [INFO] Finished server process [9127]
+[2024-08-03 15:28:07 +0800] [9124] [INFO] Finished server process [9124]
+[2024-08-03 15:28:07 +0800] [9119] [ERROR] Worker (pid:9127) was sent SIGINT!
+[2024-08-03 15:28:07 +0800] [9128] [INFO] Finished server process [9128]
+[2024-08-03 15:28:07 +0800] [9129] [INFO] Finished server process [9129]
+[2024-08-03 15:28:07 +0800] [9123] [INFO] Finished server process [9123]
+[2024-08-03 15:28:07 +0800] [9119] [ERROR] Worker (pid:9128) was sent SIGINT!
+[2024-08-03 15:28:07 +0800] [9119] [ERROR] Worker (pid:9124) was sent SIGINT!
+[2024-08-03 15:28:07 +0800] [9119] [ERROR] Worker (pid:9129) was sent SIGINT!
+[2024-08-03 15:28:07 +0800] [9119] [ERROR] Worker (pid:9123) was sent SIGINT!
+[2024-08-03 15:28:07 +0800] [9119] [ERROR] Worker (pid:9122) was sent SIGINT!
+[2024-08-03 15:28:07 +0800] [9119] [INFO] Shutting down: Master
+[2024-08-03 15:46:54 +0800] [14708] [INFO] Starting gunicorn 22.0.0
+[2024-08-03 15:46:54 +0800] [14708] [INFO] Listening at: http://0.0.0.0:8896 (14708)
+[2024-08-03 15:46:54 +0800] [14708] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-08-03 15:46:54 +0800] [14712] [INFO] Booting worker with pid: 14712
+[2024-08-03 15:46:54 +0800] [14713] [INFO] Booting worker with pid: 14713
+[2024-08-03 15:46:54 +0800] [14714] [INFO] Booting worker with pid: 14714
+[2024-08-03 15:46:54 +0800] [14715] [INFO] Booting worker with pid: 14715
+[2024-08-03 15:46:54 +0800] [14716] [INFO] Booting worker with pid: 14716
+[2024-08-03 15:46:55 +0800] [14717] [INFO] Booting worker with pid: 14717
+[2024-08-03 15:46:55 +0800] [14718] [INFO] Booting worker with pid: 14718
+[2024-08-03 15:46:55 +0800] [14719] [INFO] Booting worker with pid: 14719
+[2024-08-03 15:46:55 +0800] [14720] [INFO] Booting worker with pid: 14720
+[2024-08-03 15:46:58 +0800] [14712] [INFO] Started server process [14712]
+[2024-08-03 15:46:58 +0800] [14712] [INFO] Waiting for application startup.
+[2024-08-03 15:46:58 +0800] [14712] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:46:58 +0800] [14712] [INFO] Application startup complete.
+[2024-08-03 15:46:58 +0800] [14713] [INFO] Started server process [14713]
+[2024-08-03 15:46:58 +0800] [14713] [INFO] Waiting for application startup.
+[2024-08-03 15:46:58 +0800] [14713] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:46:58 +0800] [14713] [INFO] Application startup complete.
+[2024-08-03 15:46:58 +0800] [14714] [INFO] Started server process [14714]
+[2024-08-03 15:46:58 +0800] [14714] [INFO] Waiting for application startup.
+[2024-08-03 15:46:58 +0800] [14714] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:46:58 +0800] [14714] [INFO] Application startup complete.
+[2024-08-03 15:46:58 +0800] [14716] [INFO] Started server process [14716]
+[2024-08-03 15:46:58 +0800] [14716] [INFO] Waiting for application startup.
+[2024-08-03 15:46:58 +0800] [14716] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:46:58 +0800] [14716] [INFO] Application startup complete.
+[2024-08-03 15:46:58 +0800] [14715] [INFO] Started server process [14715]
+[2024-08-03 15:46:58 +0800] [14715] [INFO] Waiting for application startup.
+[2024-08-03 15:46:58 +0800] [14715] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:46:58 +0800] [14715] [INFO] Application startup complete.
+[2024-08-03 15:46:58 +0800] [14717] [INFO] Started server process [14717]
+[2024-08-03 15:46:58 +0800] [14717] [INFO] Waiting for application startup.
+[2024-08-03 15:46:58 +0800] [14717] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:46:58 +0800] [14717] [INFO] Application startup complete.
+[2024-08-03 15:46:58 +0800] [14720] [INFO] Started server process [14720]
+[2024-08-03 15:46:58 +0800] [14720] [INFO] Waiting for application startup.
+[2024-08-03 15:46:58 +0800] [14720] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:46:58 +0800] [14720] [INFO] Application startup complete.
+[2024-08-03 15:46:58 +0800] [14719] [INFO] Started server process [14719]
+[2024-08-03 15:46:58 +0800] [14719] [INFO] Waiting for application startup.
+[2024-08-03 15:46:58 +0800] [14719] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:46:58 +0800] [14719] [INFO] Application startup complete.
+[2024-08-03 15:46:58 +0800] [14718] [INFO] Started server process [14718]
+[2024-08-03 15:46:58 +0800] [14718] [INFO] Waiting for application startup.
+[2024-08-03 15:46:58 +0800] [14718] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 15:46:58 +0800] [14718] [INFO] Application startup complete.
+10.2.6.14:53176 - "GET / HTTP/1.1" 404
+10.2.6.14:53176 - "GET /favicon.ico HTTP/1.1" 404
+10.2.6.14:53336 - "GET / HTTP/1.1" 404
+[2024-08-03 16:10:35 +0800] [14708] [INFO] Handling signal: term
+[2024-08-03 16:10:35 +0800] [14717] [INFO] Shutting down
+[2024-08-03 16:10:35 +0800] [14712] [INFO] Shutting down
+[2024-08-03 16:10:35 +0800] [14720] [INFO] Shutting down
+[2024-08-03 16:10:35 +0800] [14715] [INFO] Shutting down
+[2024-08-03 16:10:35 +0800] [14716] [INFO] Shutting down
+[2024-08-03 16:10:35 +0800] [14718] [INFO] Shutting down
+[2024-08-03 16:10:35 +0800] [14713] [INFO] Shutting down
+[2024-08-03 16:10:35 +0800] [14714] [INFO] Shutting down
+[2024-08-03 16:10:35 +0800] [14719] [INFO] Shutting down
+[2024-08-03 16:10:35 +0800] [14717] [INFO] Finished server process [14717]
+[2024-08-03 16:10:35 +0800] [14715] [INFO] Finished server process [14715]
+[2024-08-03 16:10:35 +0800] [14712] [INFO] Finished server process [14712]
+[2024-08-03 16:10:35 +0800] [14720] [INFO] Finished server process [14720]
+[2024-08-03 16:10:35 +0800] [14716] [INFO] Finished server process [14716]
+[2024-08-03 16:10:35 +0800] [14718] [INFO] Finished server process [14718]
+[2024-08-03 16:10:35 +0800] [14708] [ERROR] Worker (pid:14715) was sent SIGTERM!
+[2024-08-03 16:10:35 +0800] [14708] [ERROR] Worker (pid:14717) was sent SIGTERM!
+[2024-08-03 16:10:35 +0800] [14708] [ERROR] Worker (pid:14720) was sent SIGTERM!
+[2024-08-03 16:10:35 +0800] [14713] [INFO] Finished server process [14713]
+[2024-08-03 16:10:35 +0800] [14719] [INFO] Finished server process [14719]
+[2024-08-03 16:10:35 +0800] [14708] [ERROR] Worker (pid:14718) was sent SIGTERM!
+[2024-08-03 16:10:35 +0800] [14714] [INFO] Finished server process [14714]
+[2024-08-03 16:10:35 +0800] [14708] [ERROR] Worker (pid:14713) was sent SIGTERM!
+[2024-08-03 16:10:35 +0800] [14708] [ERROR] Worker (pid:14716) was sent SIGTERM!
+[2024-08-03 16:10:35 +0800] [14708] [ERROR] Worker (pid:14712) was sent SIGTERM!
+[2024-08-03 16:10:35 +0800] [14708] [ERROR] Worker (pid:14719) was sent SIGTERM!
+[2024-08-03 16:10:35 +0800] [14708] [ERROR] Worker (pid:14714) was sent SIGTERM!
+[2024-08-03 16:10:35 +0800] [14708] [INFO] Shutting down: Master
+[2024-08-03 16:26:03 +0800] [18072] [INFO] Starting gunicorn 22.0.0
+[2024-08-03 16:26:03 +0800] [18072] [INFO] Listening at: http://0.0.0.0:8896 (18072)
+[2024-08-03 16:26:03 +0800] [18072] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-08-03 16:26:03 +0800] [18076] [INFO] Booting worker with pid: 18076
+[2024-08-03 16:26:03 +0800] [18077] [INFO] Booting worker with pid: 18077
+[2024-08-03 16:26:03 +0800] [18078] [INFO] Booting worker with pid: 18078
+[2024-08-03 16:26:03 +0800] [18079] [INFO] Booting worker with pid: 18079
+[2024-08-03 16:26:03 +0800] [18080] [INFO] Booting worker with pid: 18080
+[2024-08-03 16:26:04 +0800] [18081] [INFO] Booting worker with pid: 18081
+[2024-08-03 16:26:04 +0800] [18082] [INFO] Booting worker with pid: 18082
+[2024-08-03 16:26:04 +0800] [18083] [INFO] Booting worker with pid: 18083
+[2024-08-03 16:26:04 +0800] [18084] [INFO] Booting worker with pid: 18084
+[2024-08-03 16:26:07 +0800] [18080] [INFO] Started server process [18080]
+[2024-08-03 16:26:07 +0800] [18080] [INFO] Waiting for application startup.
+[2024-08-03 16:26:07 +0800] [18080] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:26:07 +0800] [18080] [INFO] Application startup complete.
+[2024-08-03 16:26:07 +0800] [18076] [INFO] Started server process [18076]
+[2024-08-03 16:26:07 +0800] [18076] [INFO] Waiting for application startup.
+[2024-08-03 16:26:07 +0800] [18076] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:26:07 +0800] [18076] [INFO] Application startup complete.
+[2024-08-03 16:26:07 +0800] [18081] [INFO] Started server process [18081]
+[2024-08-03 16:26:07 +0800] [18081] [INFO] Waiting for application startup.
+[2024-08-03 16:26:07 +0800] [18081] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:26:07 +0800] [18081] [INFO] Application startup complete.
+[2024-08-03 16:26:07 +0800] [18084] [INFO] Started server process [18084]
+[2024-08-03 16:26:07 +0800] [18084] [INFO] Waiting for application startup.
+[2024-08-03 16:26:07 +0800] [18084] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:26:07 +0800] [18084] [INFO] Application startup complete.
+[2024-08-03 16:26:07 +0800] [18082] [INFO] Started server process [18082]
+[2024-08-03 16:26:07 +0800] [18082] [INFO] Waiting for application startup.
+[2024-08-03 16:26:07 +0800] [18082] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:26:07 +0800] [18082] [INFO] Application startup complete.
+[2024-08-03 16:26:07 +0800] [18078] [INFO] Started server process [18078]
+[2024-08-03 16:26:07 +0800] [18078] [INFO] Waiting for application startup.
+[2024-08-03 16:26:07 +0800] [18078] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:26:07 +0800] [18078] [INFO] Application startup complete.
+[2024-08-03 16:26:08 +0800] [18077] [INFO] Started server process [18077]
+[2024-08-03 16:26:08 +0800] [18077] [INFO] Waiting for application startup.
+[2024-08-03 16:26:08 +0800] [18077] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:26:08 +0800] [18077] [INFO] Application startup complete.
+[2024-08-03 16:26:08 +0800] [18083] [INFO] Started server process [18083]
+[2024-08-03 16:26:08 +0800] [18083] [INFO] Waiting for application startup.
+[2024-08-03 16:26:08 +0800] [18083] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:26:08 +0800] [18083] [INFO] Application startup complete.
+[2024-08-03 16:26:08 +0800] [18079] [INFO] Started server process [18079]
+[2024-08-03 16:26:08 +0800] [18079] [INFO] Waiting for application startup.
+[2024-08-03 16:26:08 +0800] [18079] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:26:08 +0800] [18079] [INFO] Application startup complete.
+[2024-08-03 16:49:30 +0800] [18072] [INFO] Handling signal: int
+[2024-08-03 16:49:30 +0800] [18082] [INFO] Shutting down
+[2024-08-03 16:49:30 +0800] [18076] [INFO] Shutting down
+[2024-08-03 16:49:30 +0800] [18077] [INFO] Shutting down
+[2024-08-03 16:49:30 +0800] [18080] [INFO] Shutting down
+[2024-08-03 16:49:30 +0800] [18079] [INFO] Shutting down
+[2024-08-03 16:49:30 +0800] [18078] [INFO] Shutting down
+[2024-08-03 16:49:30 +0800] [18084] [INFO] Shutting down
+[2024-08-03 16:49:30 +0800] [18081] [INFO] Shutting down
+[2024-08-03 16:49:30 +0800] [18083] [INFO] Shutting down
+[2024-08-03 16:49:30 +0800] [18082] [INFO] Finished server process [18082]
+[2024-08-03 16:49:30 +0800] [18076] [INFO] Finished server process [18076]
+[2024-08-03 16:49:30 +0800] [18077] [INFO] Finished server process [18077]
+[2024-08-03 16:49:30 +0800] [18079] [INFO] Finished server process [18079]
+[2024-08-03 16:49:30 +0800] [18080] [INFO] Finished server process [18080]
+[2024-08-03 16:49:30 +0800] [18078] [INFO] Finished server process [18078]
+[2024-08-03 16:49:30 +0800] [18081] [INFO] Finished server process [18081]
+[2024-08-03 16:49:30 +0800] [18084] [INFO] Finished server process [18084]
+[2024-08-03 16:49:30 +0800] [18083] [INFO] Finished server process [18083]
+[2024-08-03 16:49:30 +0800] [18072] [ERROR] Worker (pid:18081) was sent SIGINT!
+[2024-08-03 16:49:30 +0800] [18072] [ERROR] Worker (pid:18083) was sent SIGINT!
+[2024-08-03 16:49:30 +0800] [18072] [ERROR] Worker (pid:18077) was sent SIGINT!
+[2024-08-03 16:49:30 +0800] [18072] [ERROR] Worker (pid:18079) was sent SIGINT!
+[2024-08-03 16:49:30 +0800] [18072] [ERROR] Worker (pid:18078) was sent SIGINT!
+[2024-08-03 16:49:30 +0800] [18072] [ERROR] Worker (pid:18076) was sent SIGINT!
+[2024-08-03 16:49:30 +0800] [18072] [ERROR] Worker (pid:18082) was sent SIGINT!
+[2024-08-03 16:49:30 +0800] [18072] [ERROR] Worker (pid:18084) was sent SIGINT!
+[2024-08-03 16:49:30 +0800] [18072] [ERROR] Worker (pid:18080) was sent SIGINT!
+[2024-08-03 16:49:30 +0800] [18072] [INFO] Shutting down: Master
+[2024-08-03 16:49:48 +0800] [18604] [INFO] Starting gunicorn 22.0.0
+[2024-08-03 16:49:48 +0800] [18604] [INFO] Listening at: http://0.0.0.0:8896 (18604)
+[2024-08-03 16:49:48 +0800] [18604] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-08-03 16:49:48 +0800] [18605] [INFO] Booting worker with pid: 18605
+[2024-08-03 16:49:49 +0800] [18606] [INFO] Booting worker with pid: 18606
+[2024-08-03 16:49:49 +0800] [18607] [INFO] Booting worker with pid: 18607
+[2024-08-03 16:49:49 +0800] [18608] [INFO] Booting worker with pid: 18608
+[2024-08-03 16:49:49 +0800] [18609] [INFO] Booting worker with pid: 18609
+[2024-08-03 16:49:49 +0800] [18611] [INFO] Booting worker with pid: 18611
+[2024-08-03 16:49:49 +0800] [18612] [INFO] Booting worker with pid: 18612
+[2024-08-03 16:49:49 +0800] [18613] [INFO] Booting worker with pid: 18613
+[2024-08-03 16:49:49 +0800] [18614] [INFO] Booting worker with pid: 18614
+[2024-08-03 16:49:52 +0800] [18605] [INFO] Started server process [18605]
+[2024-08-03 16:49:52 +0800] [18605] [INFO] Waiting for application startup.
+[2024-08-03 16:49:52 +0800] [18605] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:49:52 +0800] [18605] [INFO] Application startup complete.
+[2024-08-03 16:49:52 +0800] [18608] [INFO] Started server process [18608]
+[2024-08-03 16:49:52 +0800] [18608] [INFO] Waiting for application startup.
+[2024-08-03 16:49:52 +0800] [18608] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:49:52 +0800] [18608] [INFO] Application startup complete.
+[2024-08-03 16:49:52 +0800] [18609] [INFO] Started server process [18609]
+[2024-08-03 16:49:52 +0800] [18609] [INFO] Waiting for application startup.
+[2024-08-03 16:49:52 +0800] [18609] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:49:52 +0800] [18609] [INFO] Application startup complete.
+[2024-08-03 16:49:53 +0800] [18614] [INFO] Started server process [18614]
+[2024-08-03 16:49:53 +0800] [18614] [INFO] Waiting for application startup.
+[2024-08-03 16:49:53 +0800] [18614] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:49:53 +0800] [18614] [INFO] Application startup complete.
+[2024-08-03 16:49:53 +0800] [18611] [INFO] Started server process [18611]
+[2024-08-03 16:49:53 +0800] [18611] [INFO] Waiting for application startup.
+[2024-08-03 16:49:53 +0800] [18611] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:49:53 +0800] [18611] [INFO] Application startup complete.
+[2024-08-03 16:49:53 +0800] [18606] [INFO] Started server process [18606]
+[2024-08-03 16:49:53 +0800] [18606] [INFO] Waiting for application startup.
+[2024-08-03 16:49:53 +0800] [18606] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:49:53 +0800] [18606] [INFO] Application startup complete.
+[2024-08-03 16:49:53 +0800] [18607] [INFO] Started server process [18607]
+[2024-08-03 16:49:53 +0800] [18613] [INFO] Started server process [18613]
+[2024-08-03 16:49:53 +0800] [18607] [INFO] Waiting for application startup.
+[2024-08-03 16:49:53 +0800] [18613] [INFO] Waiting for application startup.
+[2024-08-03 16:49:53 +0800] [18607] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:49:53 +0800] [18607] [INFO] Application startup complete.
+[2024-08-03 16:49:53 +0800] [18613] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:49:53 +0800] [18613] [INFO] Application startup complete.
+[2024-08-03 16:49:53 +0800] [18612] [INFO] Started server process [18612]
+[2024-08-03 16:49:53 +0800] [18612] [INFO] Waiting for application startup.
+[2024-08-03 16:49:53 +0800] [18612] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-08-03 16:49:53 +0800] [18612] [INFO] Application startup complete.
+127.0.0.1:56920 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:56926 - "GET /api/system/login HTTP/1.1" 200
+127.0.0.1:56932 - "GET /api/system/auth/token HTTP/1.1" 200
+127.0.0.1:56946 - "GET /api/system/auth/captcha HTTP/1.1" 200
+127.0.0.1:56958 - "GET /api/system/captcha/image/70f1ae4dd1bc5ac933febe226793572f0c3dac33/ HTTP/1.1" 200
+127.0.0.1:58402 - "GET /api/system/login HTTP/1.1" 200
+127.0.0.1:40074 - "GET /api/system/auth/token HTTP/1.1" 200
+127.0.0.1:40078 - "GET /api/system/auth/captcha HTTP/1.1" 200
+127.0.0.1:40092 - "GET /api/system/captcha/image/0e3b47f549a00a6583d98ecf036b979cf0e65d4c/ HTTP/1.1" 200
+127.0.0.1:40414 - "POST /api/system/login HTTP/1.1" 200
+127.0.0.1:40422 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:40428 - "GET /api/system/routes HTTP/1.1" 200
+127.0.0.1:40444 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:53430 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:53436 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:53446 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:53460 - "GET /api/system/routes HTTP/1.1" 200
+127.0.0.1:53462 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:53512 - "GET /api/system/dashboard/user-registered-trend HTTP/1.1" 500
+127.0.0.1:53490 - "GET /api/system/dashboard/user-login-total HTTP/1.1" 500
+127.0.0.1:53474 - "GET /api/system/dashboard/user-total HTTP/1.1" 500
+127.0.0.1:53478 - "GET /api/system/dashboard/user-login-trend HTTP/1.1" 500
+127.0.0.1:53508 - "GET /api/system/dashboard/user-active HTTP/1.1" 200
+127.0.0.1:53496 - "GET /api/system/dashboard/today-operate-total HTTP/1.1" 500
+127.0.0.1:45684 - "GET /api/system/user/search-fields HTTP/1.1" 200
+127.0.0.1:45680 - "GET /api/system/user/search-columns HTTP/1.1" 200
+/data/xadmin/py312/lib64/python3.12/site-packages/rest_framework/pagination.py:207: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'system.models.DataPermission'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+127.0.0.1:45696 - "GET /api/system/user/choices HTTP/1.1" 200
+127.0.0.1:45712 - "GET /api/system/role?page=1&size=1000 HTTP/1.1" 200
+127.0.0.1:45738 - "GET /api/system/dept?page=1&size=1000 HTTP/1.1" 200
+127.0.0.1:45728 - "GET /api/system/permission?page=1&size=1000 HTTP/1.1" 200
+127.0.0.1:45750 - "GET /api/system/user?page=1&size=15&ordering=-date_joined HTTP/1.1" 200
+127.0.0.1:36440 - "GET /api/system/config/system/search-fields HTTP/1.1" 200
+127.0.0.1:36426 - "GET /api/system/config/system/search-columns HTTP/1.1" 200
+127.0.0.1:36450 - "GET /api/system/config/system?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:36466 - "GET /api/system/dashboard/user-login-total HTTP/1.1" 500
+127.0.0.1:36474 - "GET /api/system/dashboard/today-operate-total HTTP/1.1" 500
+127.0.0.1:36462 - "GET /api/system/dashboard/user-login-trend HTTP/1.1" 500
+127.0.0.1:36484 - "GET /api/system/dashboard/user-active HTTP/1.1" 200
+127.0.0.1:36454 - "GET /api/system/dashboard/user-total HTTP/1.1" 500
+127.0.0.1:36486 - "GET /api/system/dashboard/user-registered-trend HTTP/1.1" 500

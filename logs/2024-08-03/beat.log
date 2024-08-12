@@ -1,0 +1,65 @@
+[2024-08-03 15:24:18,052: INFO/MainProcess] beat: Starting...
+[2024-08-03 15:24:18,217: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-03 15:24:18
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-03 15:46:58,879: INFO/MainProcess] beat: Starting...
+[2024-08-03 15:46:58,949: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-03 15:46:58
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-03 16:26:08,343: INFO/MainProcess] beat: Starting...
+[2024-08-03 16:26:08,416: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+[2024-08-03 16:38:08,462: ERROR/MainProcess] Database gave error: OperationalError(2013, 'Lost connection to server during query')
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+MySQLdb.OperationalError: (2013, 'Lost connection to server during query')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 263, in schedule_changed
+    transaction.commit()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/transaction.py", line 40, in commit
+    get_connection(using).commit()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 323, in commit
+    self._commit()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 298, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: (2013, 'Lost connection to server during query')
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-08-03 16:26:08
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-08-03 16:49:53,343: INFO/MainProcess] beat: Starting...
+[2024-08-03 16:49:53,408: INFO/MainProcess] DatabaseScheduler: Schedule changed.

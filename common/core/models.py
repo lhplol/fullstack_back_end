@@ -31,16 +31,16 @@ class DbCharModel(models.Model):
 
 
 class DbBaseModel(models.Model):
-    created_time = models.DateTimeField(auto_now_add=True, verbose_name=_("Created time"))
-    updated_time = models.DateTimeField(auto_now=True, verbose_name=_("Updated time"))
+    created_time = models.DateTimeField(auto_now_add=True, verbose_name=_("Created time"), null=True, blank=True)
+    updated_time = models.DateTimeField(auto_now=True, verbose_name=_("Updated time"), null=True, blank=True)
     description = models.CharField(max_length=256, verbose_name=_("Description"), null=True, blank=True)
 
-    def save(self, force_insert=False, force_update=False, using=None, update_fields=None):
-        if force_insert:
+    def save(self, *args, **kwargs):
+        if kwargs.get('force_insert', None):
             filelist = []
         else:
             filelist = self.__get_filelist(self._meta.model.objects.filter(pk=self.pk).first())
-        result = super().save(force_insert, force_update, using, update_fields)
+        result = super().save(*args, **kwargs)
         self.__delete_file(filelist, True)
         return result
 

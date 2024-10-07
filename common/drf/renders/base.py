@@ -11,7 +11,7 @@ from rest_framework.renderers import BaseRenderer
 from rest_framework.utils import encoders, json
 
 from common.core.config import SysConfig
-from common.core.serializers import LabeledChoiceField, BasePrimaryKeyRelatedField
+from common.core.fields import LabeledChoiceField, BasePrimaryKeyRelatedField
 
 logger = logging.getLogger(__file__)
 
@@ -42,12 +42,16 @@ class BaseFileRenderer(BaseRenderer):
         filename = "{}_{}_{}.{}".format(self.template, filename_prefix, now, self.format)
         disposition = 'attachment; filename="{}"'.format(filename)
         response['Content-Disposition'] = disposition
+        response['Access-Control-Expose-Headers'] = 'Content-Disposition'
 
     def get_rendered_fields(self):
         fields = self.serializer.fields
+        meta = getattr(self.serializer, 'Meta', None)
         pk_field = fields.get('pk')
         if self.template == 'import':
             fields = [v for k, v in fields.items() if not v.read_only and k not in ['id', 'pk']]
+            fields_unimport = getattr(meta, 'fields_unimport', [])
+            fields = [v for v in fields if v.field_name not in fields_unimport]
         elif self.template == 'update':
             fields = [v for k, v in fields.items() if not v.read_only]
             if pk_field:
@@ -57,10 +61,8 @@ class BaseFileRenderer(BaseRenderer):
             if pk_field:
                 fields.insert(0, pk_field)
 
-        meta = getattr(self.serializer, 'Meta', None)
-        if meta:
-            fields_unexport = getattr(meta, 'fields_unexport', [])
-            fields = [v for v in fields if v.field_name not in fields_unexport]
+        fields_unexport = getattr(meta, 'fields_unexport', [])
+        fields = [v for v in fields if v.field_name not in fields_unexport]
         return fields
 
     @staticmethod
@@ -70,7 +72,7 @@ class BaseFileRenderer(BaseRenderer):
             name = field.label
             if field.required:
                 name = '*' + name
-            titles.append(name)
+            titles.append(f"{name}({field.field_name})")
         return titles
 
     def process_data(self, data):

@@ -8,17 +8,20 @@ from hashlib import md5
 
 from django.db.models import Q
 from django_filters import rest_framework as filters
-from drf_yasg.utils import swagger_auto_schema
+from drf_spectacular.plumbing import build_object_type, build_basic_type, build_array_type
+from drf_spectacular.types import OpenApiTypes
+from drf_spectacular.utils import extend_schema
 from rest_framework.decorators import action
 
 from common.base.magic import cache_response
 from common.core.filter import BaseFilterSet
-from common.core.modelset import BaseModelSet, RankAction, ImportExportDataAction
+from common.core.modelset import BaseModelSet, RankAction, ImportExportDataAction, ChoicesAction
 from common.core.pagination import DynamicPageNumber
 from common.core.response import ApiResponse
 from common.core.utils import get_all_url_dict
+from common.swagger.utils import get_default_response_schema
 from system.models import Menu
-from system.utils.serializer import MenuSerializer, MenuPermissionSerializer
+from system.serializers.menu import MenuSerializer, MenuPermissionSerializer
 
 
 class MenuFilter(BaseFilterSet):
@@ -32,7 +35,7 @@ class MenuFilter(BaseFilterSet):
         fields = ['name']
 
 
-class MenuView(BaseModelSet, RankAction, ImportExportDataAction):
+class MenuView(BaseModelSet, RankAction, ImportExportDataAction, ChoicesAction):
     """菜单管理"""
     queryset = Menu.objects.order_by('rank').all()
     serializer_class = MenuSerializer
@@ -61,7 +64,21 @@ class MenuView(BaseModelSet, RankAction, ImportExportDataAction):
         self.get_queryset = get_queryset
         return super().list(request, *args, **kwargs)
 
-    @swagger_auto_schema(ignore_params=True)
+    @extend_schema(
+        description="获取后端API列表",
+        responses=get_default_response_schema(
+            {
+                'data': build_array_type(
+                    build_object_type(
+                        properties={
+                            'name': build_basic_type(OpenApiTypes.STR),
+                            'url': build_basic_type(OpenApiTypes.STR)
+                        }
+                    )
+                )
+            }
+        )
+    )
     @action(methods=['get'], detail=False, url_path='api-url')
     def api_url(self, request, *args, **kwargs):
         return ApiResponse(data=get_all_url_dict(''))

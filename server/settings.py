@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-mlq6(#a^2vk!1=7=xhp#$i=o5d%namfs=+b26$m#sh_2rco7j^'
+# SECRET_KEY = locals().get("SECRET_KEY", 'django-insecure-mlq6(#a^2vk!1=7=xhp#$i=o5d%namfs=+b26$m#sh_2rco7j^')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = locals().get("DEBUG", False)
@@ -39,6 +39,7 @@ SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 ALLOWED_HOSTS = locals().get("ALLOWED_HOSTS", ["*"])
 
 # Application definition
+XADMIN_APPS = locals().get("XADMIN_APPS", [])
 
 INSTALLED_APPS = [
     'daphne',  # 支持websocket
@@ -48,23 +49,27 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'common.apps.CommonConfig',
-    'system.apps.SystemConfig',
-    'message.apps.MessageConfig',
+    'system.apps.SystemConfig',  # 系统管理
+    'settings.apps.SettingsConfig',  # 设置相关
+    "notifications.apps.NotificationsConfig",  # 消息通知相关
+    'captcha.apps.CaptchaConfig',  # 图片验证码
+    'message.apps.MessageConfig',  # websocket 消息
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
-    'captcha',
     'corsheaders',
     'rest_framework',
     'django_filters',
     'django_celery_results',
     'django_celery_beat',
     'imagekit',
-    'drf_yasg',
-    *locals().get("XADMIN_APPS", [])
+    'drf_spectacular',
+    'drf_spectacular_sidecar',
+    *XADMIN_APPS,
+    'common.apps.CommonConfig',  # 这个放到最后, django ready
 ]
 
 MIDDLEWARE = [
+    'common.core.middleware.StartMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
@@ -74,7 +79,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'common.core.middleware.ApiLoggingMiddleware'
+    'common.core.middleware.SQLCountMiddleware',
+    'common.core.middleware.ApiLoggingMiddleware',
+    'common.core.middleware.EndMiddleware'
 ]
 
 ROOT_URLCONF = 'server.urls'
@@ -189,8 +196,9 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
+# http://www.i18nguy.com/unicode/language-identifiers.html
+# LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
 TIME_ZONE = 'Asia/Shanghai'
 
@@ -229,6 +237,7 @@ FILE_UPLOAD_HANDLERS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'common.swagger.utils.CustomAutoSchema',
     'DEFAULT_RENDERER_CLASSES': (
         'rest_framework.renderers.JSONRenderer',
         'rest_framework.renderers.BrowsableAPIRenderer',
@@ -259,6 +268,7 @@ REST_FRAMEWORK = {
         'download1': '10/m',
         'download2': '100/h',
         'register': '50/d',
+        'reset_password': '50/d',
         'login': '50/h',
         **locals().get('DEFAULT_THROTTLE_RATES', {})
     },
@@ -324,6 +334,7 @@ CORS_ALLOW_METHODS = (
     'OPTIONS',
     'POST',
     'PUT',
+    'PATCH',
 )
 
 CORS_ALLOW_HEADERS = (
@@ -344,9 +355,6 @@ CORS_ALLOW_HEADERS = (
 LOCALE_PATHS = [
     os.path.join(BASE_DIR, 'locale'),
 ]
-
-# I18N 用于生成权限字段 label
-PERMISSION_FIELD_LANGUAGE_CODE = 'zh'
 
 BASE_LOG_DIR = os.path.join(BASE_DIR, "logs", "api")
 TMP_LOG_DIR = os.path.join(BASE_DIR, "logs", "tmp")
@@ -520,86 +528,51 @@ CELERY_TASK_SERIALIZER = 'json'
 # CELERY_ACCEPT_CONTENT = ['pickle']
 # CELERY_TASK_SERIALIZER = 'pickle'
 
-CELERY_BEAT_SCHEDULE = {
-    'auto_clean_operation_job': {
-        'task': 'system.tasks.auto_clean_operation_job',
-        'schedule': crontab(hour='2', minute='2'),
-        'args': ()
-    },
-    'auto_clean_expired_captcha_job': {
-        'task': 'system.tasks.auto_clean_expired_captcha_job',
-        'schedule': crontab(hour='2', minute='12'),
-        'args': ()
-    },
-    'auto_clean_black_token_job': {
-        'task': 'system.tasks.auto_clean_black_token_job',
-        'schedule': crontab(hour='2', minute='22'),
-        'args': ()
-    },
-    'auto_clean_tmp_file_job': {
-        'task': 'system.tasks.auto_clean_tmp_file_job',
-        'schedule': crontab(hour='2', minute='32'),
-        'args': ()
-    },
-    **locals().get('CELERY_BEAT_SCHEDULE', {})
-}
-
-# 字母验证码
-CAPTCHA_IMAGE_SIZE = (120, 40)  # 设置 captcha 图片大小
-CAPTCHA_LENGTH = 6  # 字符个数
-CAPTCHA_TIMEOUT = 1  # 超时(minutes)
-
-# 加减乘除验证码
-CAPTCHA_OUTPUT_FORMAT = '%(image)s %(text_field)s %(hidden_field)s '
-CAPTCHA_NOISE_FUNCTIONS = ('captcha.helpers.noise_null',
-                           'captcha.helpers.noise_arcs',  # 线
-                           'captcha.helpers.noise_dots',  # 点
-                           )
-# CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.random_char_challenge'
-# CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.math_challenge'
-
 APPEND_SLASH = False
 
 HTTP_BIND_HOST = '0.0.0.0'
 HTTP_LISTEN_PORT = locals().get('HTTP_LISTEN_PORT', 8896)
+GUNICORN_MAX_WORKER = locals().get('GUNICORN_MAX_WORKER', 4)
 # celery flower 任务监控配置
 CELERY_FLOWER_PORT = 5566
 CELERY_FLOWER_HOST = '127.0.0.1'
 CELERY_FLOWER_AUTH = 'flower:flower123.'
 
-CONFIG_IGNORE_APPS = ['daphne', 'admin', 'auth', 'contenttypes', 'sessions', 'messages', 'staticfiles', 'common',
-                      'system', 'message', 'rest_framework_simplejwt', 'token_blacklist', 'captcha', 'corsheaders',
-                      'rest_framework', 'django_filters', 'django_celery_results', 'django_celery_beat', 'imagekit',
-                      'drf_yasg']
-
-# 访问白名单配置，无需权限配置
-PERMISSION_WHITE_URL = [
-    "^/api/system/login$",
-    "^/api/system/logout$",
-    "^/api/system/userinfo/self$",
-    "^/api/system/user/notice/unread$",
-    "^/api/system/routes$",
-    "^/api/system/dashboard/",
-    "^/api/system/.*choices$",
-    "^/api/system/.*search-fields$",
-]
+# 访问白名单配置，无需权限配置, key为路由，value为列表，对应的是请求方式， * 表示全部请求方式, 请求方式为大写
+PERMISSION_WHITE_URL = {
+    "^/api/system/login$": ['*'],
+    "^/api/system/logout$": ['*'],
+    "^/api/system/userinfo$": ['GET'],
+    "^/api/system/routes$": ['*'],
+    "^/api/system/dashboard/": ['*'],
+    "^/api/.*choices$": ['*'],
+    "^/api/.*search-fields$": ['*'],
+    "^/api/common/resources/cache$": ['*'],
+    "^/api/notifications/site-messages/unread$": ['*'],
+}
 
 # 前端权限路由 忽略配置
 ROUTE_IGNORE_URL = [
     "^/api/system/.*choices$",  # 每个方法都有该路由，则忽略即可
-    "^/api/system/.*search-fields$",  # 每个方法都有该路由，则忽略即可
-    "^/api/system/.*search-columns$",  # 该路由使用list权限字段，无需重新配置
+    "^/api/.*search-fields$",  # 每个方法都有该路由，则忽略即可
+    "^/api/.*search-columns$",  # 该路由使用list权限字段，无需重新配置
+    "^/api/settings/.*search-columns$",  # 该路由使用list权限字段，无需重新配置
+    "^/api/system/dashboard/",  # 忽略dashboard路由
 ]
 
 # 访问权限配置
 PERMISSION_SHOW_PREFIX = [
     r'api/system',
+    r'api/settings',
+    r'api/notifications',
     r'api/flower',
     r'api-docs',
 ]
 # 数据权限配置
 PERMISSION_DATA_AUTH_APPS = [
-    'system'
+    'system',
+    'settings',
+    'notifications'
 ]
 
 API_LOG_ENABLE = True
@@ -617,23 +590,145 @@ API_MODEL_MAP = {
     "/api/system/login": "用户登录",
     "/api/system/logout": "用户登出",
     "/api/flower": "定时任务",
+    "/api/system/password/send": "重置密码",
 }
 
-SWAGGER_SETTINGS = {
-    "USE_SESSION_AUTH": True,
-    "SECURITY_DEFINITIONS": {"Bearer": {"type": "apiKey", 'in': 'header', 'name': 'Authorization'}},
-    'LOGIN_URL': '/api-docs/login/',
-    'LOGOUT_URL': '/api-docs/logout/',
-    # 'DOC_EXPANSION': None,
-    # 'SHOW_REQUEST_HEADERS':True,
-    # 'DOC_EXPANSION': 'list',
-    # 接口文档中方法列表以首字母升序排列
-    "APIS_SORTER": "alpha",
-    # 如果支持json提交, 则接口文档中包含json输入框
-    "JSON_EDITOR": True,
-    # 方法列表字母排序
-    "OPERATIONS_SORTER": "alpha",
-    "VALIDATOR_URL": None,
-    "AUTO_SCHEMA_TYPE": 2,  # 分组根据url层级分，0、1 或 2 层
-    "DEFAULT_AUTO_SCHEMA_CLASS": "common.utils.swagger.CustomSwaggerAutoSchema",
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Xadmin Server API',
+    'DESCRIPTION': 'Django Xadmin Server',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+    'SERVE_PUBLIC': False,
+    'SWAGGER_UI_DIST': 'SIDECAR',  # shorthand to use the sidecar instead
+    'SWAGGER_UI_FAVICON_HREF': 'SIDECAR',
+    'REDOC_DIST': 'SIDECAR',
+    "SWAGGER_UI_SETTINGS": {
+        "displayRequestDuration": True,
+        "deepLinking": True,
+        "filter": True,
+        "persistAuthorization": True,
+        "displayOperationId": False,
+    },
+    # 'SERVE_PERMISSIONS': ['rest_framework.permissions.AllowAny'],
 }
+
+# 密码安全配置
+SECURITY_PASSWORD_MIN_LENGTH = 8
+SECURITY_ADMIN_USER_PASSWORD_MIN_LENGTH = 8
+SECURITY_PASSWORD_UPPER_CASE = True
+SECURITY_PASSWORD_LOWER_CASE = True
+SECURITY_PASSWORD_NUMBER = True
+SECURITY_PASSWORD_SPECIAL_CHAR = False
+SECURITY_PASSWORD_RULES = [
+    'SECURITY_PASSWORD_MIN_LENGTH',
+    'SECURITY_PASSWORD_UPPER_CASE',
+    'SECURITY_PASSWORD_LOWER_CASE',
+    'SECURITY_PASSWORD_NUMBER',
+    'SECURITY_PASSWORD_SPECIAL_CHAR'
+]
+
+# 用户登录限制的规则
+SECURITY_LOGIN_LIMIT_COUNT = 7
+SECURITY_LOGIN_LIMIT_TIME = 30  # Unit: minute
+SECURITY_CHECK_DIFFERENT_CITY_LOGIN = True
+# 登录IP限制的规则
+SECURITY_LOGIN_IP_BLACK_LIST = []
+SECURITY_LOGIN_IP_WHITE_LIST = []
+SECURITY_LOGIN_IP_LIMIT_COUNT = 50
+SECURITY_LOGIN_IP_LIMIT_TIME = 30
+
+# 登陆规则
+SECURITY_LOGIN_ACCESS_ENABLED = True
+SECURITY_LOGIN_CAPTCHA_ENABLED = True
+SECURITY_LOGIN_ENCRYPTED_ENABLED = True
+SECURITY_LOGIN_TEMP_TOKEN_ENABLED = True
+SECURITY_LOGIN_BY_EMAIL_ENABLED = True
+SECURITY_LOGIN_BY_SMS_ENABLED = False
+SECURITY_LOGIN_BY_BASIC_ENABLED = True
+
+# 注册规则
+SECURITY_REGISTER_ACCESS_ENABLED = True
+SECURITY_REGISTER_CAPTCHA_ENABLED = True
+SECURITY_REGISTER_ENCRYPTED_ENABLED = True
+SECURITY_REGISTER_TEMP_TOKEN_ENABLED = True
+SECURITY_REGISTER_BY_EMAIL_ENABLED = True
+SECURITY_REGISTER_BY_SMS_ENABLED = False
+SECURITY_REGISTER_BY_BASIC_ENABLED = True
+# 忘记密码规则
+SECURITY_RESET_PASSWORD_ACCESS_ENABLED = True
+SECURITY_RESET_PASSWORD_CAPTCHA_ENABLED = True
+SECURITY_RESET_PASSWORD_TEMP_TOKEN_ENABLED = True
+SECURITY_RESET_PASSWORD_ENCRYPTED_ENABLED = True
+SECURITY_RESET_PASSWORD_BY_EMAIL_ENABLED = True
+SECURITY_RESET_PASSWORD_BY_SMS_ENABLED = False
+
+# 绑定邮箱
+SECURITY_BIND_EMAIL_ACCESS_ENABLED = True
+SECURITY_BIND_EMAIL_CAPTCHA_ENABLED = True
+SECURITY_BIND_EMAIL_TEMP_TOKEN_ENABLED = True
+SECURITY_BIND_EMAIL_ENCRYPTED_ENABLED = True
+
+# 绑定手机
+SECURITY_BIND_PHONE_ACCESS_ENABLED = True
+SECURITY_BIND_PHONE_CAPTCHA_ENABLED = True
+SECURITY_BIND_PHONE_TEMP_TOKEN_ENABLED = True
+SECURITY_BIND_PHONE_ENCRYPTED_ENABLED = True
+
+# 基本配置
+SITE_URL = 'http://127.0.0.1:8000'
+
+# 验证码配置
+VERIFY_CODE_TTL = 5 * 60  # Unit: second
+VERIFY_CODE_LIMIT = 60
+VERIFY_CODE_LENGTH = 6
+VERIFY_CODE_LOWER_CASE = False
+VERIFY_CODE_UPPER_CASE = False
+VERIFY_CODE_DIGIT_CASE = True
+
+# 邮件配置
+EMAIL_ENABLED = False
+EMAIL_HOST = ""
+EMAIL_PORT = 465
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD = ""
+EMAIL_FROM = ""
+EMAIL_RECIPIENT = ""
+EMAIL_SUBJECT_PREFIX = "Xadmin-Server "
+EMAIL_USE_SSL = True
+EMAIL_USE_TLS = False
+
+# 短信配置
+SMS_ENABLED = False
+SMS_BACKEND = 'alibaba'
+SMS_TEST_PHONE = ''
+
+# 阿里云短信配置
+ALIBABA_ACCESS_KEY_ID = ''
+ALIBABA_ACCESS_KEY_SECRET = ''
+ALIBABA_VERIFY_SIGN_NAME = ''
+ALIBABA_VERIFY_TEMPLATE_CODE = ''
+
+# 图片验证码
+CAPTCHA_IMAGE_SIZE = (120, 40)  # 设置 captcha 图片大小
+CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.math_challenge'
+CAPTCHA_LENGTH = 4  # 字符个数,仅针对随机字符串生效
+CAPTCHA_TIMEOUT = 5  # 超时(minutes)
+CAPTCHA_FONT_SIZE = 22
+CAPTCHA_BACKGROUND_COLOR = "#ffffff"
+CAPTCHA_FOREGROUND_COLOR = "#001100"
+CAPTCHA_NOISE_FUNCTIONS = ("captcha.helpers.noise_arcs", "captcha.helpers.noise_dots")
+
+# 下面图片验证码 默认配置
+CAPTCHA_OUTPUT_FORMAT = '%(image)s %(text_field)s %(hidden_field)s '
+# CAPTCHA_NOISE_FUNCTIONS = ("captcha.helpers.noise_arcs", "captcha.helpers.noise_dots")
+# CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.random_char_challenge'
+CAPTCHA_FONT_PATH = os.path.join(BASE_DIR, "captcha", "fonts", "Vera.ttf")
+CAPTCHA_LETTER_ROTATION = (-35, 35)
+CAPTCHA_FILTER_FUNCTIONS = ("captcha.helpers.post_smooth",)
+CAPTCHA_PUNCTUATION = """_"',.;:-"""
+CAPTCHA_FLITE_PATH = None
+CAPTCHA_SOX_PATH = None
+CAPTCHA_MATH_CHALLENGE_OPERATOR = "*"
+CAPTCHA_GET_FROM_POOL = False
+CAPTCHA_GET_FROM_POOL_TIMEOUT = 5
+CAPTCHA_2X_IMAGE = True

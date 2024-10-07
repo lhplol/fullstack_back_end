@@ -7,7 +7,6 @@
 
 import datetime
 
-from captcha.models import CaptchaStore
 from celery.utils.log import get_task_logger
 from django.utils import timezone
 from rest_framework_simplejwt.token_blacklist.models import OutstandingToken
@@ -19,10 +18,6 @@ logger = get_task_logger(__name__)
 
 def auto_clean_operation_log(clean_day=30 * 6):
     return OperationLog.remove_expired(clean_day)
-
-
-def auto_clean_expired_captcha():
-    CaptchaStore.remove_expired()
 
 
 def auto_clean_black_token(clean_day=1):

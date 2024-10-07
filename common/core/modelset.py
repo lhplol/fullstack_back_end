@@ -14,10 +14,12 @@ from django.forms.widgets import SelectMultiple, DateTimeInput
 from django.utils.translation import gettext_lazy as _
 from django_filters.utils import get_model_field
 from django_filters.widgets import DateRangeWidget
-from drf_yasg import openapi
-from drf_yasg.utils import swagger_auto_schema
+from drf_spectacular.plumbing import build_object_type, build_basic_type, build_array_type
+from drf_spectacular.types import OpenApiTypes
+from drf_spectacular.utils import extend_schema, OpenApiResponse, OpenApiRequest, OpenApiParameter
 from rest_framework import mixins
 from rest_framework.decorators import action
+from rest_framework.fields import CharField
 from rest_framework.parsers import MultiPartParser
 from rest_framework.utils import encoders
 from rest_framework.viewsets import GenericViewSet, ModelViewSet, ReadOnlyModelViewSet
@@ -29,6 +31,7 @@ from common.core.serializers import BasePrimaryKeyRelatedField
 from common.core.utils import get_query_post_pks
 from common.drf.renders.csv import CSVFileRenderer
 from common.drf.renders.excel import ExcelFileRenderer
+from common.swagger.utils import get_default_response_schema
 
 logger = logging.getLogger(__name__)
 
@@ -44,12 +47,13 @@ class UploadFileAction(object):
     def get_object(self):
         raise NotImplementedError('get_object must be overridden')
 
-    @swagger_auto_schema(ignore_body_params=True, manual_parameters=[
-        openapi.Parameter(
-            'file', in_=openapi.IN_FORM, type=openapi.TYPE_FILE,
-            description='File to upload', required=True
+    @extend_schema(
+        description="上传头像",
+        request=OpenApiRequest(
+            build_object_type(properties={'file': build_basic_type(OpenApiTypes.BINARY)})
         ),
-    ], operation_description='上传头像', methods=['post'])
+        responses=get_default_response_schema()
+    )
     @action(methods=['post'], detail=True, parser_classes=(MultiPartParser,))
     def upload(self, request, *args, **kwargs):
         self.FILE_UPLOAD_SIZE = self.get_upload_size()
@@ -76,12 +80,17 @@ class RankAction(object):
     filter_queryset: Callable
     get_queryset: Callable
 
-    @swagger_auto_schema(request_body=openapi.Schema(
-        type=openapi.TYPE_OBJECT,
-        required=['pks'],
-        properties={'pks': openapi.Schema(description='主键列表', type=openapi.TYPE_ARRAY,
-                                          items=openapi.Schema(type=openapi.TYPE_STRING))}
-    ), operation_description='根据主键顺序，进行从小到大进行排序')
+    @extend_schema(
+        description='根据主键顺序，进行从小到大进行排序',
+        request=OpenApiRequest(
+            build_object_type(
+                properties={'pks': build_array_type(build_basic_type(OpenApiTypes.STR))},
+                required=['pks'],
+                description="主键列表"
+            )
+        ),
+        responses=get_default_response_schema()
+    )
     @action(methods=['post'], detail=False, url_path='rank')
     def action_rank(self, request, *args, **kwargs):
         rank = 1
@@ -92,6 +101,15 @@ class RankAction(object):
 
 
 class OnlyExportDataAction(object):
+    @extend_schema(
+        description='数据导出',
+        parameters=[
+            OpenApiParameter(name='type', required=True, enum=['xlsx', 'csv']),
+        ],
+        responses={
+            200: OpenApiResponse(build_basic_type(OpenApiTypes.BINARY))
+        }
+    )
     @action(methods=['get'], detail=False, url_path='export-data')
     def export_data(self, request, *args, **kwargs):
         self.format_kwarg = request.query_params.get('type', 'xlsx')
@@ -109,21 +127,32 @@ class ImportExportDataAction(OnlyExportDataAction):
     perform_create: Callable
     perform_update: Callable
 
+    @extend_schema(
+        description='数据导入',
+        parameters=[
+            OpenApiParameter(name='action', required=True, enum=['create', 'update']),
+        ],
+        request=OpenApiRequest(
+            build_basic_type(OpenApiTypes.BINARY),
+        ),
+        responses={
+            200: OpenApiResponse(build_basic_type(OpenApiTypes.BINARY))
+        }
+    )
     @action(methods=['post'], detail=False, url_path='import-data')
     @transaction.atomic
     def import_data(self, request, *args, **kwargs):
         act = request.query_params.get('action')
         if act and request.data:
             if act == 'create':
-                for data in request.data:
-                    serializer = self.get_serializer(data=data)
-                    serializer.is_valid(raise_exception=True)
-                    self.perform_create(serializer)
+                serializer = self.get_serializer(data=request.data, many=True)
+                serializer.is_valid(raise_exception=True)
+                self.perform_create(serializer)
             elif act == 'update':
-                queryset = self.get_queryset()
+                queryset = self.filter_queryset(self.get_queryset())
                 for data in request.data:
-                    instance = queryset.get(pk=data.get('pk'))
-                    if getattr(instance, 'is_superuser', None):
+                    instance = queryset.filter(pk=data.get('pk')).first()
+                    if not instance:
                         continue
                     serializer = self.get_serializer(instance, data=data, partial=True)
                     serializer.is_valid(raise_exception=True)
@@ -135,22 +164,25 @@ class ImportExportDataAction(OnlyExportDataAction):
 class ChoicesAction(object):
     choices_models: []
 
-    @swagger_auto_schema(operation_description='获取字段选择', ignore_params=True, responses={
-        200: openapi.Response('字段选择结果', openapi.Schema(
-            type=openapi.TYPE_OBJECT,
-            properties={
-                'code': openapi.Schema(type=openapi.TYPE_NUMBER, default=1000),
-                'detail': openapi.Schema(type=openapi.TYPE_STRING, default='success'),
-                'choices_dict': openapi.Schema(type=openapi.TYPE_OBJECT, properties={
-                    'key': openapi.Schema(type=openapi.TYPE_ARRAY,
-                                          items=openapi.Schema(type=openapi.TYPE_OBJECT, properties={
-                                              'value': openapi.Schema(type=openapi.TYPE_STRING),
-                                              'label': openapi.Schema(type=openapi.TYPE_STRING),
-                                          })),
-                }),
+    @extend_schema(
+        description='获取字段选择',
+        responses=get_default_response_schema(
+            {
+                'choices_dict': build_object_type(
+                    properties={
+                        'key': build_array_type(
+                            build_object_type(
+                                properties={
+                                    'value': build_basic_type(OpenApiTypes.STR),
+                                    'label': build_basic_type(OpenApiTypes.STR),
+                                }
+                            )
+                        )
+                    }
+                )
             }
-        ))
-    })
+        )
+    )
     @action(methods=['get'], detail=False, url_path='choices')
     def choices_dict(self, request, *args, **kwargs):
         result = {}
@@ -168,34 +200,33 @@ class ChoicesAction(object):
 class SearchFieldsAction(object):
     filterset_class: Callable
 
-    @swagger_auto_schema(operation_description='获取可查询字段', ignore_params=True, responses={
-        200: openapi.Response('可查询字段结果', openapi.Schema(
-            type=openapi.TYPE_OBJECT,
-            properties={
-                'code': openapi.Schema(type=openapi.TYPE_NUMBER, default=1000),
-                'detail': openapi.Schema(type=openapi.TYPE_STRING, default='success'),
-                'data': openapi.Schema(type=openapi.TYPE_OBJECT, properties={
-                    'results': openapi.Schema(type=openapi.TYPE_ARRAY,
-                                              items=openapi.Schema(type=openapi.TYPE_OBJECT, properties={
-                                                  'key': openapi.Schema(type=openapi.TYPE_STRING),
-                                                  'label': openapi.Schema(type=openapi.TYPE_STRING),
-                                                  'help_text': openapi.Schema(type=openapi.TYPE_STRING),
-                                                  'default': openapi.Schema(type=openapi.TYPE_STRING),
-                                                  'input_type': openapi.Schema(type=openapi.TYPE_STRING),
-                                                  'choices': openapi.Schema(type=openapi.TYPE_ARRAY,
-                                                                            items=openapi.Schema(
-                                                                                type=openapi.TYPE_OBJECT, properties={
-                                                                                    'value': openapi.Schema(
-                                                                                        type=openapi.TYPE_STRING),
-                                                                                    'label': openapi.Schema(
-                                                                                        type=openapi.TYPE_STRING),
-                                                                                })),
-                                              })),
-                })
-
+    @extend_schema(
+        description='获取可查询字段',
+        responses=get_default_response_schema(
+            {
+                'data': build_array_type(
+                    build_object_type(
+                        properties={
+                            'key': build_basic_type(OpenApiTypes.STR),
+                            'label': build_basic_type(OpenApiTypes.STR),
+                            'help_text': build_basic_type(OpenApiTypes.STR),
+                            'default': build_basic_type(OpenApiTypes.ANY),
+                            'input_type': build_basic_type(OpenApiTypes.STR),
+                            'choices': build_array_type(
+                                build_object_type(
+                                    properties={
+                                        'pk': build_basic_type(OpenApiTypes.STR),
+                                        'value': build_basic_type(OpenApiTypes.STR),
+                                        'label': build_basic_type(OpenApiTypes.STR),
+                                    }
+                                )
+                            )
+                        }
+                    )
+                )
             }
-        ))
-    })
+        )
+    )
     @action(methods=['get'], detail=False, url_path='search-fields')
     def search_fields(self, request, *args, **kwargs):
         results = []
@@ -252,40 +283,43 @@ class SearchFieldsAction(object):
             logger.error(f"get search-field failed {e}")
         return ApiResponse(data=results)
 
-    @swagger_auto_schema(operation_description='获取列表和创建更新字段', ignore_params=True, responses={
-        200: openapi.Response('列表和创建更新字段结果', openapi.Schema(
-            type=openapi.TYPE_OBJECT,
-            properties={
-                'code': openapi.Schema(type=openapi.TYPE_NUMBER, default=1000),
-                'detail': openapi.Schema(type=openapi.TYPE_STRING, default='success'),
-                'data': openapi.Schema(type=openapi.TYPE_OBJECT, properties={
-                    'results': openapi.Schema(type=openapi.TYPE_ARRAY,
-                                              items=openapi.Schema(type=openapi.TYPE_OBJECT, properties={
-                                                  'key': openapi.Schema(type=openapi.TYPE_STRING),
-                                                  'label': openapi.Schema(type=openapi.TYPE_STRING),
-                                                  'help_text': openapi.Schema(type=openapi.TYPE_STRING),
-                                                  'default': openapi.Schema(type=openapi.TYPE_STRING),
-                                                  'required': openapi.Schema(type=openapi.TYPE_BOOLEAN),
-                                                  'read_only': openapi.Schema(type=openapi.TYPE_BOOLEAN),
-                                                  'write_only': openapi.Schema(type=openapi.TYPE_BOOLEAN),
-                                                  'multiple': openapi.Schema(type=openapi.TYPE_BOOLEAN),
-                                                  'max_length': openapi.Schema(type=openapi.TYPE_NUMBER),
-                                                  'table_show': openapi.Schema(type=openapi.TYPE_NUMBER),
-                                                  'input_type': openapi.Schema(type=openapi.TYPE_STRING),
-                                                  'choices': openapi.Schema(type=openapi.TYPE_ARRAY,
-                                                                            items=openapi.Schema(
-                                                                                type=openapi.TYPE_OBJECT, properties={
-                                                                                    'value': openapi.Schema(
-                                                                                        type=openapi.TYPE_STRING),
-                                                                                    'label': openapi.Schema(
-                                                                                        type=openapi.TYPE_STRING),
-                                                                                })),
-                                              })),
-                })
 
+class SearchColumnsAction(object):
+    filterset_class: Callable
+
+    @extend_schema(
+        description='获取列表和创建更新字段',
+        responses=get_default_response_schema(
+            {
+                'data': build_array_type(
+                    build_object_type(
+                        properties={
+                            'key': build_basic_type(OpenApiTypes.STR),
+                            'label': build_basic_type(OpenApiTypes.STR),
+                            'help_text': build_basic_type(OpenApiTypes.STR),
+                            'default': build_basic_type(OpenApiTypes.ANY),
+                            'input_type': build_basic_type(OpenApiTypes.STR),
+                            'required': build_basic_type(OpenApiTypes.BOOL),
+                            'read_only': build_basic_type(OpenApiTypes.BOOL),
+                            'write_only': build_basic_type(OpenApiTypes.BOOL),
+                            'multiple': build_basic_type(OpenApiTypes.BOOL),
+                            'max_length': build_basic_type(OpenApiTypes.NUMBER),
+                            'table_show': build_basic_type(OpenApiTypes.NUMBER),
+                            'choices': build_array_type(
+                                build_object_type(
+                                    properties={
+                                        'pk': build_basic_type(OpenApiTypes.STR),
+                                        'value': build_basic_type(OpenApiTypes.STR),
+                                        'label': build_basic_type(OpenApiTypes.STR),
+                                    }
+                                )
+                            )
+                        }
+                    )
+                )
             }
-        ))
-    })
+        )
+    )
     @action(methods=['get'], detail=False, url_path='search-columns')
     def search_columns(self, request, *args, **kwargs):
         results = []
@@ -306,11 +340,14 @@ class SearchFieldsAction(object):
         metadata_class = self.metadata_class()
         serializer = self.get_serializer()
         fields = getattr(serializer, 'fields', [])
-        table_fields = getattr(serializer.Meta, 'table_fields', [])
+        meta = getattr(serializer, 'Meta', {})
+        table_fields = getattr(meta, 'table_fields', [])
         for key, value in fields.items():
             info = metadata_class.get_field_info(value)
-            field = get_model_field(value.parent.Meta.model, value.source)
-
+            if hasattr(meta, 'model'):
+                field = get_model_field(meta.model, value.source)
+            else:
+                field = None
             info['key'] = key
             if info.get("help_text", None) is None and hasattr(field, 'help_text'):
                 info['help_text'] = field.help_text
@@ -318,7 +355,7 @@ class SearchFieldsAction(object):
             if value.field_name.replace('_', ' ').capitalize() == info['label'] and hasattr(field, 'verbose_name'):
                 info['label'] = field.verbose_name
 
-            if value.style.get('base_template', '') == 'textarea.html':
+            if isinstance(value, CharField) and value.style.get('base_template', '') == 'textarea.html':
                 info['input_type'] = 'textarea'
             else:
                 info['input_type'] = get_input_type(value, info)
@@ -329,6 +366,7 @@ class SearchFieldsAction(object):
                 info['table_show'] = (table_fields.index(key)) + 1
             results.append(info)
         return ApiResponse(data=results)
+
 
 class BaseModelAction(object):
     filterset_class: Callable
@@ -370,12 +408,17 @@ class BatchDeleteAction(object):
     get_queryset: Callable
     perform_destroy: Callable
 
-    @swagger_auto_schema(request_body=openapi.Schema(
-        type=openapi.TYPE_OBJECT,
-        required=['pks'],
-        properties={'pks': openapi.Schema(description='主键列表', type=openapi.TYPE_ARRAY,
-                                          items=openapi.Schema(type=openapi.TYPE_STRING))}
-    ), operation_description='批量删除')
+    @extend_schema(
+        description='批量删除',
+        request=OpenApiRequest(
+            build_object_type(
+                properties={'pks': build_array_type(build_basic_type(OpenApiTypes.STR))},
+                required=['pks'],
+                description="主键列表"
+            )
+        ),
+        responses=get_default_response_schema()
+    )
     @action(methods=['post'], detail=False, url_path='batch-delete')
     def batch_delete(self, request, *args, **kwargs):
         pks = get_query_post_pks(request)
@@ -393,7 +436,7 @@ class BatchDeleteAction(object):
         return ApiResponse(detail=_("Operation successful. Batch deleted {} data").format(count))
 
 
-class BaseAction(BaseModelAction, ChoicesAction, SearchFieldsAction, BatchDeleteAction):
+class BaseAction(BaseModelAction, SearchFieldsAction, SearchColumnsAction, BatchDeleteAction):
 
     def create(self, request, *args, **kwargs):
         data = super().create(request, *args, **kwargs).data
@@ -417,7 +460,7 @@ class BaseAction(BaseModelAction, ChoicesAction, SearchFieldsAction, BatchDelete
         return ApiResponse(data=data)
 
 
-class OwnerModelSet(BaseModelAction, ChoicesAction, mixins.RetrieveModelMixin, mixins.UpdateModelMixin, GenericViewSet):
+class DetailUpdateModelSet(BaseModelAction, mixins.RetrieveModelMixin, mixins.UpdateModelMixin, GenericViewSet):
     def update(self, request, *args, **kwargs):
         data = super().update(request, *args, **kwargs).data
         return ApiResponse(data=data)
@@ -427,7 +470,7 @@ class OwnerModelSet(BaseModelAction, ChoicesAction, mixins.RetrieveModelMixin, m
         return ApiResponse(data=data)
 
 
-class OnlyListModelSet(BaseModelAction, ChoicesAction, SearchFieldsAction, mixins.ListModelMixin, GenericViewSet):
+class OnlyListModelSet(BaseModelAction, SearchFieldsAction, SearchColumnsAction, mixins.ListModelMixin, GenericViewSet):
     def list(self, request, *args, **kwargs):
         data = super().list(request, *args, **kwargs).data
         return ApiResponse(data=data)
@@ -438,7 +481,7 @@ class BaseModelSet(BaseAction, ModelViewSet):
 
 
 # 只允许读和删除，不允许创建和修改
-class ListDeleteModelSet(BaseModelAction, ChoicesAction, SearchFieldsAction, BatchDeleteAction,
+class ListDeleteModelSet(BaseModelAction, SearchFieldsAction, SearchColumnsAction, BatchDeleteAction,
                          mixins.DestroyModelMixin, ReadOnlyModelViewSet):
     def retrieve(self, request, *args, **kwargs):
         data = super().retrieve(request, *args, **kwargs).data
@@ -452,3 +495,14 @@ class ListDeleteModelSet(BaseModelAction, ChoicesAction, SearchFieldsAction, Bat
         instance = self.get_object()
         self.perform_destroy(instance)
         return ApiResponse()
+
+
+class NoDetailModelSet(BaseModelAction, SearchColumnsAction, mixins.RetrieveModelMixin, mixins.UpdateModelMixin,
+                       GenericViewSet):
+    def update(self, request, *args, **kwargs):
+        data = super().update(request, *args, **kwargs).data
+        return ApiResponse(data=data)
+
+    def retrieve(self, request, *args, **kwargs):
+        data = super().retrieve(request, *args, **kwargs).data
+        return ApiResponse(data=data)

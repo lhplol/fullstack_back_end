@@ -1,0 +1,17 @@
+[2024-10-04 02:02:00,005: INFO/MainProcess] Task system.tasks.auto_clean_operation_job[a2dcf5b5-879c-429c-9457-3048216580a0] received
+[2024-10-04 02:02:00,030: INFO/ForkPoolWorker-4] Task system.tasks.auto_clean_operation_job[a2dcf5b5-879c-429c-9457-3048216580a0] succeeded in 0.02080756239593029s: None
+[2024-10-04 02:12:00,004: INFO/MainProcess] Task system.tasks.auto_clean_expired_captcha_job[602be65b-f465-44d8-8063-9fddc5b0a2e1] received
+[2024-10-04 02:12:00,016: INFO/ForkPoolWorker-4] Task system.tasks.auto_clean_expired_captcha_job[602be65b-f465-44d8-8063-9fddc5b0a2e1] succeeded in 0.008843068964779377s: None
+[2024-10-04 02:22:00,005: INFO/MainProcess] Task system.tasks.auto_clean_black_token_job[5c54ffac-9c4c-4900-bed1-19e86148fcbc] received
+[2024-10-04 02:22:00,013: INFO/ForkPoolWorker-4] system.tasks.auto_clean_black_token_job[5c54ffac-9c4c-4900-bed1-19e86148fcbc]: clean {} black token 0
+[2024-10-04 02:22:00,017: INFO/ForkPoolWorker-4] Task system.tasks.auto_clean_black_token_job[5c54ffac-9c4c-4900-bed1-19e86148fcbc] succeeded in 0.009404126554727554s: None
+[2024-10-04 02:32:00,005: INFO/MainProcess] Task system.tasks.auto_clean_tmp_file_job[55c774d9-cd7f-4176-8bda-f2c90568c5c6] received
+[2024-10-04 02:32:00,013: INFO/ForkPoolWorker-4] system.tasks.auto_clean_tmp_file_job[55c774d9-cd7f-4176-8bda-f2c90568c5c6]: clean 0 upload tmp file
+[2024-10-04 02:32:00,016: INFO/ForkPoolWorker-4] Task system.tasks.auto_clean_tmp_file_job[55c774d9-cd7f-4176-8bda-f2c90568c5c6] succeeded in 0.008619950152933598s: None
+[2024-10-04 04:00:00,010: INFO/MainProcess] Task celery.backend_cleanup[06b99359-0b45-4253-b295-702cf198a19d] received
+[2024-10-04 04:00:00,019: INFO/ForkPoolWorker-4] remove /data/xadmin/xadmin-server/logs/task/2e3f097a-887d-4240-9c5d-72a659d3a903.log success
+[2024-10-04 04:00:00,019: INFO/ForkPoolWorker-4] remove /data/xadmin/xadmin-server/logs/task/7d1e03a8-d2df-4c59-86f7-de3b0b613a4a.log success
+[2024-10-04 04:00:00,019: INFO/ForkPoolWorker-4] remove /data/xadmin/xadmin-server/logs/task/33a80635-204a-4ad8-898f-f00852569e1a.log success
+[2024-10-04 04:00:00,019: INFO/ForkPoolWorker-4] remove /data/xadmin/xadmin-server/logs/task/e3b96857-8f46-40c6-a4bd-75df4546abc7.log success
+[2024-10-04 04:00:00,019: INFO/ForkPoolWorker-4] remove /data/xadmin/xadmin-server/logs/task/d44aea7d-6c9d-4571-be36-44688a4ce672.log success
+[2024-10-04 04:00:00,026: INFO/ForkPoolWorker-4] Task celery.backend_cleanup[06b99359-0b45-4253-b295-702cf198a19d] succeeded in 0.012828206643462181s: None

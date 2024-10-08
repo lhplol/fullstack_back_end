@@ -32,3 +32,7 @@ class FreightBillView(BaseModelSet, ImportExportDataAction):
     serializer_class = FreightBillSerializer
     ordering_fields = ['created_time']
     filterset_class = FreightBillFilter
+    #取消删除接口的两种办法，一种是不列出、一种是重写destroy
+    #http_method_names = ['get', 'post', 'put', 'patch', 'head', 'options']
+    #def destroy(self, request, *args, **kwargs):
+        #return ApiResponse(code=1001, detail=_("Delete operation not allowed"), status=405)

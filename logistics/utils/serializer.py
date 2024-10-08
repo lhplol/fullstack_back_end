@@ -7,6 +7,7 @@ from logistics.models import FreightBill
 class FreightBillSerializer(BaseModelSerializer):
     class Meta:
         model = FreightBill
+        #控制前台的总字段开关
         fields = [
             'pk', 'shipping_date', 'origin', 'destination', 'calculation_address', 'contact_person', 'plan_number',
             'package_count', 'total_weight', 'total_volume', 'payment_method', 'shipping_method', 'pricing_method',

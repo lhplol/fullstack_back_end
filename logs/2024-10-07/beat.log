@@ -1,0 +1,1391 @@
+[2024-10-07 02:02:00,002: INFO/MainProcess] Scheduler: Sending due task auto_clean_operation_job (system.tasks.auto_clean_operation_job)
+[2024-10-07 02:12:00,000: INFO/MainProcess] Scheduler: Sending due task auto_clean_expired_captcha_job (system.tasks.auto_clean_expired_captcha_job)
+[2024-10-07 02:22:00,003: INFO/MainProcess] Scheduler: Sending due task auto_clean_black_token_job (system.tasks.auto_clean_black_token_job)
+[2024-10-07 02:32:00,000: INFO/MainProcess] Scheduler: Sending due task auto_clean_tmp_file_job (system.tasks.auto_clean_tmp_file_job)
+[2024-10-07 04:00:00,000: INFO/MainProcess] Scheduler: Sending due task celery.backend_cleanup (celery.backend_cleanup)
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-10-07 09:48:41
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-10-07 09:48:41,661: INFO/MainProcess] beat: Starting...
+[2024-10-07 09:48:41,822: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-10-07 09:52:31
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-10-07 09:52:31,670: INFO/MainProcess] beat: Starting...
+[2024-10-07 09:52:31,809: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-10-07 09:56:43
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-10-07 09:56:43,549: INFO/MainProcess] beat: Starting...
+[2024-10-07 09:56:43,707: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-10-07 16:05:47
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-10-07 16:05:47,269: INFO/MainProcess] beat: Starting...
+[2024-10-07 16:05:47,386: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-10-07 16:28:16
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-10-07 16:28:16,165: INFO/MainProcess] beat: Starting...
+[2024-10-07 16:29:16,240: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+[2024-10-07 16:29:16,297: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:30:16,296: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:31:16,296: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:32:16,299: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:33:16,299: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:34:16,300: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:35:16,301: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:36:16,302: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+celery beat v5.4.0 (opalescent) is starting.
+__    -    ... __   -        _
+LocalTime -> 2024-10-07 16:37:08
+Configuration ->
+    . broker -> redis://:**@redis:6379/3
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 1.00 minute (60s)
+[2024-10-07 16:37:08,047: INFO/MainProcess] beat: Starting...
+[2024-10-07 16:37:08,142: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:38:08,117: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+[2024-10-07 16:38:08,480: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:39:08,481: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:40:08,481: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:41:08,482: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:42:08,482: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:43:08,483: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:44:08,485: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:45:08,485: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:46:08,486: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:47:08,488: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:48:08,488: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:49:08,480: ERROR/MainProcess] Database gave error: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 267, in schedule_changed
+    last, ts = self._last_timestamp, self.Changes.last_change()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/models.py", line 419, in last_change
+    return cls.objects.get(ident=1).last_update
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+[2024-10-07 16:49:08,486: ERROR/MainProcess] Database gave error: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 267, in schedule_changed
+    last, ts = self._last_timestamp, self.Changes.last_change()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/models.py", line 419, in last_change
+    return cls.objects.get(ident=1).last_update
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+[2024-10-07 16:49:08,488: ERROR/MainProcess] Database gave error: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 267, in schedule_changed
+    last, ts = self._last_timestamp, self.Changes.last_change()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/models.py", line 419, in last_change
+    return cls.objects.get(ident=1).last_update
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+[2024-10-07 16:49:08,490: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:49:08,493: ERROR/MainProcess] Database gave error: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 267, in schedule_changed
+    last, ts = self._last_timestamp, self.Changes.last_change()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/models.py", line 419, in last_change
+    return cls.objects.get(ident=1).last_update
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+[2024-10-07 16:50:08,482: ERROR/MainProcess] Database gave error: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 267, in schedule_changed
+    last, ts = self._last_timestamp, self.Changes.last_change()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/models.py", line 419, in last_change
+    return cls.objects.get(ident=1).last_update
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+[2024-10-07 16:50:08,487: ERROR/MainProcess] Database gave error: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 267, in schedule_changed
+    last, ts = self._last_timestamp, self.Changes.last_change()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/models.py", line 419, in last_change
+    return cls.objects.get(ident=1).last_update
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+[2024-10-07 16:50:08,490: ERROR/MainProcess] Database gave error: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 267, in schedule_changed
+    last, ts = self._last_timestamp, self.Changes.last_change()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/models.py", line 419, in last_change
+    return cls.objects.get(ident=1).last_update
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+[2024-10-07 16:50:08,491: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:50:08,494: ERROR/MainProcess] Database error while sync: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictask' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictask' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 303, in sync
+    self._schedule[name].save()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 157, in save
+    obj = type(self.model)._default_manager.get(pk=self.model.pk)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictask' doesn't exist")
+[2024-10-07 16:50:08,496: ERROR/MainProcess] Database gave error: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 267, in schedule_changed
+    last, ts = self._last_timestamp, self.Changes.last_change()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/models.py", line 419, in last_change
+    return cls.objects.get(ident=1).last_update
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+[2024-10-07 16:51:08,484: ERROR/MainProcess] Database gave error: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 267, in schedule_changed
+    last, ts = self._last_timestamp, self.Changes.last_change()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/models.py", line 419, in last_change
+    return cls.objects.get(ident=1).last_update
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+[2024-10-07 16:51:08,489: ERROR/MainProcess] Database gave error: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 267, in schedule_changed
+    last, ts = self._last_timestamp, self.Changes.last_change()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/models.py", line 419, in last_change
+    return cls.objects.get(ident=1).last_update
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+[2024-10-07 16:51:08,492: ERROR/MainProcess] Database gave error: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 267, in schedule_changed
+    last, ts = self._last_timestamp, self.Changes.last_change()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/models.py", line 419, in last_change
+    return cls.objects.get(ident=1).last_update
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+[2024-10-07 16:51:08,494: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:51:08,496: ERROR/MainProcess] Database gave error: ProgrammingError(1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 267, in schedule_changed
+    last, ts = self._last_timestamp, self.Changes.last_change()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/models.py", line 419, in last_change
+    return cls.objects.get(ident=1).last_update
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_beat_periodictasks' doesn't exist")
+[2024-10-07 16:52:08,494: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:53:08,494: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:54:08,495: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:55:08,495: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:56:08,496: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:57:08,496: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:58:08,497: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 16:59:08,497: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:00:08,498: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:01:08,498: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:02:08,498: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:03:08,499: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:04:08,499: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:05:08,499: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:06:08,499: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:07:08,500: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:08:08,500: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:09:08,500: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:10:08,501: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:11:08,502: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:12:08,502: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:13:08,502: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:14:08,503: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:15:08,504: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:16:08,504: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:17:08,504: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:18:08,504: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:19:08,505: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:20:08,505: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:21:08,506: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:22:08,506: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:23:08,507: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:24:08,507: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:25:08,507: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:26:08,507: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:27:08,508: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:28:08,509: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:29:08,509: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:30:08,510: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:31:08,510: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:32:08,511: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:33:08,511: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:34:08,511: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:35:08,512: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:36:08,513: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:37:08,434: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-07 17:37:08,513: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:38:08,514: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:39:08,514: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:40:08,515: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:41:08,515: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:42:08,515: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:43:08,516: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:44:08,516: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:45:08,516: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:46:08,517: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:47:08,517: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:48:08,517: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:49:08,518: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:50:08,518: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:51:08,519: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:52:08,519: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:53:08,520: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:54:08,520: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:55:08,520: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:56:08,521: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:57:08,521: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:58:08,521: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 17:59:08,521: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:00:08,522: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:01:08,522: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:02:08,522: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:03:08,523: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:04:08,523: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:05:08,523: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:06:08,524: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:07:08,524: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:08:08,525: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:09:08,525: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:10:08,525: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:11:08,526: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:12:08,526: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:13:08,526: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:14:08,526: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:15:08,527: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:16:08,527: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:17:08,528: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:18:08,528: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:19:08,529: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:20:08,530: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:21:08,530: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:22:08,530: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:23:08,530: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:24:08,531: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:25:08,531: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:26:08,532: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:27:08,532: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:28:08,532: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:29:08,533: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:30:08,533: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:31:08,533: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:32:08,534: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:33:08,534: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:34:08,534: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:35:08,534: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:36:08,535: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:37:08,434: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-07 18:37:08,535: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:38:08,536: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:39:08,536: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:40:08,536: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:41:08,536: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:42:08,536: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:43:08,537: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:44:08,537: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:45:08,537: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:46:08,537: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:47:08,538: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:48:08,538: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:49:08,538: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:50:08,539: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:51:08,539: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:52:08,540: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:53:08,540: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:54:08,541: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:55:08,541: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:56:08,541: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:57:08,542: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:58:08,542: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 18:59:08,543: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:00:08,543: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:01:08,543: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:02:08,544: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:03:08,544: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:04:08,545: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:05:08,546: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:06:08,546: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:07:08,546: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:08:08,546: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:09:08,547: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:10:08,547: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:11:08,547: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:12:08,548: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:13:08,548: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:14:08,549: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:15:08,549: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:16:08,549: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:17:08,550: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:18:08,550: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:19:08,550: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:20:08,551: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:21:08,551: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:22:08,552: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:23:08,552: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:24:08,552: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:25:08,553: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:26:08,553: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:27:08,553: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:28:08,554: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:29:08,554: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:30:08,555: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:31:08,555: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:32:08,555: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:33:08,556: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:34:08,556: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:35:08,557: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:36:08,557: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:37:08,435: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-07 19:37:08,558: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:38:08,558: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:39:08,558: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:40:08,558: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:41:08,559: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:42:08,559: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:43:08,560: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:44:08,560: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:45:08,560: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:46:08,561: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:47:08,561: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:48:08,561: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:49:08,561: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:50:08,562: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:51:08,562: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:52:08,562: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:53:08,563: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:54:08,563: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:55:08,564: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:56:08,565: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:57:08,565: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:58:08,565: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 19:59:08,566: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:00:08,566: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:01:08,567: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:02:08,567: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:03:08,567: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:04:08,568: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:05:08,568: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:06:08,569: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:07:08,569: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:08:08,569: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:09:08,570: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:10:08,570: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:11:08,570: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:12:08,571: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:13:08,571: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:14:08,571: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:15:08,572: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:16:08,572: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:17:08,573: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:18:08,573: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:19:08,573: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:20:08,574: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:21:08,574: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:22:08,574: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:23:08,574: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:24:08,575: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:25:08,575: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:26:08,576: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:27:08,576: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:28:08,577: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:29:08,577: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:30:08,577: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:31:08,577: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:32:08,578: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:33:08,578: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:34:08,579: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:35:08,579: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:36:08,579: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:37:08,435: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-07 20:37:08,580: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:38:08,580: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:39:08,580: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:40:08,580: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:41:08,581: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:42:08,581: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:43:08,581: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:44:08,582: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:45:08,582: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:46:08,582: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:47:08,582: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:48:08,583: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:49:08,583: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:50:08,584: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:51:08,585: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:52:08,585: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:53:08,585: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:54:08,586: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:55:08,586: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:56:08,586: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:57:08,587: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:58:08,587: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 20:59:08,587: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:00:08,588: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:01:08,588: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:02:08,588: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:03:08,589: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:04:08,589: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:05:08,590: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:06:08,590: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:07:08,591: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:08:08,591: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:09:08,591: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:10:08,591: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:11:08,591: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:12:08,592: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:13:08,592: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:14:08,593: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:15:08,593: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:16:08,593: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:17:08,594: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:18:08,594: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:19:08,594: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:20:08,595: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:21:08,595: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:22:08,596: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:23:08,596: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:24:08,596: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:25:08,597: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:26:08,597: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:27:08,597: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:28:08,597: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:29:08,598: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:30:08,598: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:31:08,598: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:32:08,598: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:33:08,599: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:34:08,600: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:35:08,600: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:36:08,601: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:37:08,436: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-07 21:37:08,601: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:38:08,601: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:39:08,602: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:40:08,602: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:41:08,603: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:42:08,603: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:43:08,603: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:44:08,604: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:45:08,605: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:46:08,606: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:47:08,606: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:48:08,606: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:49:08,606: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:50:08,607: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:51:08,607: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:52:08,607: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:53:08,608: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:54:08,608: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:55:08,609: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:56:08,609: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:57:08,610: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:58:08,610: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 21:59:08,610: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:00:08,610: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:01:08,611: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:02:08,611: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:03:08,612: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:04:08,612: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:05:08,613: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:06:08,613: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:07:08,614: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:08:08,614: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:09:08,614: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:10:08,614: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:11:08,615: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:12:08,615: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:13:08,615: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:14:08,615: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:15:08,616: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:16:08,616: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:17:08,617: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:18:08,617: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:19:08,618: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:20:08,618: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:21:08,619: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:22:08,619: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:23:08,619: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:24:08,620: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:25:08,620: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:26:08,620: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:27:08,621: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:28:08,621: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:29:08,621: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:30:08,621: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:31:08,622: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:32:08,622: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:33:08,622: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:34:08,623: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:35:08,623: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:36:08,623: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:37:08,436: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-07 22:37:08,624: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:38:08,624: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:39:08,625: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:40:08,625: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:41:08,625: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:42:08,626: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:43:08,627: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:44:08,628: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:45:08,628: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:46:08,629: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:47:08,629: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:48:08,630: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:49:08,630: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:50:08,631: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:51:08,631: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:52:08,631: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:53:08,631: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:54:08,631: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:55:08,631: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:56:08,632: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:57:08,632: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:58:08,632: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 22:59:08,633: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:00:08,633: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:01:08,634: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:02:08,634: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:03:08,634: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:04:08,635: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:05:08,635: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:06:08,635: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:07:08,636: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:08:08,636: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:09:08,636: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:10:08,637: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:11:08,638: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:12:08,638: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:13:08,638: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:14:08,638: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:15:08,639: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:16:08,639: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:17:08,640: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:18:08,640: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:19:08,641: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:20:08,641: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:21:08,641: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:22:08,642: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:23:08,642: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:24:08,642: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:25:08,642: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:26:08,643: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:27:08,643: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:28:08,643: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:29:08,643: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:30:08,643: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:31:08,644: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:32:08,644: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:33:08,645: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:34:08,645: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:35:08,646: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:36:08,646: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:37:08,436: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-07 23:37:08,646: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:38:08,647: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:39:08,647: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:40:08,647: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:41:08,647: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:42:08,648: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:43:08,648: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:44:08,649: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:45:08,650: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:46:08,650: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:47:08,651: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:48:08,651: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:49:08,651: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:50:08,652: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:51:08,653: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:52:08,653: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:53:08,653: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:54:08,653: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:55:08,653: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:56:08,654: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:57:08,654: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-07 23:58:08,655: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)

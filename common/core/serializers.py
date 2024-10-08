@@ -5,7 +5,9 @@
 # author : ly_13
 # date : 12/21/2023
 from inspect import isfunction
-
+# from common.core.serializers import BaseModelSerializer, LabeledChoiceField, BasePrimaryKeyRelatedField
+# from common.core.serializers import BaseModelSerializer, BasePrimaryKeyRelatedField
+from common.core.fields import LabeledChoiceField
 from django.conf import settings
 from django.db import transaction
 from django.db.models.fields import NOT_PROVIDED

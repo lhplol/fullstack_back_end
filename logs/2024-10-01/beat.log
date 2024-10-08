@@ -1,0 +1,5 @@
+[2024-10-01 02:02:00,002: INFO/MainProcess] Scheduler: Sending due task auto_clean_operation_job (system.tasks.auto_clean_operation_job)
+[2024-10-01 02:12:00,002: INFO/MainProcess] Scheduler: Sending due task auto_clean_expired_captcha_job (system.tasks.auto_clean_expired_captcha_job)
+[2024-10-01 02:22:00,000: INFO/MainProcess] Scheduler: Sending due task auto_clean_black_token_job (system.tasks.auto_clean_black_token_job)
+[2024-10-01 02:32:00,003: INFO/MainProcess] Scheduler: Sending due task auto_clean_tmp_file_job (system.tasks.auto_clean_tmp_file_job)
+[2024-10-01 04:00:00,002: INFO/MainProcess] Scheduler: Sending due task celery.backend_cleanup (celery.backend_cleanup)

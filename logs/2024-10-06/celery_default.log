@@ -1,0 +1,55 @@
+[2024-10-06 02:02:00,006: INFO/MainProcess] Task system.tasks.auto_clean_operation_job[534008fe-7e25-43ee-97e1-89fc3d35be26] received
+[2024-10-06 02:02:00,031: INFO/ForkPoolWorker-4] Task system.tasks.auto_clean_operation_job[534008fe-7e25-43ee-97e1-89fc3d35be26] succeeded in 0.02285356167703867s: None
+[2024-10-06 02:12:00,005: INFO/MainProcess] Task system.tasks.auto_clean_expired_captcha_job[ec093736-bfce-4525-a0f7-516d22dd10c9] received
+[2024-10-06 02:12:00,020: INFO/ForkPoolWorker-4] Task system.tasks.auto_clean_expired_captcha_job[ec093736-bfce-4525-a0f7-516d22dd10c9] succeeded in 0.011676628142595291s: None
+[2024-10-06 02:22:00,003: INFO/MainProcess] Task system.tasks.auto_clean_black_token_job[b0e08253-93dd-4d80-b8c8-f97a68001d9b] received
+[2024-10-06 02:22:00,020: INFO/ForkPoolWorker-4] system.tasks.auto_clean_black_token_job[b0e08253-93dd-4d80-b8c8-f97a68001d9b]: clean {'token_blacklist.BlacklistedToken': 1, 'token_blacklist.OutstandingToken': 1} black token 2
+[2024-10-06 02:22:00,023: INFO/ForkPoolWorker-4] Task system.tasks.auto_clean_black_token_job[b0e08253-93dd-4d80-b8c8-f97a68001d9b] succeeded in 0.016905787400901318s: None
+[2024-10-06 02:32:00,010: INFO/MainProcess] Task system.tasks.auto_clean_tmp_file_job[4221c43c-d1cc-4888-9cc7-7676b01ef12c] received
+[2024-10-06 02:32:00,021: INFO/ForkPoolWorker-4] system.tasks.auto_clean_tmp_file_job[4221c43c-d1cc-4888-9cc7-7676b01ef12c]: clean 0 upload tmp file
+[2024-10-06 02:32:00,023: INFO/ForkPoolWorker-4] Task system.tasks.auto_clean_tmp_file_job[4221c43c-d1cc-4888-9cc7-7676b01ef12c] succeeded in 0.010153642855584621s: None
+[2024-10-06 04:00:00,006: INFO/MainProcess] Task celery.backend_cleanup[05902309-54ef-408e-a2a1-7480ff2c46ec] received
+[2024-10-06 04:00:00,023: INFO/ForkPoolWorker-4] remove /data/xadmin/xadmin-server/logs/task/e83fb011-a466-46b5-82ec-667ee8c63f36.log success
+[2024-10-06 04:00:00,024: INFO/ForkPoolWorker-4] remove /data/xadmin/xadmin-server/logs/task/68c0f49a-643c-40ac-85a4-cb6e68c67106.log success
+[2024-10-06 04:00:00,024: INFO/ForkPoolWorker-4] remove /data/xadmin/xadmin-server/logs/task/9102f1bf-46b9-4e60-b93b-1f0219d62fda.log success
+[2024-10-06 04:00:00,024: INFO/ForkPoolWorker-4] remove /data/xadmin/xadmin-server/logs/task/1fcef959-90f5-492b-8cac-ea7816c10e74.log success
+[2024-10-06 04:00:00,024: INFO/ForkPoolWorker-4] remove /data/xadmin/xadmin-server/logs/task/f2b247be-1087-446f-b701-a3e740e802bc.log success
+[2024-10-06 04:00:00,030: INFO/ForkPoolWorker-4] Task celery.backend_cleanup[05902309-54ef-408e-a2a1-7480ff2c46ec] succeeded in 0.02048521302640438s: None
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-10-06 16:36:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f57ee9e7dd0
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-10-06 16:36:13,379: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-10-06 16:36:13,399: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-10-06 16:36:17,804: INFO/MainProcess] Events of group {task} enabled by remote.

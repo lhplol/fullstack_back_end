@@ -1,0 +1,1364 @@
+[2024-10-07 02:02:00,022: INFO/MainProcess] Task system.tasks.auto_clean_operation_job[35b8dbfc-b239-4efc-a034-da625869f070] received
+[2024-10-07 02:02:00,058: INFO/ForkPoolWorker-1] Task system.tasks.auto_clean_operation_job[35b8dbfc-b239-4efc-a034-da625869f070] succeeded in 0.0334662739187479s: None
+[2024-10-07 02:12:00,004: INFO/MainProcess] Task system.tasks.auto_clean_expired_captcha_job[0ae2b73a-0d80-4041-bfd1-f40b02c76027] received
+[2024-10-07 02:12:00,017: INFO/ForkPoolWorker-1] Task system.tasks.auto_clean_expired_captcha_job[0ae2b73a-0d80-4041-bfd1-f40b02c76027] succeeded in 0.010824901983141899s: None
+[2024-10-07 02:22:00,008: INFO/MainProcess] Task system.tasks.auto_clean_black_token_job[d062a83c-a3f2-4315-8267-c274000c71e3] received
+[2024-10-07 02:22:00,025: INFO/ForkPoolWorker-1] system.tasks.auto_clean_black_token_job[d062a83c-a3f2-4315-8267-c274000c71e3]: clean {'token_blacklist.BlacklistedToken': 5, 'token_blacklist.OutstandingToken': 5} black token 10
+[2024-10-07 02:22:00,028: INFO/ForkPoolWorker-1] Task system.tasks.auto_clean_black_token_job[d062a83c-a3f2-4315-8267-c274000c71e3] succeeded in 0.01712566800415516s: None
+[2024-10-07 02:32:00,003: INFO/MainProcess] Task system.tasks.auto_clean_tmp_file_job[f06cae1c-5abf-4779-bd2a-1cfce65c0a98] received
+[2024-10-07 02:32:00,012: INFO/ForkPoolWorker-1] system.tasks.auto_clean_tmp_file_job[f06cae1c-5abf-4779-bd2a-1cfce65c0a98]: clean 0 upload tmp file
+[2024-10-07 02:32:00,015: INFO/ForkPoolWorker-1] Task system.tasks.auto_clean_tmp_file_job[f06cae1c-5abf-4779-bd2a-1cfce65c0a98] succeeded in 0.009125987067818642s: None
+[2024-10-07 04:00:00,005: INFO/MainProcess] Task celery.backend_cleanup[faf1f3b1-cb85-4c6d-a291-412f4f031485] received
+[2024-10-07 04:00:00,016: INFO/ForkPoolWorker-1] remove /data/xadmin/xadmin-server/logs/task/085a6216-25ea-487b-8390-0ffa34e2dd35.log success
+[2024-10-07 04:00:00,016: INFO/ForkPoolWorker-1] remove /data/xadmin/xadmin-server/logs/task/0a605db4-aa5f-46cf-baeb-db761ba3bf03.log success
+[2024-10-07 04:00:00,017: INFO/ForkPoolWorker-1] remove /data/xadmin/xadmin-server/logs/task/588585c2-2465-4c68-9e77-323f701925c6.log success
+[2024-10-07 04:00:00,017: INFO/ForkPoolWorker-1] remove /data/xadmin/xadmin-server/logs/task/1193515f-8c77-4764-878f-ea8190dd7f9b.log success
+[2024-10-07 04:00:00,017: INFO/ForkPoolWorker-1] remove /data/xadmin/xadmin-server/logs/task/6e3d65c2-5d0e-4e3a-92bd-73d6af2d3788.log success
+[2024-10-07 04:00:00,025: INFO/ForkPoolWorker-1] Task celery.backend_cleanup[faf1f3b1-cb85-4c6d-a291-412f4f031485] succeeded in 0.017751362174749374s: None
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-10-07 09:48:41
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f48c48b3ad0
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-10-07 09:48:42,434: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-10-07 09:48:42,461: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-10-07 09:48:46,932: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-10-07 09:52:31
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f475eb67980
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-10-07 09:52:32,226: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-10-07 09:52:32,251: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-10-07 09:52:36,550: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-10-07 09:56:43
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7f87ff797b60
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-10-07 09:56:44,369: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-10-07 09:56:44,382: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-10-07 09:56:48,563: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Warm shutdown (MainProcess)
+[2024-10-07 16:05:32,628: ERROR/MainProcess] Process 'ForkPoolWorker-3' pid:817192 exited with 'signal 15 (SIGTERM)'
+[2024-10-07 16:05:32,638: ERROR/MainProcess] Process 'ForkPoolWorker-2' pid:817191 exited with 'signal 15 (SIGTERM)'
+[2024-10-07 16:05:32,649: ERROR/MainProcess] Process 'ForkPoolWorker-1' pid:817189 exited with 'signal 15 (SIGTERM)'
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-10-07 16:05:47
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7fecad65bbf0
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: {min=3, max=10} (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . imagekit.cachefiles.backends._generate_file
+  . system.tasks.auto_clean_black_token_job
+  . system.tasks.auto_clean_expired_captcha_job
+  . system.tasks.auto_clean_operation_job
+  . system.tasks.auto_clean_tmp_file_job
+
+[2024-10-07 16:05:47,805: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-10-07 16:05:47,818: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-10-07 16:05:52,144: INFO/MainProcess] Events of group {task} enabled by remote.
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-10-07 16:28:16
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7fcc9840ec30
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 10 (thread)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . common.tasks.auto_clean_monitor_logs
+  . common.tasks.check_server_performance_period
+  . common.tasks.clean_celery_periodic_tasks
+  . common.tasks.create_or_update_registered_periodic_tasks
+  . common.tasks.send_mail_async
+  . common.tasks.send_mail_attachment_async
+  . common.utils.verify_code.send_sms_async
+  . imagekit.cachefiles.backends._generate_file
+  . notifications.notifications.publish_task
+
+[2024-10-07 16:28:16,139: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-10-07 16:28:16,193: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-10-07 16:28:16,195: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[519bdfea-fd2d-45fd-9924-693f38b62179] received
+[2024-10-07 16:28:16,206: INFO/MainProcess] Task common.tasks.clean_celery_periodic_tasks[1131fa31-5f39-45ee-801d-9c0e3aae1625] received
+[2024-10-07 16:28:16,217: INFO/MainProcess] Task common.tasks.create_or_update_registered_periodic_tasks[9227a85f-fa4c-4a36-a7dc-eb06ea494cf2] received
+[2024-10-07 16:28:16,270: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[1131fa31-5f39-45ee-801d-9c0e3aae1625]: Start clean celery periodic tasks.
+[2024-10-07 16:28:16,272: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[1131fa31-5f39-45ee-801d-9c0e3aae1625]: Start clean task: auto_clean_operation_job
+[2024-10-07 16:28:16,275: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[519bdfea-fd2d-45fd-9924-693f38b62179] succeeded in 0.0699006887152791s: None
+[2024-10-07 16:28:16,288: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[1131fa31-5f39-45ee-801d-9c0e3aae1625]: Clean task success: auto_clean_operation_job
+[2024-10-07 16:28:16,289: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[1131fa31-5f39-45ee-801d-9c0e3aae1625]: Start clean task: auto_clean_expired_captcha_job
+[2024-10-07 16:28:16,304: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[1131fa31-5f39-45ee-801d-9c0e3aae1625]: Clean task success: auto_clean_expired_captcha_job
+[2024-10-07 16:28:16,305: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[1131fa31-5f39-45ee-801d-9c0e3aae1625]: Start clean task: auto_clean_black_token_job
+[2024-10-07 16:28:16,326: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[1131fa31-5f39-45ee-801d-9c0e3aae1625]: Clean task success: auto_clean_black_token_job
+[2024-10-07 16:28:16,326: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[1131fa31-5f39-45ee-801d-9c0e3aae1625]: Start clean task: auto_clean_tmp_file_job
+[2024-10-07 16:28:16,340: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[1131fa31-5f39-45ee-801d-9c0e3aae1625]: Clean task success: auto_clean_tmp_file_job
+[2024-10-07 16:28:16,342: INFO/MainProcess] Task common.tasks.clean_celery_periodic_tasks[1131fa31-5f39-45ee-801d-9c0e3aae1625] succeeded in 0.12540009524673223s: None
+[2024-10-07 16:28:16,375: INFO/MainProcess] Task common.tasks.create_or_update_registered_periodic_tasks[9227a85f-fa4c-4a36-a7dc-eb06ea494cf2] succeeded in 0.14665896072983742s: None
+[2024-10-07 16:28:21,009: INFO/MainProcess] Events of group {task} enabled by remote.
+[2024-10-07 16:29:16,317: INFO/MainProcess] Task common.tasks.check_server_performance_period[251d1b1c-0d84-4cc2-a331-97a2ce26c964] received
+[2024-10-07 16:29:16,329: INFO/MainProcess] Task common.tasks.check_server_performance_period[251d1b1c-0d84-4cc2-a331-97a2ce26c964] succeeded in 0.010958464816212654s: None
+[2024-10-07 16:30:16,299: INFO/MainProcess] Task common.tasks.check_server_performance_period[085839b1-5892-489d-8ad4-e2879450e293] received
+[2024-10-07 16:30:16,375: INFO/MainProcess] Task common.tasks.check_server_performance_period[085839b1-5892-489d-8ad4-e2879450e293] succeeded in 0.07420161366462708s: None
+[2024-10-07 16:31:16,299: INFO/MainProcess] Task common.tasks.check_server_performance_period[a2ed7599-6ef6-4f53-8a6f-3bd10ba324ea] received
+[2024-10-07 16:31:16,309: INFO/MainProcess] Task common.tasks.check_server_performance_period[a2ed7599-6ef6-4f53-8a6f-3bd10ba324ea] succeeded in 0.009095756337046623s: None
+[2024-10-07 16:32:16,303: INFO/MainProcess] Task common.tasks.check_server_performance_period[1ee783ac-6c1c-4e9c-84ff-7beb75a571db] received
+[2024-10-07 16:32:16,317: INFO/MainProcess] Task common.tasks.check_server_performance_period[1ee783ac-6c1c-4e9c-84ff-7beb75a571db] succeeded in 0.011670288629829884s: None
+[2024-10-07 16:33:16,302: INFO/MainProcess] Task common.tasks.check_server_performance_period[0fb1c2be-1962-4998-8756-d4c1ca3570d2] received
+[2024-10-07 16:33:16,321: INFO/MainProcess] Task common.tasks.check_server_performance_period[0fb1c2be-1962-4998-8756-d4c1ca3570d2] succeeded in 0.017786304466426373s: None
+[2024-10-07 16:34:16,304: INFO/MainProcess] Task common.tasks.check_server_performance_period[eba751ac-fb07-4c60-84d1-acff1de4750a] received
+[2024-10-07 16:34:16,316: INFO/MainProcess] Task common.tasks.check_server_performance_period[eba751ac-fb07-4c60-84d1-acff1de4750a] succeeded in 0.00995322410017252s: None
+[2024-10-07 16:35:16,305: INFO/MainProcess] Task common.tasks.check_server_performance_period[b60c8840-04c1-4805-a793-5d4fea003b51] received
+[2024-10-07 16:35:16,314: INFO/MainProcess] Task common.tasks.check_server_performance_period[b60c8840-04c1-4805-a793-5d4fea003b51] succeeded in 0.00813325121998787s: None
+[2024-10-07 16:36:16,306: INFO/MainProcess] Task common.tasks.check_server_performance_period[80a1fdb3-b7c6-40dd-875e-3f5c70498e99] received
+[2024-10-07 16:36:16,317: INFO/MainProcess] Task common.tasks.check_server_performance_period[80a1fdb3-b7c6-40dd-875e-3f5c70498e99] succeeded in 0.008743691258132458s: None
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+/data/xadmin/py312/lib64/python3.12/site-packages/celery/platforms.py:829: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@localhost.localdomain v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Linux-5.14.0-362.el9.x86_64-x86_64-with-glibc2.34 2024-10-07 16:37:08
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         server:0x7fe9ddc46d80
+- ** ---------- .> transport:   redis://:**@redis:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 10 (thread)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . common.tasks.auto_clean_monitor_logs
+  . common.tasks.check_server_performance_period
+  . common.tasks.clean_celery_periodic_tasks
+  . common.tasks.create_or_update_registered_periodic_tasks
+  . common.tasks.send_mail_async
+  . common.tasks.send_mail_attachment_async
+  . common.utils.verify_code.send_sms_async
+  . imagekit.cachefiles.backends._generate_file
+  . notifications.notifications.publish_task
+
+[2024-10-07 16:37:08,189: INFO/MainProcess] Connected to redis://:**@redis:6379/3
+[2024-10-07 16:37:08,272: INFO/MainProcess] celery@localhost.localdomain ready.
+[2024-10-07 16:37:08,274: INFO/MainProcess] Task common.tasks.check_server_performance_period[bdd546cb-de14-4d1b-aa88-6241a506b4f7] received
+[2024-10-07 16:37:08,290: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[5310b3c7-c270-4019-bf3e-40e3cbaa44f3] received
+[2024-10-07 16:37:08,313: INFO/MainProcess] Task common.tasks.clean_celery_periodic_tasks[5ed83fd8-ad93-4cc0-ab1f-e60918b39311] received
+[2024-10-07 16:37:08,349: INFO/MainProcess] Task common.tasks.create_or_update_registered_periodic_tasks[37194d39-c83c-4bad-9a2e-fbd61ddaea02] received
+[2024-10-07 16:37:08,405: INFO/MainProcess] Task common.tasks.check_server_performance_period[bdd546cb-de14-4d1b-aa88-6241a506b4f7] succeeded in 0.12894906383007765s: None
+[2024-10-07 16:37:08,407: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[5310b3c7-c270-4019-bf3e-40e3cbaa44f3] succeeded in 0.09558434877544641s: None
+[2024-10-07 16:37:08,412: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[5ed83fd8-ad93-4cc0-ab1f-e60918b39311]: Start clean celery periodic tasks.
+[2024-10-07 16:37:08,413: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[5ed83fd8-ad93-4cc0-ab1f-e60918b39311]: Start clean task: system.tasks.auto_clean_operation_job
+[2024-10-07 16:37:08,469: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[5ed83fd8-ad93-4cc0-ab1f-e60918b39311]: Clean task success: system.tasks.auto_clean_operation_job
+[2024-10-07 16:37:08,470: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[5ed83fd8-ad93-4cc0-ab1f-e60918b39311]: Start clean task: system.tasks.auto_clean_black_token_job
+[2024-10-07 16:37:08,500: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[5ed83fd8-ad93-4cc0-ab1f-e60918b39311]: Clean task success: system.tasks.auto_clean_black_token_job
+[2024-10-07 16:37:08,501: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[5ed83fd8-ad93-4cc0-ab1f-e60918b39311]: Start clean task: system.tasks.auto_clean_tmp_file_job
+[2024-10-07 16:37:08,546: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[5ed83fd8-ad93-4cc0-ab1f-e60918b39311]: Clean task success: system.tasks.auto_clean_tmp_file_job
+[2024-10-07 16:37:08,547: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[5ed83fd8-ad93-4cc0-ab1f-e60918b39311]: Start clean task: captcha.tasks.auto_clean_expired_captcha_job
+[2024-10-07 16:37:08,573: INFO/MainProcess] common.tasks.clean_celery_periodic_tasks[5ed83fd8-ad93-4cc0-ab1f-e60918b39311]: Clean task success: captcha.tasks.auto_clean_expired_captcha_job
+[2024-10-07 16:37:08,578: INFO/MainProcess] Task common.tasks.clean_celery_periodic_tasks[5ed83fd8-ad93-4cc0-ab1f-e60918b39311] succeeded in 0.24302349984645844s: None
+[2024-10-07 16:37:08,614: INFO/MainProcess] Task common.tasks.create_or_update_registered_periodic_tasks[37194d39-c83c-4bad-9a2e-fbd61ddaea02] succeeded in 0.2563776848837733s: None
+[2024-10-07 16:37:13,903: INFO/MainProcess] Events of group {task} enabled by remote.
+[2024-10-07 16:38:08,485: INFO/MainProcess] Task common.tasks.check_server_performance_period[c5d8e339-f9d6-4af7-9a32-f36a6766f1b9] received
+[2024-10-07 16:38:08,506: INFO/MainProcess] invalid cache <class 'notifications.models.message.MessageContent'>
+[2024-10-07 16:38:08,510: INFO/MainProcess] invalid_response_cache cache_key:magic_cache_response_UserSiteMessageViewSet_unread_1_*
+[2024-10-07 16:38:08,510: INFO/MainProcess] invalid_response_cache cache_key:magic_cache_response_UserSiteMessageViewSet_list_1_*
+[2024-10-07 16:38:08,543: INFO/MainProcess] Task common.tasks.check_server_performance_period[c5d8e339-f9d6-4af7-9a32-f36a6766f1b9] succeeded in 0.05658858176320791s: None
+[2024-10-07 16:39:08,485: INFO/MainProcess] Task common.tasks.check_server_performance_period[042ceba1-a137-4a73-8666-bc88ed7856b5] received
+[2024-10-07 16:39:08,498: INFO/MainProcess] Task common.tasks.check_server_performance_period[042ceba1-a137-4a73-8666-bc88ed7856b5] succeeded in 0.01126118004322052s: None
+[2024-10-07 16:40:08,485: INFO/MainProcess] Task common.tasks.check_server_performance_period[dfaa4035-ad52-4758-bb62-06c0e79f2df5] received
+[2024-10-07 16:40:08,497: INFO/MainProcess] Task common.tasks.check_server_performance_period[dfaa4035-ad52-4758-bb62-06c0e79f2df5] succeeded in 0.01027436088770628s: None
+[2024-10-07 16:41:08,485: INFO/MainProcess] Task common.tasks.check_server_performance_period[adecfb6f-c2bb-4aba-86ad-65a0845e3034] received
+[2024-10-07 16:41:08,497: INFO/MainProcess] Task common.tasks.check_server_performance_period[adecfb6f-c2bb-4aba-86ad-65a0845e3034] succeeded in 0.008541470393538475s: None
+[2024-10-07 16:42:08,485: INFO/MainProcess] Task common.tasks.check_server_performance_period[03e67282-273b-4e1e-b27b-a9de4418fee9] received
+[2024-10-07 16:42:08,498: INFO/MainProcess] Task common.tasks.check_server_performance_period[03e67282-273b-4e1e-b27b-a9de4418fee9] succeeded in 0.012046641670167446s: None
+[2024-10-07 16:43:08,486: INFO/MainProcess] Task common.tasks.check_server_performance_period[a387d3a1-f886-4d14-a050-4a3c27c09096] received
+[2024-10-07 16:43:08,497: INFO/MainProcess] Task common.tasks.check_server_performance_period[a387d3a1-f886-4d14-a050-4a3c27c09096] succeeded in 0.009727878496050835s: None
+[2024-10-07 16:44:08,488: INFO/MainProcess] Task common.tasks.check_server_performance_period[496f1edd-47c6-40f6-a8ed-406415ff88ca] received
+[2024-10-07 16:44:08,500: INFO/MainProcess] Task common.tasks.check_server_performance_period[496f1edd-47c6-40f6-a8ed-406415ff88ca] succeeded in 0.010393012315034866s: None
+[2024-10-07 16:45:08,489: INFO/MainProcess] Task common.tasks.check_server_performance_period[ff4056d8-c006-440f-81d7-e81d1584a2c8] received
+[2024-10-07 16:45:08,501: INFO/MainProcess] Task common.tasks.check_server_performance_period[ff4056d8-c006-440f-81d7-e81d1584a2c8] succeeded in 0.011087439954280853s: None
+[2024-10-07 16:46:08,490: INFO/MainProcess] Task common.tasks.check_server_performance_period[aef89cfe-559b-42e4-b374-caab5d6a5581] received
+[2024-10-07 16:46:08,499: INFO/MainProcess] Task common.tasks.check_server_performance_period[aef89cfe-559b-42e4-b374-caab5d6a5581] succeeded in 0.007980714552104473s: None
+[2024-10-07 16:47:08,492: INFO/MainProcess] Task common.tasks.check_server_performance_period[8fa4b55c-4192-47aa-8870-6ec29a865156] received
+[2024-10-07 16:47:08,504: INFO/MainProcess] Task common.tasks.check_server_performance_period[8fa4b55c-4192-47aa-8870-6ec29a865156] succeeded in 0.010043148882687092s: None
+[2024-10-07 16:48:08,491: INFO/MainProcess] Task common.tasks.check_server_performance_period[1494e6e9-a527-4086-8e67-e426438c72c0] received
+[2024-10-07 16:48:08,502: INFO/MainProcess] Task common.tasks.check_server_performance_period[1494e6e9-a527-4086-8e67-e426438c72c0] succeeded in 0.0095973527058959s: None
+[2024-10-07 16:49:08,494: INFO/MainProcess] Task common.tasks.check_server_performance_period[8688753c-11c1-4faf-ad28-ecc90d396561] received
+[2024-10-07 16:49:08,510: WARNING/MainProcess] /data/xadmin/py312/lib64/python3.12/site-packages/celery/app/trace.py:662: RuntimeWarning: Exception raised outside body: OperationalError(1049, "Unknown database 'xadmin'"):
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 279, in ensure_connection
+    self.connect()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 256, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/__init__.py", line 121, in Connect
+    return Connection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 195, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb.OperationalError: (1049, "Unknown database 'xadmin'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/celery/app/trace.py", line 443, in trace_task
+    task.backend.store_result(
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/celery/backends/base.py", line 526, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_results/backends/database.py", line 147, in _store_result
+    self.TaskModel._default_manager.store_result(**task_props)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_results/managers.py", line 42, in _inner
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_results/managers.py", line 164, in store_result
+    obj, created = self.using(using).get_or_create(task_id=task_id,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1572, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 279, in ensure_connection
+    self.connect()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 256, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/__init__.py", line 121, in Connect
+    return Connection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 195, in __init__
+    super().__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (1049, "Unknown database 'xadmin'")
+
+  warn(RuntimeWarning(
+
+[2024-10-07 16:50:08,496: INFO/MainProcess] Task common.tasks.check_server_performance_period[03ddc1b3-df64-4823-bec2-e5ff2e9c0ff0] received
+[2024-10-07 16:51:08,498: INFO/MainProcess] Task common.tasks.check_server_performance_period[e4dc8792-926b-45e5-91ff-0fc8ab39f5fd] received
+[2024-10-07 16:51:08,511: WARNING/MainProcess] /data/xadmin/py312/lib64/python3.12/site-packages/celery/app/trace.py:662: RuntimeWarning: Exception raised outside body: ProgrammingError(1146, "Table 'xadmin.django_celery_results_taskresult' doesn't exist"):
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'xadmin.django_celery_results_taskresult' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/celery/app/trace.py", line 443, in trace_task
+    task.backend.store_result(
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/celery/backends/base.py", line 526, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_results/backends/database.py", line 147, in _store_result
+    self.TaskModel._default_manager.store_result(**task_props)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_results/managers.py", line 42, in _inner
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_results/managers.py", line 164, in store_result
+    obj, created = self.using(using).get_or_create(task_id=task_id,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/data/xadmin/py312/lib64/python3.12/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'xadmin.django_celery_results_taskresult' doesn't exist")
+
+  warn(RuntimeWarning(
+
+[2024-10-07 16:52:08,497: INFO/MainProcess] Task common.tasks.check_server_performance_period[e7f249e6-ccab-466e-a1fd-ab03f4386305] received
+[2024-10-07 16:52:08,511: INFO/MainProcess] Task common.tasks.check_server_performance_period[e7f249e6-ccab-466e-a1fd-ab03f4386305] succeeded in 0.012574853375554085s: None
+[2024-10-07 16:53:08,498: INFO/MainProcess] Task common.tasks.check_server_performance_period[c8a7cb2d-4e85-49d7-93fe-62227e910b80] received
+[2024-10-07 16:53:08,511: INFO/MainProcess] Task common.tasks.check_server_performance_period[c8a7cb2d-4e85-49d7-93fe-62227e910b80] succeeded in 0.011080682277679443s: None
+[2024-10-07 16:54:08,498: INFO/MainProcess] Task common.tasks.check_server_performance_period[ce93b427-bf24-4796-9c16-27b3a82b85e7] received
+[2024-10-07 16:54:08,509: INFO/MainProcess] Task common.tasks.check_server_performance_period[ce93b427-bf24-4796-9c16-27b3a82b85e7] succeeded in 0.01021468173712492s: None
+[2024-10-07 16:55:08,499: INFO/MainProcess] Task common.tasks.check_server_performance_period[fa86d180-fdd7-44d9-9592-a3834aaf13f1] received
+[2024-10-07 16:55:08,508: INFO/MainProcess] Task common.tasks.check_server_performance_period[fa86d180-fdd7-44d9-9592-a3834aaf13f1] succeeded in 0.007690932601690292s: None
+[2024-10-07 16:56:08,498: INFO/MainProcess] Task common.tasks.check_server_performance_period[14c90837-02fe-4748-bbbe-a543f6759114] received
+[2024-10-07 16:56:08,510: INFO/MainProcess] Task common.tasks.check_server_performance_period[14c90837-02fe-4748-bbbe-a543f6759114] succeeded in 0.01115818414837122s: None
+[2024-10-07 16:57:08,500: INFO/MainProcess] Task common.tasks.check_server_performance_period[cb2d6ab9-0602-4d2a-9941-eb82f1ed7558] received
+[2024-10-07 16:57:08,534: INFO/MainProcess] Task common.tasks.check_server_performance_period[cb2d6ab9-0602-4d2a-9941-eb82f1ed7558] succeeded in 0.03304734826087952s: None
+[2024-10-07 16:58:08,501: INFO/MainProcess] Task common.tasks.check_server_performance_period[18b3d663-b8e6-4f0c-af0a-081db43da4f2] received
+[2024-10-07 16:58:08,516: INFO/MainProcess] Task common.tasks.check_server_performance_period[18b3d663-b8e6-4f0c-af0a-081db43da4f2] succeeded in 0.013116744346916676s: None
+[2024-10-07 16:59:08,500: INFO/MainProcess] Task common.tasks.check_server_performance_period[0b05a1f0-bf0c-497f-bfab-fae189a0d0e5] received
+[2024-10-07 16:59:08,510: INFO/MainProcess] Task common.tasks.check_server_performance_period[0b05a1f0-bf0c-497f-bfab-fae189a0d0e5] succeeded in 0.009409133344888687s: None
+[2024-10-07 17:00:08,501: INFO/MainProcess] Task common.tasks.check_server_performance_period[c8bd278f-1570-4563-beb8-7f7104289555] received
+[2024-10-07 17:00:08,516: INFO/MainProcess] Task common.tasks.check_server_performance_period[c8bd278f-1570-4563-beb8-7f7104289555] succeeded in 0.012627656571567059s: None
+[2024-10-07 17:01:08,501: INFO/MainProcess] Task common.tasks.check_server_performance_period[93e999df-6f39-449c-add8-ff469f26bee2] received
+[2024-10-07 17:01:08,509: INFO/MainProcess] Task common.tasks.check_server_performance_period[93e999df-6f39-449c-add8-ff469f26bee2] succeeded in 0.007033088244497776s: None
+[2024-10-07 17:02:08,502: INFO/MainProcess] Task common.tasks.check_server_performance_period[c5305f32-9cba-48ca-9ca5-6499904e5d9f] received
+[2024-10-07 17:02:08,513: INFO/MainProcess] Task common.tasks.check_server_performance_period[c5305f32-9cba-48ca-9ca5-6499904e5d9f] succeeded in 0.009603583253920078s: None
+[2024-10-07 17:03:08,502: INFO/MainProcess] Task common.tasks.check_server_performance_period[71c929a2-1352-42b4-8168-120be08c1d13] received
+[2024-10-07 17:03:08,512: INFO/MainProcess] Task common.tasks.check_server_performance_period[71c929a2-1352-42b4-8168-120be08c1d13] succeeded in 0.008130456320941448s: None
+[2024-10-07 17:04:08,503: INFO/MainProcess] Task common.tasks.check_server_performance_period[ecd52004-e87e-4ce3-8c6b-3f676517c2ac] received
+[2024-10-07 17:04:08,513: INFO/MainProcess] Task common.tasks.check_server_performance_period[ecd52004-e87e-4ce3-8c6b-3f676517c2ac] succeeded in 0.008882994763553143s: None
+[2024-10-07 17:05:08,502: INFO/MainProcess] Task common.tasks.check_server_performance_period[7aef7fcb-ce81-4b2a-ac08-28937ea8e11a] received
+[2024-10-07 17:05:08,513: INFO/MainProcess] Task common.tasks.check_server_performance_period[7aef7fcb-ce81-4b2a-ac08-28937ea8e11a] succeeded in 0.009379256516695023s: None
+[2024-10-07 17:06:08,501: INFO/MainProcess] Task common.tasks.check_server_performance_period[17070976-2b6c-4ee1-a9fd-672b37219cb0] received
+[2024-10-07 17:06:08,522: INFO/MainProcess] Task common.tasks.check_server_performance_period[17070976-2b6c-4ee1-a9fd-672b37219cb0] succeeded in 0.014607153832912445s: None
+[2024-10-07 17:07:08,503: INFO/MainProcess] Task common.tasks.check_server_performance_period[19405324-c5ca-43a3-b3bf-0476975a8e8e] received
+[2024-10-07 17:07:08,515: INFO/MainProcess] Task common.tasks.check_server_performance_period[19405324-c5ca-43a3-b3bf-0476975a8e8e] succeeded in 0.00955202803015709s: None
+[2024-10-07 17:08:08,503: INFO/MainProcess] Task common.tasks.check_server_performance_period[17cfebfa-3674-432d-8ab6-8535e1d6fe4f] received
+[2024-10-07 17:08:08,515: INFO/MainProcess] Task common.tasks.check_server_performance_period[17cfebfa-3674-432d-8ab6-8535e1d6fe4f] succeeded in 0.010670207440853119s: None
+[2024-10-07 17:09:08,503: INFO/MainProcess] Task common.tasks.check_server_performance_period[b3e3e9fe-0e8d-4c43-8a32-bc24fa4d8e37] received
+[2024-10-07 17:09:08,512: INFO/MainProcess] Task common.tasks.check_server_performance_period[b3e3e9fe-0e8d-4c43-8a32-bc24fa4d8e37] succeeded in 0.007926185615360737s: None
+[2024-10-07 17:10:08,505: INFO/MainProcess] Task common.tasks.check_server_performance_period[c2db88e4-26aa-416a-ae30-5405d13a10bc] received
+[2024-10-07 17:10:08,517: INFO/MainProcess] Task common.tasks.check_server_performance_period[c2db88e4-26aa-416a-ae30-5405d13a10bc] succeeded in 0.01056782528758049s: None
+[2024-10-07 17:11:08,506: INFO/MainProcess] Task common.tasks.check_server_performance_period[24c76e00-a9c3-46ec-b8ed-d098eeb7d9a1] received
+[2024-10-07 17:11:08,518: INFO/MainProcess] Task common.tasks.check_server_performance_period[24c76e00-a9c3-46ec-b8ed-d098eeb7d9a1] succeeded in 0.010649843141436577s: None
+[2024-10-07 17:12:08,504: INFO/MainProcess] Task common.tasks.check_server_performance_period[af35e88e-a65a-40fd-9655-879c3fbb306b] received
+[2024-10-07 17:12:08,517: INFO/MainProcess] Task common.tasks.check_server_performance_period[af35e88e-a65a-40fd-9655-879c3fbb306b] succeeded in 0.011739350855350494s: None
+[2024-10-07 17:13:08,505: INFO/MainProcess] Task common.tasks.check_server_performance_period[fe20b329-8c1c-457f-a329-f580867cb311] received
+[2024-10-07 17:13:08,517: INFO/MainProcess] Task common.tasks.check_server_performance_period[fe20b329-8c1c-457f-a329-f580867cb311] succeeded in 0.010155309922993183s: None
+[2024-10-07 17:14:08,506: INFO/MainProcess] Task common.tasks.check_server_performance_period[fb2833ae-7301-49cf-9f00-8badf3325306] received
+[2024-10-07 17:14:08,517: INFO/MainProcess] Task common.tasks.check_server_performance_period[fb2833ae-7301-49cf-9f00-8badf3325306] succeeded in 0.009388444945216179s: None
+[2024-10-07 17:15:08,507: INFO/MainProcess] Task common.tasks.check_server_performance_period[1b723e10-bda3-4faa-bf8e-064c4bc63a10] received
+[2024-10-07 17:15:08,517: INFO/MainProcess] Task common.tasks.check_server_performance_period[1b723e10-bda3-4faa-bf8e-064c4bc63a10] succeeded in 0.009156385436654091s: None
+[2024-10-07 17:16:08,507: INFO/MainProcess] Task common.tasks.check_server_performance_period[bfbcb493-9d5c-470b-b0c8-c8abc56ec6fb] received
+[2024-10-07 17:16:08,520: INFO/MainProcess] Task common.tasks.check_server_performance_period[bfbcb493-9d5c-470b-b0c8-c8abc56ec6fb] succeeded in 0.010850434191524982s: None
+[2024-10-07 17:17:08,507: INFO/MainProcess] Task common.tasks.check_server_performance_period[a88d5abe-4a72-4fbd-abbf-daf3dc8a47af] received
+[2024-10-07 17:17:08,521: INFO/MainProcess] Task common.tasks.check_server_performance_period[a88d5abe-4a72-4fbd-abbf-daf3dc8a47af] succeeded in 0.01272776909172535s: None
+[2024-10-07 17:18:08,508: INFO/MainProcess] Task common.tasks.check_server_performance_period[3e513ca9-3fb9-46c3-a588-7a08caf15e33] received
+[2024-10-07 17:18:08,519: INFO/MainProcess] Task common.tasks.check_server_performance_period[3e513ca9-3fb9-46c3-a588-7a08caf15e33] succeeded in 0.00978872086852789s: None
+[2024-10-07 17:19:08,508: INFO/MainProcess] Task common.tasks.check_server_performance_period[a6623c61-7da6-4ac4-8c21-d4de22332da1] received
+[2024-10-07 17:19:08,521: INFO/MainProcess] Task common.tasks.check_server_performance_period[a6623c61-7da6-4ac4-8c21-d4de22332da1] succeeded in 0.010997920297086239s: None
+[2024-10-07 17:20:08,508: INFO/MainProcess] Task common.tasks.check_server_performance_period[06a46418-7191-4793-bdc8-e0ec71eadc8d] received
+[2024-10-07 17:20:08,520: INFO/MainProcess] Task common.tasks.check_server_performance_period[06a46418-7191-4793-bdc8-e0ec71eadc8d] succeeded in 0.010119627229869366s: None
+[2024-10-07 17:21:08,509: INFO/MainProcess] Task common.tasks.check_server_performance_period[7218d682-a6f8-4a89-a4d8-d550e0313648] received
+[2024-10-07 17:21:08,521: INFO/MainProcess] Task common.tasks.check_server_performance_period[7218d682-a6f8-4a89-a4d8-d550e0313648] succeeded in 0.010969394817948341s: None
+[2024-10-07 17:22:08,510: INFO/MainProcess] Task common.tasks.check_server_performance_period[543d8cbc-07ee-4116-b8d3-44f90efa746a] received
+[2024-10-07 17:22:08,521: INFO/MainProcess] Task common.tasks.check_server_performance_period[543d8cbc-07ee-4116-b8d3-44f90efa746a] succeeded in 0.009725861251354218s: None
+[2024-10-07 17:23:08,511: INFO/MainProcess] Task common.tasks.check_server_performance_period[a7db9072-89b1-40a1-9cd8-c1541fcade98] received
+[2024-10-07 17:23:08,521: INFO/MainProcess] Task common.tasks.check_server_performance_period[a7db9072-89b1-40a1-9cd8-c1541fcade98] succeeded in 0.00885388907045126s: None
+[2024-10-07 17:24:08,510: INFO/MainProcess] Task common.tasks.check_server_performance_period[fc8a7c7c-a7d4-49cb-9830-8934e3160b1a] received
+[2024-10-07 17:24:08,523: INFO/MainProcess] Task common.tasks.check_server_performance_period[fc8a7c7c-a7d4-49cb-9830-8934e3160b1a] succeeded in 0.011658426374197006s: None
+[2024-10-07 17:25:08,511: INFO/MainProcess] Task common.tasks.check_server_performance_period[8e68853e-7b9e-4768-87cc-a9a9636fe374] received
+[2024-10-07 17:25:08,520: INFO/MainProcess] Task common.tasks.check_server_performance_period[8e68853e-7b9e-4768-87cc-a9a9636fe374] succeeded in 0.007688673213124275s: None
+[2024-10-07 17:26:08,510: INFO/MainProcess] Task common.tasks.check_server_performance_period[d0472327-7aae-4365-94e8-7c2382c78e43] received
+[2024-10-07 17:26:08,521: INFO/MainProcess] Task common.tasks.check_server_performance_period[d0472327-7aae-4365-94e8-7c2382c78e43] succeeded in 0.010246176272630692s: None
+[2024-10-07 17:27:08,513: INFO/MainProcess] Task common.tasks.check_server_performance_period[ac55997b-0262-452c-9d44-fb8ead0090d2] received
+[2024-10-07 17:27:08,527: INFO/MainProcess] Task common.tasks.check_server_performance_period[ac55997b-0262-452c-9d44-fb8ead0090d2] succeeded in 0.011204157024621964s: None
+[2024-10-07 17:28:08,512: INFO/MainProcess] Task common.tasks.check_server_performance_period[74be3034-2ead-4b61-9708-49c141d8e5c0] received
+[2024-10-07 17:28:08,522: INFO/MainProcess] Task common.tasks.check_server_performance_period[74be3034-2ead-4b61-9708-49c141d8e5c0] succeeded in 0.008455906063318253s: None
+[2024-10-07 17:29:08,513: INFO/MainProcess] Task common.tasks.check_server_performance_period[ab1f0945-36ec-4e7c-a943-f157f1e0716c] received
+[2024-10-07 17:29:08,524: INFO/MainProcess] Task common.tasks.check_server_performance_period[ab1f0945-36ec-4e7c-a943-f157f1e0716c] succeeded in 0.009461897425353527s: None
+[2024-10-07 17:30:08,512: INFO/MainProcess] Task common.tasks.check_server_performance_period[130f2f28-dd7b-4ff3-bf68-75ffa6e098c7] received
+[2024-10-07 17:30:08,526: INFO/MainProcess] Task common.tasks.check_server_performance_period[130f2f28-dd7b-4ff3-bf68-75ffa6e098c7] succeeded in 0.011582733131945133s: None
+[2024-10-07 17:31:08,512: INFO/MainProcess] Task common.tasks.check_server_performance_period[ba5a3fcc-48c8-47b9-8277-93a2723eeb09] received
+[2024-10-07 17:31:08,525: INFO/MainProcess] Task common.tasks.check_server_performance_period[ba5a3fcc-48c8-47b9-8277-93a2723eeb09] succeeded in 0.01107760053128004s: None
+[2024-10-07 17:32:08,513: INFO/MainProcess] Task common.tasks.check_server_performance_period[47d84e7a-391d-40b7-a6fa-41d27017f568] received
+[2024-10-07 17:32:08,524: INFO/MainProcess] Task common.tasks.check_server_performance_period[47d84e7a-391d-40b7-a6fa-41d27017f568] succeeded in 0.010695118457078934s: None
+[2024-10-07 17:33:08,515: INFO/MainProcess] Task common.tasks.check_server_performance_period[ec1041b4-1fae-4d81-98b2-c30f74f0536f] received
+[2024-10-07 17:33:08,526: INFO/MainProcess] Task common.tasks.check_server_performance_period[ec1041b4-1fae-4d81-98b2-c30f74f0536f] succeeded in 0.009696553461253643s: None
+[2024-10-07 17:34:08,516: INFO/MainProcess] Task common.tasks.check_server_performance_period[cb3238c0-e052-4f0e-be4d-fb9ffa456f96] received
+[2024-10-07 17:34:08,526: INFO/MainProcess] Task common.tasks.check_server_performance_period[cb3238c0-e052-4f0e-be4d-fb9ffa456f96] succeeded in 0.008668684400618076s: None
+[2024-10-07 17:35:08,516: INFO/MainProcess] Task common.tasks.check_server_performance_period[1a5daca8-1aa5-4403-addc-5505b8d1d042] received
+[2024-10-07 17:35:08,527: INFO/MainProcess] Task common.tasks.check_server_performance_period[1a5daca8-1aa5-4403-addc-5505b8d1d042] succeeded in 0.009828240610659122s: None
+[2024-10-07 17:36:08,517: INFO/MainProcess] Task common.tasks.check_server_performance_period[20739e5a-deb8-475f-b608-b21c8d730349] received
+[2024-10-07 17:36:08,530: INFO/MainProcess] Task common.tasks.check_server_performance_period[20739e5a-deb8-475f-b608-b21c8d730349] succeeded in 0.010906959883868694s: None
+[2024-10-07 17:37:08,437: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[c6b480a8-1f0d-4a4b-b3a9-fcca3fc8417e] received
+[2024-10-07 17:37:08,446: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[c6b480a8-1f0d-4a4b-b3a9-fcca3fc8417e] succeeded in 0.008000751957297325s: None
+[2024-10-07 17:37:08,517: INFO/MainProcess] Task common.tasks.check_server_performance_period[8b46a6c4-61ef-4e27-8fe4-3524542e6855] received
+[2024-10-07 17:37:08,525: INFO/MainProcess] Task common.tasks.check_server_performance_period[8b46a6c4-61ef-4e27-8fe4-3524542e6855] succeeded in 0.006886356510221958s: None
+[2024-10-07 17:38:08,518: INFO/MainProcess] Task common.tasks.check_server_performance_period[a86449fb-096a-4e04-8708-c91f4a95de97] received
+[2024-10-07 17:38:08,531: INFO/MainProcess] Task common.tasks.check_server_performance_period[a86449fb-096a-4e04-8708-c91f4a95de97] succeeded in 0.01097600907087326s: None
+[2024-10-07 17:39:08,518: INFO/MainProcess] Task common.tasks.check_server_performance_period[3d072bb4-0164-4ac1-8a39-79712af5e01d] received
+[2024-10-07 17:39:08,530: INFO/MainProcess] Task common.tasks.check_server_performance_period[3d072bb4-0164-4ac1-8a39-79712af5e01d] succeeded in 0.010780004784464836s: None
+[2024-10-07 17:40:08,518: INFO/MainProcess] Task common.tasks.check_server_performance_period[3d0edc29-efeb-49b7-8e22-90fe3a8d94e3] received
+[2024-10-07 17:40:08,527: INFO/MainProcess] Task common.tasks.check_server_performance_period[3d0edc29-efeb-49b7-8e22-90fe3a8d94e3] succeeded in 0.007662971504032612s: None
+[2024-10-07 17:41:08,518: INFO/MainProcess] Task common.tasks.check_server_performance_period[5a274ad4-0eb5-4fb0-8ed3-4d43f7c9152a] received
+[2024-10-07 17:41:08,532: INFO/MainProcess] Task common.tasks.check_server_performance_period[5a274ad4-0eb5-4fb0-8ed3-4d43f7c9152a] succeeded in 0.012508963234722614s: None
+[2024-10-07 17:42:08,519: INFO/MainProcess] Task common.tasks.check_server_performance_period[2cca67e9-cc34-489f-b57d-26046bc3c597] received
+[2024-10-07 17:42:08,528: INFO/MainProcess] Task common.tasks.check_server_performance_period[2cca67e9-cc34-489f-b57d-26046bc3c597] succeeded in 0.008234536275267601s: None
+[2024-10-07 17:43:08,519: INFO/MainProcess] Task common.tasks.check_server_performance_period[6d3ee352-0055-4717-92a1-7c70f0b264e8] received
+[2024-10-07 17:43:08,534: INFO/MainProcess] Task common.tasks.check_server_performance_period[6d3ee352-0055-4717-92a1-7c70f0b264e8] succeeded in 0.014147834852337837s: None
+[2024-10-07 17:44:08,519: INFO/MainProcess] Task common.tasks.check_server_performance_period[13f8f531-79fe-4d05-8644-02e34a2844ff] received
+[2024-10-07 17:44:08,528: INFO/MainProcess] Task common.tasks.check_server_performance_period[13f8f531-79fe-4d05-8644-02e34a2844ff] succeeded in 0.007161428220570087s: None
+[2024-10-07 17:45:08,520: INFO/MainProcess] Task common.tasks.check_server_performance_period[e5795139-870a-44ab-95db-a46836f77f2e] received
+[2024-10-07 17:45:08,532: INFO/MainProcess] Task common.tasks.check_server_performance_period[e5795139-870a-44ab-95db-a46836f77f2e] succeeded in 0.010192307643592358s: None
+[2024-10-07 17:46:08,519: INFO/MainProcess] Task common.tasks.check_server_performance_period[5b127b49-60db-484c-80a1-7b03feeb29a1] received
+[2024-10-07 17:46:08,531: INFO/MainProcess] Task common.tasks.check_server_performance_period[5b127b49-60db-484c-80a1-7b03feeb29a1] succeeded in 0.01171999890357256s: None
+[2024-10-07 17:47:08,520: INFO/MainProcess] Task common.tasks.check_server_performance_period[3a138e81-e3eb-4258-a41c-098814acd130] received
+[2024-10-07 17:47:08,533: INFO/MainProcess] Task common.tasks.check_server_performance_period[3a138e81-e3eb-4258-a41c-098814acd130] succeeded in 0.011895531788468361s: None
+[2024-10-07 17:48:08,521: INFO/MainProcess] Task common.tasks.check_server_performance_period[56077615-43ef-4787-833a-c62aaf6bea42] received
+[2024-10-07 17:48:08,535: INFO/MainProcess] Task common.tasks.check_server_performance_period[56077615-43ef-4787-833a-c62aaf6bea42] succeeded in 0.011604420840740204s: None
+[2024-10-07 17:49:08,520: INFO/MainProcess] Task common.tasks.check_server_performance_period[ccbe5c0e-3438-4447-8b30-0e4aef6bbe13] received
+[2024-10-07 17:49:08,533: INFO/MainProcess] Task common.tasks.check_server_performance_period[ccbe5c0e-3438-4447-8b30-0e4aef6bbe13] succeeded in 0.01155408751219511s: None
+[2024-10-07 17:50:08,522: INFO/MainProcess] Task common.tasks.check_server_performance_period[c04d3f86-c460-47ef-a22a-4a5763335154] received
+[2024-10-07 17:50:08,533: INFO/MainProcess] Task common.tasks.check_server_performance_period[c04d3f86-c460-47ef-a22a-4a5763335154] succeeded in 0.009727255441248417s: None
+[2024-10-07 17:51:08,522: INFO/MainProcess] Task common.tasks.check_server_performance_period[08f79e59-cf27-4c7a-8da4-a5d5c2790711] received
+[2024-10-07 17:51:08,531: INFO/MainProcess] Task common.tasks.check_server_performance_period[08f79e59-cf27-4c7a-8da4-a5d5c2790711] succeeded in 0.007241467013955116s: None
+[2024-10-07 17:52:08,523: INFO/MainProcess] Task common.tasks.check_server_performance_period[90c6ceae-f181-4c82-aa00-fe9fe7449ff2] received
+[2024-10-07 17:52:08,532: INFO/MainProcess] Task common.tasks.check_server_performance_period[90c6ceae-f181-4c82-aa00-fe9fe7449ff2] succeeded in 0.00849892757833004s: None
+[2024-10-07 17:53:08,523: INFO/MainProcess] Task common.tasks.check_server_performance_period[f3bac3d7-a1e1-4542-ad5f-b8b51515701c] received
+[2024-10-07 17:53:08,535: INFO/MainProcess] Task common.tasks.check_server_performance_period[f3bac3d7-a1e1-4542-ad5f-b8b51515701c] succeeded in 0.009776012971997261s: None
+[2024-10-07 17:54:08,524: INFO/MainProcess] Task common.tasks.check_server_performance_period[d626e878-bd0b-4a88-becb-84dc53e1b6ff] received
+[2024-10-07 17:54:08,539: INFO/MainProcess] Task common.tasks.check_server_performance_period[d626e878-bd0b-4a88-becb-84dc53e1b6ff] succeeded in 0.011827992275357246s: None
+[2024-10-07 17:55:08,523: INFO/MainProcess] Task common.tasks.check_server_performance_period[518155c5-f059-4b2c-af38-8445d7d7251b] received
+[2024-10-07 17:55:08,534: INFO/MainProcess] Task common.tasks.check_server_performance_period[518155c5-f059-4b2c-af38-8445d7d7251b] succeeded in 0.009554575197398663s: None
+[2024-10-07 17:56:08,524: INFO/MainProcess] Task common.tasks.check_server_performance_period[593c45f9-d8a8-4529-a09e-8114df91f9e2] received
+[2024-10-07 17:56:08,535: INFO/MainProcess] Task common.tasks.check_server_performance_period[593c45f9-d8a8-4529-a09e-8114df91f9e2] succeeded in 0.009051424451172352s: None
+[2024-10-07 17:57:08,524: INFO/MainProcess] Task common.tasks.check_server_performance_period[35ad6c21-63c1-494d-bfce-0eceed4b3272] received
+[2024-10-07 17:57:08,540: INFO/MainProcess] Task common.tasks.check_server_performance_period[35ad6c21-63c1-494d-bfce-0eceed4b3272] succeeded in 0.013633600436151028s: None
+[2024-10-07 17:58:08,524: INFO/MainProcess] Task common.tasks.check_server_performance_period[445c7b5f-7232-44da-a522-e1738d6f0954] received
+[2024-10-07 17:58:08,538: INFO/MainProcess] Task common.tasks.check_server_performance_period[445c7b5f-7232-44da-a522-e1738d6f0954] succeeded in 0.011998011730611324s: None
+[2024-10-07 17:59:08,525: INFO/MainProcess] Task common.tasks.check_server_performance_period[7161e632-eaca-49db-80a8-0b56bee192e4] received
+[2024-10-07 17:59:08,539: INFO/MainProcess] Task common.tasks.check_server_performance_period[7161e632-eaca-49db-80a8-0b56bee192e4] succeeded in 0.012407530099153519s: None
+[2024-10-07 18:00:08,525: INFO/MainProcess] Task common.tasks.check_server_performance_period[3b3224ec-07ce-4851-b054-6fe1c1bdafb8] received
+[2024-10-07 18:00:08,535: INFO/MainProcess] Task common.tasks.check_server_performance_period[3b3224ec-07ce-4851-b054-6fe1c1bdafb8] succeeded in 0.00852684210985899s: None
+[2024-10-07 18:01:08,526: INFO/MainProcess] Task common.tasks.check_server_performance_period[554239ca-6f59-493b-9cc9-70483e23614b] received
+[2024-10-07 18:01:08,537: INFO/MainProcess] Task common.tasks.check_server_performance_period[554239ca-6f59-493b-9cc9-70483e23614b] succeeded in 0.009151224046945572s: None
+[2024-10-07 18:02:08,524: INFO/MainProcess] Task common.tasks.check_server_performance_period[6fc924c7-72ee-4126-a0a7-73c8e71ecb8f] received
+[2024-10-07 18:02:08,534: INFO/MainProcess] Task common.tasks.check_server_performance_period[6fc924c7-72ee-4126-a0a7-73c8e71ecb8f] succeeded in 0.009034420363605022s: None
+[2024-10-07 18:03:08,527: INFO/MainProcess] Task common.tasks.check_server_performance_period[d9d30ba5-4c5e-4698-a9f5-71a4516dad40] received
+[2024-10-07 18:03:08,538: INFO/MainProcess] Task common.tasks.check_server_performance_period[d9d30ba5-4c5e-4698-a9f5-71a4516dad40] succeeded in 0.010350391268730164s: None
+[2024-10-07 18:04:08,525: INFO/MainProcess] Task common.tasks.check_server_performance_period[8c8a4cc9-a819-455d-9b27-d840cce612e1] received
+[2024-10-07 18:04:08,535: INFO/MainProcess] Task common.tasks.check_server_performance_period[8c8a4cc9-a819-455d-9b27-d840cce612e1] succeeded in 0.008651340380311012s: None
+[2024-10-07 18:05:08,526: INFO/MainProcess] Task common.tasks.check_server_performance_period[c61e3f69-3d27-469e-b59b-be0c6ccbb3ee] received
+[2024-10-07 18:05:08,538: INFO/MainProcess] Task common.tasks.check_server_performance_period[c61e3f69-3d27-469e-b59b-be0c6ccbb3ee] succeeded in 0.011013058014214039s: None
+[2024-10-07 18:06:08,527: INFO/MainProcess] Task common.tasks.check_server_performance_period[98a56c86-6223-455e-b520-3c77a8742c98] received
+[2024-10-07 18:06:08,541: INFO/MainProcess] Task common.tasks.check_server_performance_period[98a56c86-6223-455e-b520-3c77a8742c98] succeeded in 0.012007733806967735s: None
+[2024-10-07 18:07:08,528: INFO/MainProcess] Task common.tasks.check_server_performance_period[6f3a96d6-66f9-4e8e-9d15-b4c3d08dde5f] received
+[2024-10-07 18:07:08,539: INFO/MainProcess] Task common.tasks.check_server_performance_period[6f3a96d6-66f9-4e8e-9d15-b4c3d08dde5f] succeeded in 0.009946771897375584s: None
+[2024-10-07 18:08:08,527: INFO/MainProcess] Task common.tasks.check_server_performance_period[17cff587-dcb2-4f6a-927f-f3656d1c76e9] received
+[2024-10-07 18:08:08,537: INFO/MainProcess] Task common.tasks.check_server_performance_period[17cff587-dcb2-4f6a-927f-f3656d1c76e9] succeeded in 0.00896396953612566s: None
+[2024-10-07 18:09:08,527: INFO/MainProcess] Task common.tasks.check_server_performance_period[f00b3cbf-400c-4f09-9b7f-aea660a16d3a] received
+[2024-10-07 18:09:08,538: INFO/MainProcess] Task common.tasks.check_server_performance_period[f00b3cbf-400c-4f09-9b7f-aea660a16d3a] succeeded in 0.00994359701871872s: None
+[2024-10-07 18:10:08,529: INFO/MainProcess] Task common.tasks.check_server_performance_period[fb800be6-2c99-4c62-a92f-d734d32fc049] received
+[2024-10-07 18:10:08,542: INFO/MainProcess] Task common.tasks.check_server_performance_period[fb800be6-2c99-4c62-a92f-d734d32fc049] succeeded in 0.01051842700690031s: None
+[2024-10-07 18:11:08,528: INFO/MainProcess] Task common.tasks.check_server_performance_period[21f2dd74-8021-44d4-b4dd-2f5108c3a62b] received
+[2024-10-07 18:11:08,540: INFO/MainProcess] Task common.tasks.check_server_performance_period[21f2dd74-8021-44d4-b4dd-2f5108c3a62b] succeeded in 0.011221231892704964s: None
+[2024-10-07 18:12:08,529: INFO/MainProcess] Task common.tasks.check_server_performance_period[fe03d674-4386-4c78-abfa-5b848dea0fb8] received
+[2024-10-07 18:12:08,539: INFO/MainProcess] Task common.tasks.check_server_performance_period[fe03d674-4386-4c78-abfa-5b848dea0fb8] succeeded in 0.008903906680643559s: None
+[2024-10-07 18:13:08,530: INFO/MainProcess] Task common.tasks.check_server_performance_period[6a974771-58c4-4ca3-9c33-4f7f20c108e3] received
+[2024-10-07 18:13:08,539: INFO/MainProcess] Task common.tasks.check_server_performance_period[6a974771-58c4-4ca3-9c33-4f7f20c108e3] succeeded in 0.007823269814252853s: None
+[2024-10-07 18:14:08,531: INFO/MainProcess] Task common.tasks.check_server_performance_period[51e548d8-55ae-4308-8b8a-359d5b041b73] received
+[2024-10-07 18:14:08,540: INFO/MainProcess] Task common.tasks.check_server_performance_period[51e548d8-55ae-4308-8b8a-359d5b041b73] succeeded in 0.00872496422380209s: None
+[2024-10-07 18:15:08,530: INFO/MainProcess] Task common.tasks.check_server_performance_period[2efdbcf4-4717-4681-90e6-64f7bc4bc8ab] received
+[2024-10-07 18:15:08,542: INFO/MainProcess] Task common.tasks.check_server_performance_period[2efdbcf4-4717-4681-90e6-64f7bc4bc8ab] succeeded in 0.01064811646938324s: None
+[2024-10-07 18:16:08,531: INFO/MainProcess] Task common.tasks.check_server_performance_period[29b787f8-20c4-47b7-b150-b129ba807c82] received
+[2024-10-07 18:16:08,544: INFO/MainProcess] Task common.tasks.check_server_performance_period[29b787f8-20c4-47b7-b150-b129ba807c82] succeeded in 0.012021546252071857s: None
+[2024-10-07 18:17:08,531: INFO/MainProcess] Task common.tasks.check_server_performance_period[0fa5e1ea-8e5a-4dde-9a8d-e99df433e16e] received
+[2024-10-07 18:17:08,540: INFO/MainProcess] Task common.tasks.check_server_performance_period[0fa5e1ea-8e5a-4dde-9a8d-e99df433e16e] succeeded in 0.008189087733626366s: None
+[2024-10-07 18:18:08,532: INFO/MainProcess] Task common.tasks.check_server_performance_period[d2e501da-4eab-4414-bf75-e0ede3ead562] received
+[2024-10-07 18:18:08,540: INFO/MainProcess] Task common.tasks.check_server_performance_period[d2e501da-4eab-4414-bf75-e0ede3ead562] succeeded in 0.006654568947851658s: None
+[2024-10-07 18:19:08,533: INFO/MainProcess] Task common.tasks.check_server_performance_period[5c607c9a-c6fd-432b-a2be-2cfb3ff239f4] received
+[2024-10-07 18:19:08,543: INFO/MainProcess] Task common.tasks.check_server_performance_period[5c607c9a-c6fd-432b-a2be-2cfb3ff239f4] succeeded in 0.00863806251436472s: None
+[2024-10-07 18:20:08,533: INFO/MainProcess] Task common.tasks.check_server_performance_period[90f2dc72-347e-4115-b688-4363a7baa3f9] received
+[2024-10-07 18:20:08,543: INFO/MainProcess] Task common.tasks.check_server_performance_period[90f2dc72-347e-4115-b688-4363a7baa3f9] succeeded in 0.008470933884382248s: None
+[2024-10-07 18:21:08,532: INFO/MainProcess] Task common.tasks.check_server_performance_period[3e1744ad-5f7a-4905-a9fc-9547bc68763e] received
+[2024-10-07 18:21:08,540: INFO/MainProcess] Task common.tasks.check_server_performance_period[3e1744ad-5f7a-4905-a9fc-9547bc68763e] succeeded in 0.006676574237644672s: None
+[2024-10-07 18:22:08,533: INFO/MainProcess] Task common.tasks.check_server_performance_period[bdb84f6d-bf5c-475b-ac24-435242893764] received
+[2024-10-07 18:22:08,544: INFO/MainProcess] Task common.tasks.check_server_performance_period[bdb84f6d-bf5c-475b-ac24-435242893764] succeeded in 0.010197710245847702s: None
+[2024-10-07 18:23:08,534: INFO/MainProcess] Task common.tasks.check_server_performance_period[fdb985b8-9beb-4f1f-8220-923faa2fd343] received
+[2024-10-07 18:23:08,547: INFO/MainProcess] Task common.tasks.check_server_performance_period[fdb985b8-9beb-4f1f-8220-923faa2fd343] succeeded in 0.011395422741770744s: None
+[2024-10-07 18:24:08,534: INFO/MainProcess] Task common.tasks.check_server_performance_period[46f1b240-0fb8-477e-ad20-c810e46468d3] received
+[2024-10-07 18:24:08,543: INFO/MainProcess] Task common.tasks.check_server_performance_period[46f1b240-0fb8-477e-ad20-c810e46468d3] succeeded in 0.00816123653203249s: None
+[2024-10-07 18:25:08,534: INFO/MainProcess] Task common.tasks.check_server_performance_period[1d1894b8-173f-4fcc-b79c-07dc050f99a0] received
+[2024-10-07 18:25:08,558: INFO/MainProcess] Task common.tasks.check_server_performance_period[1d1894b8-173f-4fcc-b79c-07dc050f99a0] succeeded in 0.022237942554056644s: None
+[2024-10-07 18:26:08,535: INFO/MainProcess] Task common.tasks.check_server_performance_period[38cfdfff-59eb-492e-b84a-84976173d050] received
+[2024-10-07 18:26:08,547: INFO/MainProcess] Task common.tasks.check_server_performance_period[38cfdfff-59eb-492e-b84a-84976173d050] succeeded in 0.009428639896214008s: None
+[2024-10-07 18:27:08,535: INFO/MainProcess] Task common.tasks.check_server_performance_period[a6a70fc8-e19d-45eb-a3ce-ff923b0d7afe] received
+[2024-10-07 18:27:08,546: INFO/MainProcess] Task common.tasks.check_server_performance_period[a6a70fc8-e19d-45eb-a3ce-ff923b0d7afe] succeeded in 0.009751002304255962s: None
+[2024-10-07 18:28:08,536: INFO/MainProcess] Task common.tasks.check_server_performance_period[ba3c2560-6b3c-4b2d-a64b-75117dc94ae9] received
+[2024-10-07 18:28:08,548: INFO/MainProcess] Task common.tasks.check_server_performance_period[ba3c2560-6b3c-4b2d-a64b-75117dc94ae9] succeeded in 0.010673699900507927s: None
+[2024-10-07 18:29:08,536: INFO/MainProcess] Task common.tasks.check_server_performance_period[622c2d76-a4d9-4b1f-b872-74b78730e76f] received
+[2024-10-07 18:29:08,546: INFO/MainProcess] Task common.tasks.check_server_performance_period[622c2d76-a4d9-4b1f-b872-74b78730e76f] succeeded in 0.008580170571804047s: None
+[2024-10-07 18:30:08,536: INFO/MainProcess] Task common.tasks.check_server_performance_period[11ce46e8-21a4-4cb6-8cb3-5b9edfa63a67] received
+[2024-10-07 18:30:08,548: INFO/MainProcess] Task common.tasks.check_server_performance_period[11ce46e8-21a4-4cb6-8cb3-5b9edfa63a67] succeeded in 0.009928474202752113s: None
+[2024-10-07 18:31:08,536: INFO/MainProcess] Task common.tasks.check_server_performance_period[f2b167f4-dba3-4596-8f88-142592cb3d27] received
+[2024-10-07 18:31:08,549: INFO/MainProcess] Task common.tasks.check_server_performance_period[f2b167f4-dba3-4596-8f88-142592cb3d27] succeeded in 0.01180396880954504s: None
+[2024-10-07 18:32:08,536: INFO/MainProcess] Task common.tasks.check_server_performance_period[0cd8fbbb-9d6f-4134-9879-bf5a3b4ef6f7] received
+[2024-10-07 18:32:08,548: INFO/MainProcess] Task common.tasks.check_server_performance_period[0cd8fbbb-9d6f-4134-9879-bf5a3b4ef6f7] succeeded in 0.01029990054666996s: None
+[2024-10-07 18:33:08,538: INFO/MainProcess] Task common.tasks.check_server_performance_period[cdd6f9b3-84a7-4f7d-9c52-54f7585ec4a2] received
+[2024-10-07 18:33:08,549: INFO/MainProcess] Task common.tasks.check_server_performance_period[cdd6f9b3-84a7-4f7d-9c52-54f7585ec4a2] succeeded in 0.009895961731672287s: None
+[2024-10-07 18:34:08,537: INFO/MainProcess] Task common.tasks.check_server_performance_period[ae2ce4a3-7864-4e22-baf8-3cf4fb399116] received
+[2024-10-07 18:34:08,547: INFO/MainProcess] Task common.tasks.check_server_performance_period[ae2ce4a3-7864-4e22-baf8-3cf4fb399116] succeeded in 0.008712898008525372s: None
+[2024-10-07 18:35:08,538: INFO/MainProcess] Task common.tasks.check_server_performance_period[793971a2-db8e-4551-a0bb-ffd1bd15a9f9] received
+[2024-10-07 18:35:08,552: INFO/MainProcess] Task common.tasks.check_server_performance_period[793971a2-db8e-4551-a0bb-ffd1bd15a9f9] succeeded in 0.011643094010651112s: None
+[2024-10-07 18:36:08,539: INFO/MainProcess] Task common.tasks.check_server_performance_period[1b963e50-ef5a-4ffa-80da-4c422dc8251d] received
+[2024-10-07 18:36:08,552: INFO/MainProcess] Task common.tasks.check_server_performance_period[1b963e50-ef5a-4ffa-80da-4c422dc8251d] succeeded in 0.010157519020140171s: None
+[2024-10-07 18:37:08,437: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[89c9570b-2cbc-487e-93cc-e97f0ab1a005] received
+[2024-10-07 18:37:08,447: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[89c9570b-2cbc-487e-93cc-e97f0ab1a005] succeeded in 0.008844547905027866s: None
+[2024-10-07 18:37:08,538: INFO/MainProcess] Task common.tasks.check_server_performance_period[c1c130b8-49d8-412c-8a8c-5337f57e9a80] received
+[2024-10-07 18:37:08,550: INFO/MainProcess] Task common.tasks.check_server_performance_period[c1c130b8-49d8-412c-8a8c-5337f57e9a80] succeeded in 0.010493944399058819s: None
+[2024-10-07 18:38:08,539: INFO/MainProcess] Task common.tasks.check_server_performance_period[10994a8b-57a1-4b90-b7cd-e4747b9dfb89] received
+[2024-10-07 18:38:08,551: INFO/MainProcess] Task common.tasks.check_server_performance_period[10994a8b-57a1-4b90-b7cd-e4747b9dfb89] succeeded in 0.008929920382797718s: None
+[2024-10-07 18:39:08,539: INFO/MainProcess] Task common.tasks.check_server_performance_period[1f5e7a71-54e4-426e-98eb-88d2682d9612] received
+[2024-10-07 18:39:08,553: INFO/MainProcess] Task common.tasks.check_server_performance_period[1f5e7a71-54e4-426e-98eb-88d2682d9612] succeeded in 0.01119131501764059s: None
+[2024-10-07 18:40:08,538: INFO/MainProcess] Task common.tasks.check_server_performance_period[44b796d6-4f47-4da3-8c5e-6b1577d3b4a3] received
+[2024-10-07 18:40:08,548: INFO/MainProcess] Task common.tasks.check_server_performance_period[44b796d6-4f47-4da3-8c5e-6b1577d3b4a3] succeeded in 0.008820402435958385s: None
+[2024-10-07 18:41:08,540: INFO/MainProcess] Task common.tasks.check_server_performance_period[75a3e185-d2dd-40a4-b3d7-52a7d812ffa0] received
+[2024-10-07 18:41:08,548: INFO/MainProcess] Task common.tasks.check_server_performance_period[75a3e185-d2dd-40a4-b3d7-52a7d812ffa0] succeeded in 0.006815804168581963s: None
+[2024-10-07 18:42:08,539: INFO/MainProcess] Task common.tasks.check_server_performance_period[5e4b09d5-2a01-4747-bdb1-8918bb8d654a] received
+[2024-10-07 18:42:08,551: INFO/MainProcess] Task common.tasks.check_server_performance_period[5e4b09d5-2a01-4747-bdb1-8918bb8d654a] succeeded in 0.009998325258493423s: None
+[2024-10-07 18:43:08,540: INFO/MainProcess] Task common.tasks.check_server_performance_period[f16643cb-5237-4d0b-a4d2-e1ef9f36ef12] received
+[2024-10-07 18:43:08,548: INFO/MainProcess] Task common.tasks.check_server_performance_period[f16643cb-5237-4d0b-a4d2-e1ef9f36ef12] succeeded in 0.006940294988453388s: None
+[2024-10-07 18:44:08,541: INFO/MainProcess] Task common.tasks.check_server_performance_period[0de15ffd-3286-4b57-926b-b5d1ca4ba6b3] received
+[2024-10-07 18:44:08,551: INFO/MainProcess] Task common.tasks.check_server_performance_period[0de15ffd-3286-4b57-926b-b5d1ca4ba6b3] succeeded in 0.008624994195997715s: None
+[2024-10-07 18:45:08,541: INFO/MainProcess] Task common.tasks.check_server_performance_period[ac3ff225-10a1-4617-bc1e-05b24fbc1998] received
+[2024-10-07 18:45:08,557: INFO/MainProcess] Task common.tasks.check_server_performance_period[ac3ff225-10a1-4617-bc1e-05b24fbc1998] succeeded in 0.013640854507684708s: None
+[2024-10-07 18:46:08,540: INFO/MainProcess] Task common.tasks.check_server_performance_period[486a06ac-216a-4be8-9361-91d7f48bf1bb] received
+[2024-10-07 18:46:08,552: INFO/MainProcess] Task common.tasks.check_server_performance_period[486a06ac-216a-4be8-9361-91d7f48bf1bb] succeeded in 0.009997768327593803s: None
+[2024-10-07 18:47:08,540: INFO/MainProcess] Task common.tasks.check_server_performance_period[344d97ec-3727-4ef5-bbae-f81a35e100ac] received
+[2024-10-07 18:47:08,552: INFO/MainProcess] Task common.tasks.check_server_performance_period[344d97ec-3727-4ef5-bbae-f81a35e100ac] succeeded in 0.010260183364152908s: None
+[2024-10-07 18:48:08,542: INFO/MainProcess] Task common.tasks.check_server_performance_period[350fcbb1-29d5-4423-979f-424b12687929] received
+[2024-10-07 18:48:08,556: INFO/MainProcess] Task common.tasks.check_server_performance_period[350fcbb1-29d5-4423-979f-424b12687929] succeeded in 0.011723955161869526s: None
+[2024-10-07 18:49:08,542: INFO/MainProcess] Task common.tasks.check_server_performance_period[7d99fe8f-3ec9-4e81-ba34-9fca011a2d5a] received
+[2024-10-07 18:49:08,553: INFO/MainProcess] Task common.tasks.check_server_performance_period[7d99fe8f-3ec9-4e81-ba34-9fca011a2d5a] succeeded in 0.009471663273870945s: None
+[2024-10-07 18:50:08,543: INFO/MainProcess] Task common.tasks.check_server_performance_period[b0aee417-a209-49d8-a9bd-475ad79c1297] received
+[2024-10-07 18:50:08,556: INFO/MainProcess] Task common.tasks.check_server_performance_period[b0aee417-a209-49d8-a9bd-475ad79c1297] succeeded in 0.011556974612176418s: None
+[2024-10-07 18:51:08,543: INFO/MainProcess] Task common.tasks.check_server_performance_period[c1fb8beb-5834-4e47-b727-562c82192c59] received
+[2024-10-07 18:51:08,555: INFO/MainProcess] Task common.tasks.check_server_performance_period[c1fb8beb-5834-4e47-b727-562c82192c59] succeeded in 0.010919719003140926s: None
+[2024-10-07 18:52:08,543: INFO/MainProcess] Task common.tasks.check_server_performance_period[863cfe6b-393e-46e6-9b58-811245ac1eec] received
+[2024-10-07 18:52:08,557: INFO/MainProcess] Task common.tasks.check_server_performance_period[863cfe6b-393e-46e6-9b58-811245ac1eec] succeeded in 0.012343800626695156s: None
+[2024-10-07 18:53:08,544: INFO/MainProcess] Task common.tasks.check_server_performance_period[97725aee-28d2-4abf-83e1-e31baf00945d] received
+[2024-10-07 18:53:08,555: INFO/MainProcess] Task common.tasks.check_server_performance_period[97725aee-28d2-4abf-83e1-e31baf00945d] succeeded in 0.008883352391421795s: None
+[2024-10-07 18:54:08,544: INFO/MainProcess] Task common.tasks.check_server_performance_period[07064953-2e55-4626-87a9-f299a970a261] received
+[2024-10-07 18:54:08,556: INFO/MainProcess] Task common.tasks.check_server_performance_period[07064953-2e55-4626-87a9-f299a970a261] succeeded in 0.009685884229838848s: None
+[2024-10-07 18:55:08,543: INFO/MainProcess] Task common.tasks.check_server_performance_period[fdd56f7f-a45e-4781-84db-8822fb73c3a4] received
+[2024-10-07 18:55:08,555: INFO/MainProcess] Task common.tasks.check_server_performance_period[fdd56f7f-a45e-4781-84db-8822fb73c3a4] succeeded in 0.011372356675565243s: None
+[2024-10-07 18:56:08,544: INFO/MainProcess] Task common.tasks.check_server_performance_period[916b0de3-4ef4-41ba-8557-9aa74bec11f2] received
+[2024-10-07 18:56:08,556: INFO/MainProcess] Task common.tasks.check_server_performance_period[916b0de3-4ef4-41ba-8557-9aa74bec11f2] succeeded in 0.011034496128559113s: None
+[2024-10-07 18:57:08,544: INFO/MainProcess] Task common.tasks.check_server_performance_period[666d5727-0946-4c1c-9a5d-314d753937ca] received
+[2024-10-07 18:57:08,555: INFO/MainProcess] Task common.tasks.check_server_performance_period[666d5727-0946-4c1c-9a5d-314d753937ca] succeeded in 0.010078750550746918s: None
+[2024-10-07 18:58:08,546: INFO/MainProcess] Task common.tasks.check_server_performance_period[b63b7556-1316-44ad-86b1-8ab3a8feb953] received
+[2024-10-07 18:58:08,555: INFO/MainProcess] Task common.tasks.check_server_performance_period[b63b7556-1316-44ad-86b1-8ab3a8feb953] succeeded in 0.007457517087459564s: None
+[2024-10-07 18:59:08,545: INFO/MainProcess] Task common.tasks.check_server_performance_period[2adfe7c9-04f8-43d9-aad0-1f5ffe1a3f93] received
+[2024-10-07 18:59:08,558: INFO/MainProcess] Task common.tasks.check_server_performance_period[2adfe7c9-04f8-43d9-aad0-1f5ffe1a3f93] succeeded in 0.010327162221074104s: None
+[2024-10-07 19:00:08,547: INFO/MainProcess] Task common.tasks.check_server_performance_period[843791cd-7012-44a2-b2e3-894c145e8ea9] received
+[2024-10-07 19:00:08,559: INFO/MainProcess] Task common.tasks.check_server_performance_period[843791cd-7012-44a2-b2e3-894c145e8ea9] succeeded in 0.010634396225214005s: None
+[2024-10-07 19:01:08,546: INFO/MainProcess] Task common.tasks.check_server_performance_period[c1d54ab7-beb2-4faa-acb8-c2f0d0425f09] received
+[2024-10-07 19:01:08,558: INFO/MainProcess] Task common.tasks.check_server_performance_period[c1d54ab7-beb2-4faa-acb8-c2f0d0425f09] succeeded in 0.009559601545333862s: None
+[2024-10-07 19:02:08,546: INFO/MainProcess] Task common.tasks.check_server_performance_period[cbcf1b1f-8718-45c3-ba99-0047a0fcd271] received
+[2024-10-07 19:02:08,558: INFO/MainProcess] Task common.tasks.check_server_performance_period[cbcf1b1f-8718-45c3-ba99-0047a0fcd271] succeeded in 0.010146403685212135s: None
+[2024-10-07 19:03:08,548: INFO/MainProcess] Task common.tasks.check_server_performance_period[6983142a-84fa-4081-8ad7-392162eddfba] received
+[2024-10-07 19:03:08,562: INFO/MainProcess] Task common.tasks.check_server_performance_period[6983142a-84fa-4081-8ad7-392162eddfba] succeeded in 0.012249186635017395s: None
+[2024-10-07 19:04:08,549: INFO/MainProcess] Task common.tasks.check_server_performance_period[8ce9930d-1938-4e13-bfb2-011aef344304] received
+[2024-10-07 19:04:08,563: INFO/MainProcess] Task common.tasks.check_server_performance_period[8ce9930d-1938-4e13-bfb2-011aef344304] succeeded in 0.012113038450479507s: None
+[2024-10-07 19:05:08,548: INFO/MainProcess] Task common.tasks.check_server_performance_period[1fc1c379-f1e9-446e-bd7d-7119751317b7] received
+[2024-10-07 19:05:08,560: INFO/MainProcess] Task common.tasks.check_server_performance_period[1fc1c379-f1e9-446e-bd7d-7119751317b7] succeeded in 0.009203294292092323s: None
+[2024-10-07 19:06:08,550: INFO/MainProcess] Task common.tasks.check_server_performance_period[39a662b0-a37e-4300-ac10-d77aab0af927] received
+[2024-10-07 19:06:08,561: INFO/MainProcess] Task common.tasks.check_server_performance_period[39a662b0-a37e-4300-ac10-d77aab0af927] succeeded in 0.008844093419611454s: None
+[2024-10-07 19:07:08,550: INFO/MainProcess] Task common.tasks.check_server_performance_period[59b274c7-4b4e-49d7-9556-c76dfd9ed138] received
+[2024-10-07 19:07:08,564: INFO/MainProcess] Task common.tasks.check_server_performance_period[59b274c7-4b4e-49d7-9556-c76dfd9ed138] succeeded in 0.012587680481374264s: None
+[2024-10-07 19:08:08,551: INFO/MainProcess] Task common.tasks.check_server_performance_period[53cc8cd2-929f-4e5d-a54b-040a4a220615] received
+[2024-10-07 19:08:08,562: INFO/MainProcess] Task common.tasks.check_server_performance_period[53cc8cd2-929f-4e5d-a54b-040a4a220615] succeeded in 0.008921069093048573s: None
+[2024-10-07 19:09:08,551: INFO/MainProcess] Task common.tasks.check_server_performance_period[26a499ce-6045-4dff-8f07-4163c5d3e72d] received
+[2024-10-07 19:09:08,565: INFO/MainProcess] Task common.tasks.check_server_performance_period[26a499ce-6045-4dff-8f07-4163c5d3e72d] succeeded in 0.01220116950571537s: None
+[2024-10-07 19:10:08,550: INFO/MainProcess] Task common.tasks.check_server_performance_period[2bd7bb9d-1799-47ef-866a-6014dfc73a9a] received
+[2024-10-07 19:10:08,562: INFO/MainProcess] Task common.tasks.check_server_performance_period[2bd7bb9d-1799-47ef-866a-6014dfc73a9a] succeeded in 0.010072040371596813s: None
+[2024-10-07 19:11:08,551: INFO/MainProcess] Task common.tasks.check_server_performance_period[512f4196-ee23-457c-857f-61ec421d3a85] received
+[2024-10-07 19:11:08,563: INFO/MainProcess] Task common.tasks.check_server_performance_period[512f4196-ee23-457c-857f-61ec421d3a85] succeeded in 0.009304597042500973s: None
+[2024-10-07 19:12:08,551: INFO/MainProcess] Task common.tasks.check_server_performance_period[209b5a03-83ee-4fc5-a096-405cab1290a1] received
+[2024-10-07 19:12:08,567: INFO/MainProcess] Task common.tasks.check_server_performance_period[209b5a03-83ee-4fc5-a096-405cab1290a1] succeeded in 0.013329112902283669s: None
+[2024-10-07 19:13:08,552: INFO/MainProcess] Task common.tasks.check_server_performance_period[883e2bba-3fd3-4f6c-95ef-2f1ea7ed2cfc] received
+[2024-10-07 19:13:08,561: INFO/MainProcess] Task common.tasks.check_server_performance_period[883e2bba-3fd3-4f6c-95ef-2f1ea7ed2cfc] succeeded in 0.00832515861839056s: None
+[2024-10-07 19:14:08,551: INFO/MainProcess] Task common.tasks.check_server_performance_period[c081fc8c-25a3-458a-80e0-9088d8dbfc62] received
+[2024-10-07 19:14:08,562: INFO/MainProcess] Task common.tasks.check_server_performance_period[c081fc8c-25a3-458a-80e0-9088d8dbfc62] succeeded in 0.010119080543518066s: None
+[2024-10-07 19:15:08,552: INFO/MainProcess] Task common.tasks.check_server_performance_period[0ef0625d-94da-42cd-8924-757ce5a0fb03] received
+[2024-10-07 19:15:08,565: INFO/MainProcess] Task common.tasks.check_server_performance_period[0ef0625d-94da-42cd-8924-757ce5a0fb03] succeeded in 0.011399956420063972s: None
+[2024-10-07 19:16:08,551: INFO/MainProcess] Task common.tasks.check_server_performance_period[1d0c164c-2c26-463e-a884-b887df28ef2d] received
+[2024-10-07 19:16:08,568: INFO/MainProcess] Task common.tasks.check_server_performance_period[1d0c164c-2c26-463e-a884-b887df28ef2d] succeeded in 0.015352544374763966s: None
+[2024-10-07 19:17:08,552: INFO/MainProcess] Task common.tasks.check_server_performance_period[be2f8a40-7d17-427f-b09f-6f6edd7178ab] received
+[2024-10-07 19:17:08,566: INFO/MainProcess] Task common.tasks.check_server_performance_period[be2f8a40-7d17-427f-b09f-6f6edd7178ab] succeeded in 0.012545051984488964s: None
+[2024-10-07 19:18:08,554: INFO/MainProcess] Task common.tasks.check_server_performance_period[3b00fc53-61ae-4874-aa89-cbbf5af7b3b9] received
+[2024-10-07 19:18:08,566: INFO/MainProcess] Task common.tasks.check_server_performance_period[3b00fc53-61ae-4874-aa89-cbbf5af7b3b9] succeeded in 0.010600177571177483s: None
+[2024-10-07 19:19:08,554: INFO/MainProcess] Task common.tasks.check_server_performance_period[45b8a4e4-e456-4344-af76-63e011488d0c] received
+[2024-10-07 19:19:08,567: INFO/MainProcess] Task common.tasks.check_server_performance_period[45b8a4e4-e456-4344-af76-63e011488d0c] succeeded in 0.01138937659561634s: None
+[2024-10-07 19:20:08,555: INFO/MainProcess] Task common.tasks.check_server_performance_period[aaeb9471-c4c4-486c-a9cd-636a72ee5ed1] received
+[2024-10-07 19:20:08,568: INFO/MainProcess] Task common.tasks.check_server_performance_period[aaeb9471-c4c4-486c-a9cd-636a72ee5ed1] succeeded in 0.011770935729146004s: None
+[2024-10-07 19:21:08,555: INFO/MainProcess] Task common.tasks.check_server_performance_period[1ed58ea0-e0ff-4aab-a71a-23bd6a344304] received
+[2024-10-07 19:21:08,568: INFO/MainProcess] Task common.tasks.check_server_performance_period[1ed58ea0-e0ff-4aab-a71a-23bd6a344304] succeeded in 0.01108943484723568s: None
+[2024-10-07 19:22:08,555: INFO/MainProcess] Task common.tasks.check_server_performance_period[35077aeb-a0f9-430d-88ba-1c24ee22b9ae] received
+[2024-10-07 19:22:08,569: INFO/MainProcess] Task common.tasks.check_server_performance_period[35077aeb-a0f9-430d-88ba-1c24ee22b9ae] succeeded in 0.012006867676973343s: None
+[2024-10-07 19:23:08,556: INFO/MainProcess] Task common.tasks.check_server_performance_period[5e1ab31f-1c89-418e-b17c-ee2e2e9952cd] received
+[2024-10-07 19:23:08,569: INFO/MainProcess] Task common.tasks.check_server_performance_period[5e1ab31f-1c89-418e-b17c-ee2e2e9952cd] succeeded in 0.01081668771803379s: None
+[2024-10-07 19:24:08,556: INFO/MainProcess] Task common.tasks.check_server_performance_period[90c48c81-4073-4296-b3e6-a6583d7e2692] received
+[2024-10-07 19:24:08,570: INFO/MainProcess] Task common.tasks.check_server_performance_period[90c48c81-4073-4296-b3e6-a6583d7e2692] succeeded in 0.011801090091466904s: None
+[2024-10-07 19:25:08,555: INFO/MainProcess] Task common.tasks.check_server_performance_period[1f877bc8-7a88-4dbc-b823-54caab1a4a81] received
+[2024-10-07 19:25:08,566: INFO/MainProcess] Task common.tasks.check_server_performance_period[1f877bc8-7a88-4dbc-b823-54caab1a4a81] succeeded in 0.010362324304878712s: None
+[2024-10-07 19:26:08,556: INFO/MainProcess] Task common.tasks.check_server_performance_period[95a6efc5-c785-4d28-913c-ceff1eb2993e] received
+[2024-10-07 19:26:08,580: INFO/MainProcess] Task common.tasks.check_server_performance_period[95a6efc5-c785-4d28-913c-ceff1eb2993e] succeeded in 0.021589641459286213s: None
+[2024-10-07 19:27:08,558: INFO/MainProcess] Task common.tasks.check_server_performance_period[fd85d893-be20-4627-aa2b-e226dcce514e] received
+[2024-10-07 19:27:08,573: INFO/MainProcess] Task common.tasks.check_server_performance_period[fd85d893-be20-4627-aa2b-e226dcce514e] succeeded in 0.013381391763687134s: None
+[2024-10-07 19:28:08,558: INFO/MainProcess] Task common.tasks.check_server_performance_period[df6cdacf-89d2-4f05-8bb4-8508524a2340] received
+[2024-10-07 19:28:08,570: INFO/MainProcess] Task common.tasks.check_server_performance_period[df6cdacf-89d2-4f05-8bb4-8508524a2340] succeeded in 0.01026715338230133s: None
+[2024-10-07 19:29:08,558: INFO/MainProcess] Task common.tasks.check_server_performance_period[9df11bb2-648b-47c0-ad93-fd65aea2c154] received
+[2024-10-07 19:29:08,570: INFO/MainProcess] Task common.tasks.check_server_performance_period[9df11bb2-648b-47c0-ad93-fd65aea2c154] succeeded in 0.01034373790025711s: None
+[2024-10-07 19:30:08,558: INFO/MainProcess] Task common.tasks.check_server_performance_period[70613a31-a964-4d52-b09f-5e0e294eeb6c] received
+[2024-10-07 19:30:08,567: INFO/MainProcess] Task common.tasks.check_server_performance_period[70613a31-a964-4d52-b09f-5e0e294eeb6c] succeeded in 0.008339342661201954s: None
+[2024-10-07 19:31:08,559: INFO/MainProcess] Task common.tasks.check_server_performance_period[9cbecc3e-5556-4c12-b8b5-eb26a9397c43] received
+[2024-10-07 19:31:08,572: INFO/MainProcess] Task common.tasks.check_server_performance_period[9cbecc3e-5556-4c12-b8b5-eb26a9397c43] succeeded in 0.01019873283803463s: None
+[2024-10-07 19:32:08,559: INFO/MainProcess] Task common.tasks.check_server_performance_period[947ae425-5df3-487f-b7ab-671cc825bf82] received
+[2024-10-07 19:32:08,573: INFO/MainProcess] Task common.tasks.check_server_performance_period[947ae425-5df3-487f-b7ab-671cc825bf82] succeeded in 0.011371552012860775s: None
+[2024-10-07 19:33:08,560: INFO/MainProcess] Task common.tasks.check_server_performance_period[2e0d93fe-1913-49cb-bc8f-3ac2cf589e4c] received
+[2024-10-07 19:33:08,573: INFO/MainProcess] Task common.tasks.check_server_performance_period[2e0d93fe-1913-49cb-bc8f-3ac2cf589e4c] succeeded in 0.010958767496049404s: None
+[2024-10-07 19:34:08,560: INFO/MainProcess] Task common.tasks.check_server_performance_period[721f70ee-8757-412c-8d68-9d37a8a5a748] received
+[2024-10-07 19:34:08,574: INFO/MainProcess] Task common.tasks.check_server_performance_period[721f70ee-8757-412c-8d68-9d37a8a5a748] succeeded in 0.012526960112154484s: None
+[2024-10-07 19:35:08,559: INFO/MainProcess] Task common.tasks.check_server_performance_period[a13cbfc9-1029-4127-8db0-629e126aea51] received
+[2024-10-07 19:35:08,568: INFO/MainProcess] Task common.tasks.check_server_performance_period[a13cbfc9-1029-4127-8db0-629e126aea51] succeeded in 0.008280943147838116s: None
+[2024-10-07 19:36:08,560: INFO/MainProcess] Task common.tasks.check_server_performance_period[c5eda328-b282-48be-89bf-4214983601b4] received
+[2024-10-07 19:36:08,572: INFO/MainProcess] Task common.tasks.check_server_performance_period[c5eda328-b282-48be-89bf-4214983601b4] succeeded in 0.00977496150881052s: None
+[2024-10-07 19:37:08,439: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[81f4da36-0693-4cc9-b171-c747db440e4b] received
+[2024-10-07 19:37:08,450: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[81f4da36-0693-4cc9-b171-c747db440e4b] succeeded in 0.009395187720656395s: None
+[2024-10-07 19:37:08,560: INFO/MainProcess] Task common.tasks.check_server_performance_period[cebc0d1a-418d-44ae-8e43-333b1220c433] received
+[2024-10-07 19:37:08,574: INFO/MainProcess] Task common.tasks.check_server_performance_period[cebc0d1a-418d-44ae-8e43-333b1220c433] succeeded in 0.009287995286285877s: None
+[2024-10-07 19:38:08,562: INFO/MainProcess] Task common.tasks.check_server_performance_period[326efed6-4c95-49cc-bc64-7ff4cacefd14] received
+[2024-10-07 19:38:08,575: INFO/MainProcess] Task common.tasks.check_server_performance_period[326efed6-4c95-49cc-bc64-7ff4cacefd14] succeeded in 0.011228875257074833s: None
+[2024-10-07 19:39:08,561: INFO/MainProcess] Task common.tasks.check_server_performance_period[cdd67459-8c30-41b2-9d2a-3d1543cb27ec] received
+[2024-10-07 19:39:08,573: INFO/MainProcess] Task common.tasks.check_server_performance_period[cdd67459-8c30-41b2-9d2a-3d1543cb27ec] succeeded in 0.010775776579976082s: None
+[2024-10-07 19:40:08,562: INFO/MainProcess] Task common.tasks.check_server_performance_period[4813c022-93d1-4a8c-8c95-860a19b5431e] received
+[2024-10-07 19:40:08,573: INFO/MainProcess] Task common.tasks.check_server_performance_period[4813c022-93d1-4a8c-8c95-860a19b5431e] succeeded in 0.009915255941450596s: None
+[2024-10-07 19:41:08,562: INFO/MainProcess] Task common.tasks.check_server_performance_period[8e177657-a9aa-434b-821a-a023339d1ec1] received
+[2024-10-07 19:41:08,575: INFO/MainProcess] Task common.tasks.check_server_performance_period[8e177657-a9aa-434b-821a-a023339d1ec1] succeeded in 0.010600836016237736s: None
+[2024-10-07 19:42:08,565: INFO/MainProcess] Task common.tasks.check_server_performance_period[7b1dc47b-041a-4107-8c82-c4ffc2c9f1fe] received
+[2024-10-07 19:42:08,575: INFO/MainProcess] Task common.tasks.check_server_performance_period[7b1dc47b-041a-4107-8c82-c4ffc2c9f1fe] succeeded in 0.008834712207317352s: None
+[2024-10-07 19:43:08,563: INFO/MainProcess] Task common.tasks.check_server_performance_period[413dfa3d-251f-4ac1-bb01-0712f93a8a30] received
+[2024-10-07 19:43:08,576: INFO/MainProcess] Task common.tasks.check_server_performance_period[413dfa3d-251f-4ac1-bb01-0712f93a8a30] succeeded in 0.011640753597021103s: None
+[2024-10-07 19:44:08,564: INFO/MainProcess] Task common.tasks.check_server_performance_period[d8d1380f-7143-4eb6-b8f3-84ff7a135b9d] received
+[2024-10-07 19:44:08,573: INFO/MainProcess] Task common.tasks.check_server_performance_period[d8d1380f-7143-4eb6-b8f3-84ff7a135b9d] succeeded in 0.00793265737593174s: None
+[2024-10-07 19:45:08,564: INFO/MainProcess] Task common.tasks.check_server_performance_period[23b439eb-bede-4702-bd20-29b11c3b1330] received
+[2024-10-07 19:45:08,574: INFO/MainProcess] Task common.tasks.check_server_performance_period[23b439eb-bede-4702-bd20-29b11c3b1330] succeeded in 0.008822704665362835s: None
+[2024-10-07 19:46:08,564: INFO/MainProcess] Task common.tasks.check_server_performance_period[8d02f394-d8c1-4ee1-b426-1276742d12e7] received
+[2024-10-07 19:46:08,578: INFO/MainProcess] Task common.tasks.check_server_performance_period[8d02f394-d8c1-4ee1-b426-1276742d12e7] succeeded in 0.011256078258156776s: None
+[2024-10-07 19:47:08,565: INFO/MainProcess] Task common.tasks.check_server_performance_period[5f34149f-ec10-45c0-8e91-acf0b4e5024a] received
+[2024-10-07 19:47:08,577: INFO/MainProcess] Task common.tasks.check_server_performance_period[5f34149f-ec10-45c0-8e91-acf0b4e5024a] succeeded in 0.00935138575732708s: None
+[2024-10-07 19:48:08,565: INFO/MainProcess] Task common.tasks.check_server_performance_period[fe5f17a9-581a-4065-b8e3-bd2d6f454faf] received
+[2024-10-07 19:48:08,575: INFO/MainProcess] Task common.tasks.check_server_performance_period[fe5f17a9-581a-4065-b8e3-bd2d6f454faf] succeeded in 0.009264372289180756s: None
+[2024-10-07 19:49:08,565: INFO/MainProcess] Task common.tasks.check_server_performance_period[39341be0-340b-419b-9bd4-4bf9aaf38be4] received
+[2024-10-07 19:49:08,575: INFO/MainProcess] Task common.tasks.check_server_performance_period[39341be0-340b-419b-9bd4-4bf9aaf38be4] succeeded in 0.009744187816977501s: None
+[2024-10-07 19:50:08,565: INFO/MainProcess] Task common.tasks.check_server_performance_period[085e2787-3c3e-4e60-a413-7ab7615c565d] received
+[2024-10-07 19:50:08,578: INFO/MainProcess] Task common.tasks.check_server_performance_period[085e2787-3c3e-4e60-a413-7ab7615c565d] succeeded in 0.011377997696399689s: None
+[2024-10-07 19:51:08,566: INFO/MainProcess] Task common.tasks.check_server_performance_period[f4379910-be1d-4362-91fb-e890451f037b] received
+[2024-10-07 19:51:08,578: INFO/MainProcess] Task common.tasks.check_server_performance_period[f4379910-be1d-4362-91fb-e890451f037b] succeeded in 0.010868792422115803s: None
+[2024-10-07 19:52:08,564: INFO/MainProcess] Task common.tasks.check_server_performance_period[ac0620ae-e5a5-437f-a445-10143265032c] received
+[2024-10-07 19:52:08,575: INFO/MainProcess] Task common.tasks.check_server_performance_period[ac0620ae-e5a5-437f-a445-10143265032c] succeeded in 0.009651833213865757s: None
+[2024-10-07 19:53:08,566: INFO/MainProcess] Task common.tasks.check_server_performance_period[66f27c68-f365-4d73-8f74-6d77d89af2ee] received
+[2024-10-07 19:53:08,579: INFO/MainProcess] Task common.tasks.check_server_performance_period[66f27c68-f365-4d73-8f74-6d77d89af2ee] succeeded in 0.011641119606792927s: None
+[2024-10-07 19:54:08,567: INFO/MainProcess] Task common.tasks.check_server_performance_period[1b4ec0cd-f3bf-4faa-a955-137d9cf2924f] received
+[2024-10-07 19:54:08,578: INFO/MainProcess] Task common.tasks.check_server_performance_period[1b4ec0cd-f3bf-4faa-a955-137d9cf2924f] succeeded in 0.009499547071754932s: None
+[2024-10-07 19:55:08,566: INFO/MainProcess] Task common.tasks.check_server_performance_period[8e22eb4b-096c-4922-92ce-0fb7066672d9] received
+[2024-10-07 19:55:08,577: INFO/MainProcess] Task common.tasks.check_server_performance_period[8e22eb4b-096c-4922-92ce-0fb7066672d9] succeeded in 0.009942961856722832s: None
+[2024-10-07 19:56:08,569: INFO/MainProcess] Task common.tasks.check_server_performance_period[44eeee1c-6113-448f-9ccb-b2ac380a9e05] received
+[2024-10-07 19:56:08,581: INFO/MainProcess] Task common.tasks.check_server_performance_period[44eeee1c-6113-448f-9ccb-b2ac380a9e05] succeeded in 0.01071276143193245s: None
+[2024-10-07 19:57:08,568: INFO/MainProcess] Task common.tasks.check_server_performance_period[bb5fdda6-d799-4c48-bedc-5afe3f375bcf] received
+[2024-10-07 19:57:08,579: INFO/MainProcess] Task common.tasks.check_server_performance_period[bb5fdda6-d799-4c48-bedc-5afe3f375bcf] succeeded in 0.010256649926304817s: None
+[2024-10-07 19:58:08,569: INFO/MainProcess] Task common.tasks.check_server_performance_period[e2c11b92-4e06-4354-8328-3a73fef38124] received
+[2024-10-07 19:58:08,584: INFO/MainProcess] Task common.tasks.check_server_performance_period[e2c11b92-4e06-4354-8328-3a73fef38124] succeeded in 0.013096779584884644s: None
+[2024-10-07 19:59:08,570: INFO/MainProcess] Task common.tasks.check_server_performance_period[c9532618-bf67-4d99-8c24-1b9d03c4b4c8] received
+[2024-10-07 19:59:08,583: INFO/MainProcess] Task common.tasks.check_server_performance_period[c9532618-bf67-4d99-8c24-1b9d03c4b4c8] succeeded in 0.011129959486424923s: None
+[2024-10-07 20:00:08,570: INFO/MainProcess] Task common.tasks.check_server_performance_period[9149fa30-bcdc-45ba-9fd0-bb38aec9bb54] received
+[2024-10-07 20:00:08,580: INFO/MainProcess] Task common.tasks.check_server_performance_period[9149fa30-bcdc-45ba-9fd0-bb38aec9bb54] succeeded in 0.008590390905737877s: None
+[2024-10-07 20:01:08,570: INFO/MainProcess] Task common.tasks.check_server_performance_period[fd9fc3dc-4d2d-43b7-8cac-e914587483a6] received
+[2024-10-07 20:01:08,580: INFO/MainProcess] Task common.tasks.check_server_performance_period[fd9fc3dc-4d2d-43b7-8cac-e914587483a6] succeeded in 0.008268729783594608s: None
+[2024-10-07 20:02:08,570: INFO/MainProcess] Task common.tasks.check_server_performance_period[7cc2d4c3-f30e-4c9b-95ab-fb1e0fbccd2a] received
+[2024-10-07 20:02:08,579: INFO/MainProcess] Task common.tasks.check_server_performance_period[7cc2d4c3-f30e-4c9b-95ab-fb1e0fbccd2a] succeeded in 0.007333093322813511s: None
+[2024-10-07 20:03:08,571: INFO/MainProcess] Task common.tasks.check_server_performance_period[6cdfa25c-b512-49a2-b004-a91bf9132fbf] received
+[2024-10-07 20:03:08,584: INFO/MainProcess] Task common.tasks.check_server_performance_period[6cdfa25c-b512-49a2-b004-a91bf9132fbf] succeeded in 0.01042501162737608s: None
+[2024-10-07 20:04:08,571: INFO/MainProcess] Task common.tasks.check_server_performance_period[7ac06478-42ce-43e7-b1d3-f8b8a7f51bb6] received
+[2024-10-07 20:04:08,579: INFO/MainProcess] Task common.tasks.check_server_performance_period[7ac06478-42ce-43e7-b1d3-f8b8a7f51bb6] succeeded in 0.007714984938502312s: None
+[2024-10-07 20:05:08,572: INFO/MainProcess] Task common.tasks.check_server_performance_period[0e833c0f-a339-4249-a8b6-a260a792cfcb] received
+[2024-10-07 20:05:08,585: INFO/MainProcess] Task common.tasks.check_server_performance_period[0e833c0f-a339-4249-a8b6-a260a792cfcb] succeeded in 0.01095280796289444s: None
+[2024-10-07 20:06:08,572: INFO/MainProcess] Task common.tasks.check_server_performance_period[7c473113-798b-4787-a498-b759096cc85e] received
+[2024-10-07 20:06:08,582: INFO/MainProcess] Task common.tasks.check_server_performance_period[7c473113-798b-4787-a498-b759096cc85e] succeeded in 0.007980619557201862s: None
+[2024-10-07 20:07:08,571: INFO/MainProcess] Task common.tasks.check_server_performance_period[68371cfe-3b05-4b45-b8c3-cb68dc65677c] received
+[2024-10-07 20:07:08,580: INFO/MainProcess] Task common.tasks.check_server_performance_period[68371cfe-3b05-4b45-b8c3-cb68dc65677c] succeeded in 0.007488159462809563s: None
+[2024-10-07 20:08:08,572: INFO/MainProcess] Task common.tasks.check_server_performance_period[da5e39ff-cb0b-4fe7-ac6b-bb4c4c81ff8b] received
+[2024-10-07 20:08:08,584: INFO/MainProcess] Task common.tasks.check_server_performance_period[da5e39ff-cb0b-4fe7-ac6b-bb4c4c81ff8b] succeeded in 0.01079370453953743s: None
+[2024-10-07 20:09:08,573: INFO/MainProcess] Task common.tasks.check_server_performance_period[67597b54-cfde-413d-980c-84b4a31b2755] received
+[2024-10-07 20:09:08,585: INFO/MainProcess] Task common.tasks.check_server_performance_period[67597b54-cfde-413d-980c-84b4a31b2755] succeeded in 0.010780074633657932s: None
+[2024-10-07 20:10:08,573: INFO/MainProcess] Task common.tasks.check_server_performance_period[95f1ed54-487d-432e-a2b6-dea2f6981bd7] received
+[2024-10-07 20:10:08,583: INFO/MainProcess] Task common.tasks.check_server_performance_period[95f1ed54-487d-432e-a2b6-dea2f6981bd7] succeeded in 0.009061375632882118s: None
+[2024-10-07 20:11:08,573: INFO/MainProcess] Task common.tasks.check_server_performance_period[d91dcd4c-497a-4dda-abad-05cc25df0012] received
+[2024-10-07 20:11:08,585: INFO/MainProcess] Task common.tasks.check_server_performance_period[d91dcd4c-497a-4dda-abad-05cc25df0012] succeeded in 0.010558414272964s: None
+[2024-10-07 20:12:08,573: INFO/MainProcess] Task common.tasks.check_server_performance_period[76c84695-f8fb-4f57-a09f-80a57f544f8b] received
+[2024-10-07 20:12:08,581: INFO/MainProcess] Task common.tasks.check_server_performance_period[76c84695-f8fb-4f57-a09f-80a57f544f8b] succeeded in 0.006848202086985111s: None
+[2024-10-07 20:13:08,574: INFO/MainProcess] Task common.tasks.check_server_performance_period[a408c6d2-271d-4fa5-9eed-9c8fac85978b] received
+[2024-10-07 20:13:08,590: INFO/MainProcess] Task common.tasks.check_server_performance_period[a408c6d2-271d-4fa5-9eed-9c8fac85978b] succeeded in 0.013609384186565876s: None
+[2024-10-07 20:14:08,575: INFO/MainProcess] Task common.tasks.check_server_performance_period[1ef80cba-2adc-4967-82bc-1526c8544dc7] received
+[2024-10-07 20:14:08,584: INFO/MainProcess] Task common.tasks.check_server_performance_period[1ef80cba-2adc-4967-82bc-1526c8544dc7] succeeded in 0.008091655559837818s: None
+[2024-10-07 20:15:08,574: INFO/MainProcess] Task common.tasks.check_server_performance_period[419b0c95-35f3-4e42-b311-9c8f1b135df5] received
+[2024-10-07 20:15:08,588: INFO/MainProcess] Task common.tasks.check_server_performance_period[419b0c95-35f3-4e42-b311-9c8f1b135df5] succeeded in 0.01211173739284277s: None
+[2024-10-07 20:16:08,576: INFO/MainProcess] Task common.tasks.check_server_performance_period[55574183-2faf-4ed1-aed4-64011fcc1999] received
+[2024-10-07 20:16:08,589: INFO/MainProcess] Task common.tasks.check_server_performance_period[55574183-2faf-4ed1-aed4-64011fcc1999] succeeded in 0.011357500217854977s: None
+[2024-10-07 20:17:08,577: INFO/MainProcess] Task common.tasks.check_server_performance_period[4d44f48a-17ae-46cc-bcac-f1423b4fd537] received
+[2024-10-07 20:17:08,586: INFO/MainProcess] Task common.tasks.check_server_performance_period[4d44f48a-17ae-46cc-bcac-f1423b4fd537] succeeded in 0.008939145132899284s: None
+[2024-10-07 20:18:08,577: INFO/MainProcess] Task common.tasks.check_server_performance_period[b64673dd-b66f-4017-923a-286d17cda032] received
+[2024-10-07 20:18:08,590: INFO/MainProcess] Task common.tasks.check_server_performance_period[b64673dd-b66f-4017-923a-286d17cda032] succeeded in 0.009909655898809433s: None
+[2024-10-07 20:19:08,577: INFO/MainProcess] Task common.tasks.check_server_performance_period[e1d56716-014f-4697-808a-25e10d0feb99] received
+[2024-10-07 20:19:08,590: INFO/MainProcess] Task common.tasks.check_server_performance_period[e1d56716-014f-4697-808a-25e10d0feb99] succeeded in 0.011816639453172684s: None
+[2024-10-07 20:20:08,577: INFO/MainProcess] Task common.tasks.check_server_performance_period[0f5ed8ba-915f-4ba8-b10d-f244d953d787] received
+[2024-10-07 20:20:08,590: INFO/MainProcess] Task common.tasks.check_server_performance_period[0f5ed8ba-915f-4ba8-b10d-f244d953d787] succeeded in 0.012251123785972595s: None
+[2024-10-07 20:21:08,576: INFO/MainProcess] Task common.tasks.check_server_performance_period[239ebc22-b580-4b39-9e6f-0abf600452ed] received
+[2024-10-07 20:21:08,590: INFO/MainProcess] Task common.tasks.check_server_performance_period[239ebc22-b580-4b39-9e6f-0abf600452ed] succeeded in 0.012973020784556866s: None
+[2024-10-07 20:22:08,577: INFO/MainProcess] Task common.tasks.check_server_performance_period[a74b6fa6-e0ca-4513-8eeb-44b3d0928d1a] received
+[2024-10-07 20:22:08,588: INFO/MainProcess] Task common.tasks.check_server_performance_period[a74b6fa6-e0ca-4513-8eeb-44b3d0928d1a] succeeded in 0.009721153415739536s: None
+[2024-10-07 20:23:08,577: INFO/MainProcess] Task common.tasks.check_server_performance_period[d50e8fe1-e793-49a7-b1fb-0ee6ac0bec1b] received
+[2024-10-07 20:23:08,589: INFO/MainProcess] Task common.tasks.check_server_performance_period[d50e8fe1-e793-49a7-b1fb-0ee6ac0bec1b] succeeded in 0.010801021009683609s: None
+[2024-10-07 20:24:08,579: INFO/MainProcess] Task common.tasks.check_server_performance_period[311b6d54-615a-45d3-8336-2713dab09d23] received
+[2024-10-07 20:24:08,591: INFO/MainProcess] Task common.tasks.check_server_performance_period[311b6d54-615a-45d3-8336-2713dab09d23] succeeded in 0.010680271312594414s: None
+[2024-10-07 20:25:08,579: INFO/MainProcess] Task common.tasks.check_server_performance_period[0e46d8f3-0ca8-47ea-97a5-0530e7492aca] received
+[2024-10-07 20:25:08,590: INFO/MainProcess] Task common.tasks.check_server_performance_period[0e46d8f3-0ca8-47ea-97a5-0530e7492aca] succeeded in 0.009800366126000881s: None
+[2024-10-07 20:26:08,580: INFO/MainProcess] Task common.tasks.check_server_performance_period[5d83e72e-b988-4fd4-acc9-5ffaf7dd57ae] received
+[2024-10-07 20:26:08,590: INFO/MainProcess] Task common.tasks.check_server_performance_period[5d83e72e-b988-4fd4-acc9-5ffaf7dd57ae] succeeded in 0.008200152777135372s: None
+[2024-10-07 20:27:08,579: INFO/MainProcess] Task common.tasks.check_server_performance_period[62d27da1-4ff6-4eda-852b-dc303dd4aada] received
+[2024-10-07 20:27:08,589: INFO/MainProcess] Task common.tasks.check_server_performance_period[62d27da1-4ff6-4eda-852b-dc303dd4aada] succeeded in 0.009082854725420475s: None
+[2024-10-07 20:28:08,581: INFO/MainProcess] Task common.tasks.check_server_performance_period[3dd639ef-9c01-4b93-8718-ed373e5096a8] received
+[2024-10-07 20:28:08,594: INFO/MainProcess] Task common.tasks.check_server_performance_period[3dd639ef-9c01-4b93-8718-ed373e5096a8] succeeded in 0.011075758375227451s: None
+[2024-10-07 20:29:08,579: INFO/MainProcess] Task common.tasks.check_server_performance_period[a7bcf82d-8708-45e5-8e19-3a075b87e0ad] received
+[2024-10-07 20:29:08,591: INFO/MainProcess] Task common.tasks.check_server_performance_period[a7bcf82d-8708-45e5-8e19-3a075b87e0ad] succeeded in 0.010725481435656548s: None
+[2024-10-07 20:30:08,580: INFO/MainProcess] Task common.tasks.check_server_performance_period[d6224407-19bd-449c-89a2-582ee8810814] received
+[2024-10-07 20:30:08,589: INFO/MainProcess] Task common.tasks.check_server_performance_period[d6224407-19bd-449c-89a2-582ee8810814] succeeded in 0.008441450074315071s: None
+[2024-10-07 20:31:08,580: INFO/MainProcess] Task common.tasks.check_server_performance_period[7909da8d-ff31-4b30-b0c8-dadc7454c35b] received
+[2024-10-07 20:31:08,590: INFO/MainProcess] Task common.tasks.check_server_performance_period[7909da8d-ff31-4b30-b0c8-dadc7454c35b] succeeded in 0.007477208040654659s: None
+[2024-10-07 20:32:08,582: INFO/MainProcess] Task common.tasks.check_server_performance_period[7aba007a-8c97-481c-b994-4605ca60033a] received
+[2024-10-07 20:32:08,593: INFO/MainProcess] Task common.tasks.check_server_performance_period[7aba007a-8c97-481c-b994-4605ca60033a] succeeded in 0.009712615050375462s: None
+[2024-10-07 20:33:08,582: INFO/MainProcess] Task common.tasks.check_server_performance_period[aa2beeb0-c2e0-446c-a04c-0d5daa47cc0b] received
+[2024-10-07 20:33:08,595: INFO/MainProcess] Task common.tasks.check_server_performance_period[aa2beeb0-c2e0-446c-a04c-0d5daa47cc0b] succeeded in 0.011425787582993507s: None
+[2024-10-07 20:34:08,583: INFO/MainProcess] Task common.tasks.check_server_performance_period[f2c67186-c587-42ab-b116-067f822d4d36] received
+[2024-10-07 20:34:08,592: INFO/MainProcess] Task common.tasks.check_server_performance_period[f2c67186-c587-42ab-b116-067f822d4d36] succeeded in 0.007710951380431652s: None
+[2024-10-07 20:35:08,582: INFO/MainProcess] Task common.tasks.check_server_performance_period[a1c6a761-da70-4d92-baff-7b77b6181e9a] received
+[2024-10-07 20:35:08,592: INFO/MainProcess] Task common.tasks.check_server_performance_period[a1c6a761-da70-4d92-baff-7b77b6181e9a] succeeded in 0.007252562791109085s: None
+[2024-10-07 20:36:08,582: INFO/MainProcess] Task common.tasks.check_server_performance_period[dca8d2b8-de1f-4ae4-afd7-92aa07bc803b] received
+[2024-10-07 20:36:08,594: INFO/MainProcess] Task common.tasks.check_server_performance_period[dca8d2b8-de1f-4ae4-afd7-92aa07bc803b] succeeded in 0.009725676849484444s: None
+[2024-10-07 20:37:08,439: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[fce1c231-ee16-4a1b-acc5-1efca4ef4835] received
+[2024-10-07 20:37:08,452: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[fce1c231-ee16-4a1b-acc5-1efca4ef4835] succeeded in 0.011318955570459366s: None
+[2024-10-07 20:37:08,582: INFO/MainProcess] Task common.tasks.check_server_performance_period[6f487eb6-47fa-4c6b-8f4b-0f2a7f246c14] received
+[2024-10-07 20:37:08,594: INFO/MainProcess] Task common.tasks.check_server_performance_period[6f487eb6-47fa-4c6b-8f4b-0f2a7f246c14] succeeded in 0.011836842633783817s: None
+[2024-10-07 20:38:08,584: INFO/MainProcess] Task common.tasks.check_server_performance_period[2d383b63-5e72-487f-a62f-83ce12521782] received
+[2024-10-07 20:38:08,593: INFO/MainProcess] Task common.tasks.check_server_performance_period[2d383b63-5e72-487f-a62f-83ce12521782] succeeded in 0.007927662692964077s: None
+[2024-10-07 20:39:08,583: INFO/MainProcess] Task common.tasks.check_server_performance_period[867fdae8-547e-43b8-836c-a9f8055891d1] received
+[2024-10-07 20:39:08,592: INFO/MainProcess] Task common.tasks.check_server_performance_period[867fdae8-547e-43b8-836c-a9f8055891d1] succeeded in 0.007549331523478031s: None
+[2024-10-07 20:40:08,583: INFO/MainProcess] Task common.tasks.check_server_performance_period[1570d5ed-8235-489c-baae-f1454bda5555] received
+[2024-10-07 20:40:08,593: INFO/MainProcess] Task common.tasks.check_server_performance_period[1570d5ed-8235-489c-baae-f1454bda5555] succeeded in 0.009402263909578323s: None
+[2024-10-07 20:41:08,584: INFO/MainProcess] Task common.tasks.check_server_performance_period[70fc1d3f-560a-4b2e-880b-14fb18c19788] received
+[2024-10-07 20:41:08,597: INFO/MainProcess] Task common.tasks.check_server_performance_period[70fc1d3f-560a-4b2e-880b-14fb18c19788] succeeded in 0.011439262889325619s: None
+[2024-10-07 20:42:08,584: INFO/MainProcess] Task common.tasks.check_server_performance_period[cb711f4e-527f-4ecf-9143-62227dc345c8] received
+[2024-10-07 20:42:08,591: INFO/MainProcess] Task common.tasks.check_server_performance_period[cb711f4e-527f-4ecf-9143-62227dc345c8] succeeded in 0.006865081377327442s: None
+[2024-10-07 20:43:08,584: INFO/MainProcess] Task common.tasks.check_server_performance_period[e10b6586-caa6-49be-a7d9-2e5412aac8ea] received
+[2024-10-07 20:43:08,595: INFO/MainProcess] Task common.tasks.check_server_performance_period[e10b6586-caa6-49be-a7d9-2e5412aac8ea] succeeded in 0.009780104272067547s: None
+[2024-10-07 20:44:08,585: INFO/MainProcess] Task common.tasks.check_server_performance_period[643bb271-5eb4-4c96-b6e3-627ea357b1cd] received
+[2024-10-07 20:44:08,597: INFO/MainProcess] Task common.tasks.check_server_performance_period[643bb271-5eb4-4c96-b6e3-627ea357b1cd] succeeded in 0.010491469874978065s: None
+[2024-10-07 20:45:08,585: INFO/MainProcess] Task common.tasks.check_server_performance_period[a405e873-d455-46d8-a28a-13b0f752ac6c] received
+[2024-10-07 20:45:08,594: INFO/MainProcess] Task common.tasks.check_server_performance_period[a405e873-d455-46d8-a28a-13b0f752ac6c] succeeded in 0.007830464281141758s: None
+[2024-10-07 20:46:08,584: INFO/MainProcess] Task common.tasks.check_server_performance_period[e4717960-f36c-42a7-9e02-b303c195e51d] received
+[2024-10-07 20:46:08,595: INFO/MainProcess] Task common.tasks.check_server_performance_period[e4717960-f36c-42a7-9e02-b303c195e51d] succeeded in 0.009642640128731728s: None
+[2024-10-07 20:47:08,585: INFO/MainProcess] Task common.tasks.check_server_performance_period[694d33d5-762c-4870-b3e1-0d14cc4ca898] received
+[2024-10-07 20:47:08,597: INFO/MainProcess] Task common.tasks.check_server_performance_period[694d33d5-762c-4870-b3e1-0d14cc4ca898] succeeded in 0.01080707274377346s: None
+[2024-10-07 20:48:08,585: INFO/MainProcess] Task common.tasks.check_server_performance_period[a77cbfdd-ac73-456b-abc8-a63db280e659] received
+[2024-10-07 20:48:08,596: INFO/MainProcess] Task common.tasks.check_server_performance_period[a77cbfdd-ac73-456b-abc8-a63db280e659] succeeded in 0.010587657801806927s: None
+[2024-10-07 20:49:08,586: INFO/MainProcess] Task common.tasks.check_server_performance_period[84faec2f-5f98-4897-8703-13243c46308c] received
+[2024-10-07 20:49:08,600: INFO/MainProcess] Task common.tasks.check_server_performance_period[84faec2f-5f98-4897-8703-13243c46308c] succeeded in 0.011917191557586193s: None
+[2024-10-07 20:50:08,588: INFO/MainProcess] Task common.tasks.check_server_performance_period[76ef9261-0a86-462b-b211-7b24f10b7372] received
+[2024-10-07 20:50:08,604: INFO/MainProcess] Task common.tasks.check_server_performance_period[76ef9261-0a86-462b-b211-7b24f10b7372] succeeded in 0.014780815690755844s: None
+[2024-10-07 20:51:08,588: INFO/MainProcess] Task common.tasks.check_server_performance_period[ec37c0d2-0218-45ee-b9bf-d29e6e88afa6] received
+[2024-10-07 20:51:08,602: INFO/MainProcess] Task common.tasks.check_server_performance_period[ec37c0d2-0218-45ee-b9bf-d29e6e88afa6] succeeded in 0.01135775726288557s: None
+[2024-10-07 20:52:08,587: INFO/MainProcess] Task common.tasks.check_server_performance_period[45c5f56b-8397-4aef-9bbd-9e8e18a79ba6] received
+[2024-10-07 20:52:08,601: INFO/MainProcess] Task common.tasks.check_server_performance_period[45c5f56b-8397-4aef-9bbd-9e8e18a79ba6] succeeded in 0.012562130577862263s: None
+[2024-10-07 20:53:08,588: INFO/MainProcess] Task common.tasks.check_server_performance_period[cd3a1890-23a0-4371-b5ec-4463ef80aee1] received
+[2024-10-07 20:53:08,600: INFO/MainProcess] Task common.tasks.check_server_performance_period[cd3a1890-23a0-4371-b5ec-4463ef80aee1] succeeded in 0.010111657902598381s: None
+[2024-10-07 20:54:08,589: INFO/MainProcess] Task common.tasks.check_server_performance_period[eec0c3e0-5af3-4f8f-8a6b-7ebf4dbc3d89] received
+[2024-10-07 20:54:08,597: INFO/MainProcess] Task common.tasks.check_server_performance_period[eec0c3e0-5af3-4f8f-8a6b-7ebf4dbc3d89] succeeded in 0.006989294663071632s: None
+[2024-10-07 20:55:08,589: INFO/MainProcess] Task common.tasks.check_server_performance_period[6f78a96d-7d73-4b00-86a1-afda9264d497] received
+[2024-10-07 20:55:08,599: INFO/MainProcess] Task common.tasks.check_server_performance_period[6f78a96d-7d73-4b00-86a1-afda9264d497] succeeded in 0.00872457679361105s: None
+[2024-10-07 20:56:08,590: INFO/MainProcess] Task common.tasks.check_server_performance_period[42f17c21-1b48-498d-bd70-a5a86cb1ef11] received
+[2024-10-07 20:56:08,603: INFO/MainProcess] Task common.tasks.check_server_performance_period[42f17c21-1b48-498d-bd70-a5a86cb1ef11] succeeded in 0.011510420590639114s: None
+[2024-10-07 20:57:08,589: INFO/MainProcess] Task common.tasks.check_server_performance_period[0e76e676-82e0-4166-a5fe-3338efb752ef] received
+[2024-10-07 20:57:08,599: INFO/MainProcess] Task common.tasks.check_server_performance_period[0e76e676-82e0-4166-a5fe-3338efb752ef] succeeded in 0.009137971326708794s: None
+[2024-10-07 20:58:08,590: INFO/MainProcess] Task common.tasks.check_server_performance_period[bc70f20f-d56c-4770-b154-9b1db9ae5bea] received
+[2024-10-07 20:58:08,599: INFO/MainProcess] Task common.tasks.check_server_performance_period[bc70f20f-d56c-4770-b154-9b1db9ae5bea] succeeded in 0.006865408271551132s: None
+[2024-10-07 20:59:08,591: INFO/MainProcess] Task common.tasks.check_server_performance_period[0a7e39da-3506-4062-b30d-ff9a1ef98c38] received
+[2024-10-07 20:59:08,600: INFO/MainProcess] Task common.tasks.check_server_performance_period[0a7e39da-3506-4062-b30d-ff9a1ef98c38] succeeded in 0.007835672236979008s: None
+[2024-10-07 21:00:08,592: INFO/MainProcess] Task common.tasks.check_server_performance_period[eecf95b6-7085-417c-adf0-94bf349efe61] received
+[2024-10-07 21:00:08,603: INFO/MainProcess] Task common.tasks.check_server_performance_period[eecf95b6-7085-417c-adf0-94bf349efe61] succeeded in 0.009677277877926826s: None
+[2024-10-07 21:01:08,590: INFO/MainProcess] Task common.tasks.check_server_performance_period[4c13379e-f596-46f3-91ab-1be96b0ac43c] received
+[2024-10-07 21:01:08,599: INFO/MainProcess] Task common.tasks.check_server_performance_period[4c13379e-f596-46f3-91ab-1be96b0ac43c] succeeded in 0.008325963281095028s: None
+[2024-10-07 21:02:08,591: INFO/MainProcess] Task common.tasks.check_server_performance_period[89758898-7e55-4734-8285-b9fae6605a19] received
+[2024-10-07 21:02:08,603: INFO/MainProcess] Task common.tasks.check_server_performance_period[89758898-7e55-4734-8285-b9fae6605a19] succeeded in 0.011261616833508015s: None
+[2024-10-07 21:03:08,592: INFO/MainProcess] Task common.tasks.check_server_performance_period[ac6a828a-096f-4899-af20-90f0271a07bc] received
+[2024-10-07 21:03:08,601: INFO/MainProcess] Task common.tasks.check_server_performance_period[ac6a828a-096f-4899-af20-90f0271a07bc] succeeded in 0.007756195031106472s: None
+[2024-10-07 21:04:08,595: INFO/MainProcess] Task common.tasks.check_server_performance_period[c7b666d6-d326-4512-9a41-f24ed57c68ba] received
+[2024-10-07 21:04:08,609: INFO/MainProcess] Task common.tasks.check_server_performance_period[c7b666d6-d326-4512-9a41-f24ed57c68ba] succeeded in 0.0100598419085145s: None
+[2024-10-07 21:05:08,594: INFO/MainProcess] Task common.tasks.check_server_performance_period[a0a563c9-26f0-42fb-95aa-48ca7d8853b1] received
+[2024-10-07 21:05:08,603: INFO/MainProcess] Task common.tasks.check_server_performance_period[a0a563c9-26f0-42fb-95aa-48ca7d8853b1] succeeded in 0.007749373093247414s: None
+[2024-10-07 21:06:08,592: INFO/MainProcess] Task common.tasks.check_server_performance_period[74c0391d-3682-4b3c-8b60-86e114fac9da] received
+[2024-10-07 21:06:08,601: INFO/MainProcess] Task common.tasks.check_server_performance_period[74c0391d-3682-4b3c-8b60-86e114fac9da] succeeded in 0.007444560527801514s: None
+[2024-10-07 21:07:08,593: INFO/MainProcess] Task common.tasks.check_server_performance_period[f62db6ee-eefa-409e-a7dc-9dda5e11824e] received
+[2024-10-07 21:07:08,605: INFO/MainProcess] Task common.tasks.check_server_performance_period[f62db6ee-eefa-409e-a7dc-9dda5e11824e] succeeded in 0.01147950068116188s: None
+[2024-10-07 21:08:08,595: INFO/MainProcess] Task common.tasks.check_server_performance_period[b81ae0ae-118f-4a49-8591-912d28ca8849] received
+[2024-10-07 21:08:08,607: INFO/MainProcess] Task common.tasks.check_server_performance_period[b81ae0ae-118f-4a49-8591-912d28ca8849] succeeded in 0.010797924362123013s: None
+[2024-10-07 21:09:08,595: INFO/MainProcess] Task common.tasks.check_server_performance_period[c66203af-83a9-4fec-8c3f-210756bf9918] received
+[2024-10-07 21:09:08,608: INFO/MainProcess] Task common.tasks.check_server_performance_period[c66203af-83a9-4fec-8c3f-210756bf9918] succeeded in 0.010636793449521065s: None
+[2024-10-07 21:10:08,595: INFO/MainProcess] Task common.tasks.check_server_performance_period[698ac020-1354-4179-acc2-f6b63ec14cc9] received
+[2024-10-07 21:10:08,607: INFO/MainProcess] Task common.tasks.check_server_performance_period[698ac020-1354-4179-acc2-f6b63ec14cc9] succeeded in 0.011063875630497932s: None
+[2024-10-07 21:11:08,595: INFO/MainProcess] Task common.tasks.check_server_performance_period[c9b65344-dfed-43c0-9ea1-128924859527] received
+[2024-10-07 21:11:08,609: INFO/MainProcess] Task common.tasks.check_server_performance_period[c9b65344-dfed-43c0-9ea1-128924859527] succeeded in 0.012937912717461586s: None
+[2024-10-07 21:12:08,594: INFO/MainProcess] Task common.tasks.check_server_performance_period[f4a975a4-2431-4358-a318-db75ee835c1a] received
+[2024-10-07 21:12:08,607: INFO/MainProcess] Task common.tasks.check_server_performance_period[f4a975a4-2431-4358-a318-db75ee835c1a] succeeded in 0.011204964481294155s: None
+[2024-10-07 21:13:08,596: INFO/MainProcess] Task common.tasks.check_server_performance_period[b93ea7e0-4937-4baa-abad-36e8fb05d8e7] received
+[2024-10-07 21:13:08,607: INFO/MainProcess] Task common.tasks.check_server_performance_period[b93ea7e0-4937-4baa-abad-36e8fb05d8e7] succeeded in 0.009575252421200275s: None
+[2024-10-07 21:14:08,596: INFO/MainProcess] Task common.tasks.check_server_performance_period[3864ca31-869e-4ebb-8703-1bc7414fea6b] received
+[2024-10-07 21:14:08,609: INFO/MainProcess] Task common.tasks.check_server_performance_period[3864ca31-869e-4ebb-8703-1bc7414fea6b] succeeded in 0.011103421449661255s: None
+[2024-10-07 21:15:08,597: INFO/MainProcess] Task common.tasks.check_server_performance_period[399fba4c-c1f0-4f3d-ab21-560d37a13ad9] received
+[2024-10-07 21:15:08,609: INFO/MainProcess] Task common.tasks.check_server_performance_period[399fba4c-c1f0-4f3d-ab21-560d37a13ad9] succeeded in 0.01106211543083191s: None
+[2024-10-07 21:16:08,597: INFO/MainProcess] Task common.tasks.check_server_performance_period[c00d1969-6929-4ee8-85d8-96a9fcd724e5] received
+[2024-10-07 21:16:08,610: INFO/MainProcess] Task common.tasks.check_server_performance_period[c00d1969-6929-4ee8-85d8-96a9fcd724e5] succeeded in 0.011106305755674839s: None
+[2024-10-07 21:17:08,597: INFO/MainProcess] Task common.tasks.check_server_performance_period[8cb32a11-f7d9-41ac-b641-396d034015e8] received
+[2024-10-07 21:17:08,606: INFO/MainProcess] Task common.tasks.check_server_performance_period[8cb32a11-f7d9-41ac-b641-396d034015e8] succeeded in 0.006699014455080032s: None
+[2024-10-07 21:18:08,596: INFO/MainProcess] Task common.tasks.check_server_performance_period[f98f412b-ab87-4de0-bdd2-0e7bf7512bb0] received
+[2024-10-07 21:18:08,609: INFO/MainProcess] Task common.tasks.check_server_performance_period[f98f412b-ab87-4de0-bdd2-0e7bf7512bb0] succeeded in 0.011437143199145794s: None
+[2024-10-07 21:19:08,597: INFO/MainProcess] Task common.tasks.check_server_performance_period[a505f9f5-38ba-4f20-a1ec-54414852330b] received
+[2024-10-07 21:19:08,610: INFO/MainProcess] Task common.tasks.check_server_performance_period[a505f9f5-38ba-4f20-a1ec-54414852330b] succeeded in 0.011398879811167717s: None
+[2024-10-07 21:20:08,599: INFO/MainProcess] Task common.tasks.check_server_performance_period[d9475dce-6307-4bbc-8176-fd1e4e9d8a7f] received
+[2024-10-07 21:20:08,611: INFO/MainProcess] Task common.tasks.check_server_performance_period[d9475dce-6307-4bbc-8176-fd1e4e9d8a7f] succeeded in 0.011160092428326607s: None
+[2024-10-07 21:21:08,600: INFO/MainProcess] Task common.tasks.check_server_performance_period[06b23118-d420-47e9-b84d-0990c82b552c] received
+[2024-10-07 21:21:08,610: INFO/MainProcess] Task common.tasks.check_server_performance_period[06b23118-d420-47e9-b84d-0990c82b552c] succeeded in 0.008745853789150715s: None
+[2024-10-07 21:22:08,599: INFO/MainProcess] Task common.tasks.check_server_performance_period[a2cba879-7a48-41c0-b875-fee520a2aa52] received
+[2024-10-07 21:22:08,609: INFO/MainProcess] Task common.tasks.check_server_performance_period[a2cba879-7a48-41c0-b875-fee520a2aa52] succeeded in 0.008699572645127773s: None
+[2024-10-07 21:23:08,599: INFO/MainProcess] Task common.tasks.check_server_performance_period[ced735ad-fb90-4cff-9319-17eb29e06715] received
+[2024-10-07 21:23:08,610: INFO/MainProcess] Task common.tasks.check_server_performance_period[ced735ad-fb90-4cff-9319-17eb29e06715] succeeded in 0.010291015729308128s: None
+[2024-10-07 21:24:08,600: INFO/MainProcess] Task common.tasks.check_server_performance_period[86e15041-bd9a-41d4-951e-3ee82e2b2a97] received
+[2024-10-07 21:24:08,620: INFO/MainProcess] Task common.tasks.check_server_performance_period[86e15041-bd9a-41d4-951e-3ee82e2b2a97] succeeded in 0.018757428973913193s: None
+[2024-10-07 21:25:08,601: INFO/MainProcess] Task common.tasks.check_server_performance_period[2bd78270-c8eb-47f9-abc3-91598ca91a81] received
+[2024-10-07 21:25:08,611: INFO/MainProcess] Task common.tasks.check_server_performance_period[2bd78270-c8eb-47f9-abc3-91598ca91a81] succeeded in 0.00821642391383648s: None
+[2024-10-07 21:26:08,600: INFO/MainProcess] Task common.tasks.check_server_performance_period[17ee4000-ca41-4bd1-8e29-712ab40d3542] received
+[2024-10-07 21:26:08,611: INFO/MainProcess] Task common.tasks.check_server_performance_period[17ee4000-ca41-4bd1-8e29-712ab40d3542] succeeded in 0.00883894320577383s: None
+[2024-10-07 21:27:08,600: INFO/MainProcess] Task common.tasks.check_server_performance_period[2a57791c-7f59-41c3-ac89-69bcaf247dc1] received
+[2024-10-07 21:27:08,610: INFO/MainProcess] Task common.tasks.check_server_performance_period[2a57791c-7f59-41c3-ac89-69bcaf247dc1] succeeded in 0.008676626719534397s: None
+[2024-10-07 21:28:08,601: INFO/MainProcess] Task common.tasks.check_server_performance_period[86d30c3d-38c5-47c7-b60b-a1bdf49fb333] received
+[2024-10-07 21:28:08,613: INFO/MainProcess] Task common.tasks.check_server_performance_period[86d30c3d-38c5-47c7-b60b-a1bdf49fb333] succeeded in 0.0108485147356987s: None
+[2024-10-07 21:29:08,601: INFO/MainProcess] Task common.tasks.check_server_performance_period[47180368-5e2a-4db2-a528-47b726f6be3f] received
+[2024-10-07 21:29:08,611: INFO/MainProcess] Task common.tasks.check_server_performance_period[47180368-5e2a-4db2-a528-47b726f6be3f] succeeded in 0.008499827235937119s: None
+[2024-10-07 21:30:08,601: INFO/MainProcess] Task common.tasks.check_server_performance_period[ab6c81f4-5001-45c9-bcce-32ed6becf1d1] received
+[2024-10-07 21:30:08,612: INFO/MainProcess] Task common.tasks.check_server_performance_period[ab6c81f4-5001-45c9-bcce-32ed6becf1d1] succeeded in 0.009494361467659473s: None
+[2024-10-07 21:31:08,601: INFO/MainProcess] Task common.tasks.check_server_performance_period[09960033-b600-41b7-a646-00ed05f6770a] received
+[2024-10-07 21:31:08,613: INFO/MainProcess] Task common.tasks.check_server_performance_period[09960033-b600-41b7-a646-00ed05f6770a] succeeded in 0.010624201036989689s: None
+[2024-10-07 21:32:08,602: INFO/MainProcess] Task common.tasks.check_server_performance_period[56acd5f8-a1f9-4599-b641-13961c24df54] received
+[2024-10-07 21:32:08,614: INFO/MainProcess] Task common.tasks.check_server_performance_period[56acd5f8-a1f9-4599-b641-13961c24df54] succeeded in 0.01066671870648861s: None
+[2024-10-07 21:33:08,602: INFO/MainProcess] Task common.tasks.check_server_performance_period[0ddf55c5-60df-4dbd-9c98-579e77ec47ad] received
+[2024-10-07 21:33:08,610: INFO/MainProcess] Task common.tasks.check_server_performance_period[0ddf55c5-60df-4dbd-9c98-579e77ec47ad] succeeded in 0.007215958088636398s: None
+[2024-10-07 21:34:08,603: INFO/MainProcess] Task common.tasks.check_server_performance_period[56323334-d2f6-4c85-9f3b-2adb799a609c] received
+[2024-10-07 21:34:08,614: INFO/MainProcess] Task common.tasks.check_server_performance_period[56323334-d2f6-4c85-9f3b-2adb799a609c] succeeded in 0.008883737027645111s: None
+[2024-10-07 21:35:08,603: INFO/MainProcess] Task common.tasks.check_server_performance_period[d36cce05-3bbe-4c92-941f-4f3e6c5d1883] received
+[2024-10-07 21:35:08,615: INFO/MainProcess] Task common.tasks.check_server_performance_period[d36cce05-3bbe-4c92-941f-4f3e6c5d1883] succeeded in 0.011125422082841396s: None
+[2024-10-07 21:36:08,603: INFO/MainProcess] Task common.tasks.check_server_performance_period[6a821f8e-0915-4129-8310-0d761d1b4121] received
+[2024-10-07 21:36:08,616: INFO/MainProcess] Task common.tasks.check_server_performance_period[6a821f8e-0915-4129-8310-0d761d1b4121] succeeded in 0.01223156787455082s: None
+[2024-10-07 21:37:08,438: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[64dd76c0-cb74-4e2c-9555-0173ff4e32bf] received
+[2024-10-07 21:37:08,450: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[64dd76c0-cb74-4e2c-9555-0173ff4e32bf] succeeded in 0.011660133488476276s: None
+[2024-10-07 21:37:08,604: INFO/MainProcess] Task common.tasks.check_server_performance_period[f6c1d478-f45f-49c2-bf86-ce1a0eb114f0] received
+[2024-10-07 21:37:08,620: INFO/MainProcess] Task common.tasks.check_server_performance_period[f6c1d478-f45f-49c2-bf86-ce1a0eb114f0] succeeded in 0.014342602342367172s: None
+[2024-10-07 21:38:08,605: INFO/MainProcess] Task common.tasks.check_server_performance_period[6608cd09-1c75-4a21-8d9f-2aebedcdcd6b] received
+[2024-10-07 21:38:08,614: INFO/MainProcess] Task common.tasks.check_server_performance_period[6608cd09-1c75-4a21-8d9f-2aebedcdcd6b] succeeded in 0.007486207410693169s: None
+[2024-10-07 21:39:08,606: INFO/MainProcess] Task common.tasks.check_server_performance_period[871eeb23-16e4-42ff-b5eb-c241472f684b] received
+[2024-10-07 21:39:08,615: INFO/MainProcess] Task common.tasks.check_server_performance_period[871eeb23-16e4-42ff-b5eb-c241472f684b] succeeded in 0.0075936755165457726s: None
+[2024-10-07 21:40:08,604: INFO/MainProcess] Task common.tasks.check_server_performance_period[83326ef2-cf73-47c7-b92b-99939399e895] received
+[2024-10-07 21:40:08,613: INFO/MainProcess] Task common.tasks.check_server_performance_period[83326ef2-cf73-47c7-b92b-99939399e895] succeeded in 0.008031758479773998s: None
+[2024-10-07 21:41:08,605: INFO/MainProcess] Task common.tasks.check_server_performance_period[2d5228a3-b8d1-4d64-b260-9cc1ac7568be] received
+[2024-10-07 21:41:08,616: INFO/MainProcess] Task common.tasks.check_server_performance_period[2d5228a3-b8d1-4d64-b260-9cc1ac7568be] succeeded in 0.010226080194115639s: None
+[2024-10-07 21:42:08,607: INFO/MainProcess] Task common.tasks.check_server_performance_period[89955129-2dde-4ea8-8e0f-d77a8edcb2de] received
+[2024-10-07 21:42:08,618: INFO/MainProcess] Task common.tasks.check_server_performance_period[89955129-2dde-4ea8-8e0f-d77a8edcb2de] succeeded in 0.01000651903450489s: None
+[2024-10-07 21:43:08,607: INFO/MainProcess] Task common.tasks.check_server_performance_period[d3a32a02-c76a-4541-9d11-e775201f6a33] received
+[2024-10-07 21:43:08,618: INFO/MainProcess] Task common.tasks.check_server_performance_period[d3a32a02-c76a-4541-9d11-e775201f6a33] succeeded in 0.010550392791628838s: None
+[2024-10-07 21:44:08,607: INFO/MainProcess] Task common.tasks.check_server_performance_period[669d375a-600d-4248-a620-0542086c20ab] received
+[2024-10-07 21:44:08,620: INFO/MainProcess] Task common.tasks.check_server_performance_period[669d375a-600d-4248-a620-0542086c20ab] succeeded in 0.01162234228104353s: None
+[2024-10-07 21:45:08,609: INFO/MainProcess] Task common.tasks.check_server_performance_period[4454bb41-f552-4610-a047-97abddee3d90] received
+[2024-10-07 21:45:08,621: INFO/MainProcess] Task common.tasks.check_server_performance_period[4454bb41-f552-4610-a047-97abddee3d90] succeeded in 0.010015369392931461s: None
+[2024-10-07 21:46:08,609: INFO/MainProcess] Task common.tasks.check_server_performance_period[13663dab-1b04-4c46-9040-0b3ef24e6594] received
+[2024-10-07 21:46:08,619: INFO/MainProcess] Task common.tasks.check_server_performance_period[13663dab-1b04-4c46-9040-0b3ef24e6594] succeeded in 0.008074347861111164s: None
+[2024-10-07 21:47:08,609: INFO/MainProcess] Task common.tasks.check_server_performance_period[f5aeac1a-fbff-4020-a7e7-bf4e3e98f8cb] received
+[2024-10-07 21:47:08,621: INFO/MainProcess] Task common.tasks.check_server_performance_period[f5aeac1a-fbff-4020-a7e7-bf4e3e98f8cb] succeeded in 0.010359088890254498s: None
+[2024-10-07 21:48:08,610: INFO/MainProcess] Task common.tasks.check_server_performance_period[248451d1-c690-43ca-a680-b4218b85915a] received
+[2024-10-07 21:48:08,623: INFO/MainProcess] Task common.tasks.check_server_performance_period[248451d1-c690-43ca-a680-b4218b85915a] succeeded in 0.010812731459736824s: None
+[2024-10-07 21:49:08,609: INFO/MainProcess] Task common.tasks.check_server_performance_period[09af6601-91da-4f1b-8e3d-4b60e20ab59f] received
+[2024-10-07 21:49:08,622: INFO/MainProcess] Task common.tasks.check_server_performance_period[09af6601-91da-4f1b-8e3d-4b60e20ab59f] succeeded in 0.010694971308112144s: None
+[2024-10-07 21:50:08,610: INFO/MainProcess] Task common.tasks.check_server_performance_period[25129702-530d-46c8-b285-9d10e5360374] received
+[2024-10-07 21:50:08,620: INFO/MainProcess] Task common.tasks.check_server_performance_period[25129702-530d-46c8-b285-9d10e5360374] succeeded in 0.008250769227743149s: None
+[2024-10-07 21:51:08,611: INFO/MainProcess] Task common.tasks.check_server_performance_period[45295693-4d01-47e3-9394-9fde59acfb46] received
+[2024-10-07 21:51:08,623: INFO/MainProcess] Task common.tasks.check_server_performance_period[45295693-4d01-47e3-9394-9fde59acfb46] succeeded in 0.01008682418614626s: None
+[2024-10-07 21:52:08,611: INFO/MainProcess] Task common.tasks.check_server_performance_period[ca2785fa-2320-4ce8-8410-dd2a56fc742f] received
+[2024-10-07 21:52:08,622: INFO/MainProcess] Task common.tasks.check_server_performance_period[ca2785fa-2320-4ce8-8410-dd2a56fc742f] succeeded in 0.009143723174929619s: None
+[2024-10-07 21:53:08,611: INFO/MainProcess] Task common.tasks.check_server_performance_period[de66fb7a-371d-414a-aefe-2b3a306277fd] received
+[2024-10-07 21:53:08,620: INFO/MainProcess] Task common.tasks.check_server_performance_period[de66fb7a-371d-414a-aefe-2b3a306277fd] succeeded in 0.007796271704137325s: None
+[2024-10-07 21:54:08,612: INFO/MainProcess] Task common.tasks.check_server_performance_period[65f93f55-fcd5-4d5d-973d-ffa1dea6a5be] received
+[2024-10-07 21:54:08,621: INFO/MainProcess] Task common.tasks.check_server_performance_period[65f93f55-fcd5-4d5d-973d-ffa1dea6a5be] succeeded in 0.007724977098405361s: None
+[2024-10-07 21:55:08,611: INFO/MainProcess] Task common.tasks.check_server_performance_period[79f92758-2bd9-4611-9957-c440886883de] received
+[2024-10-07 21:55:08,620: INFO/MainProcess] Task common.tasks.check_server_performance_period[79f92758-2bd9-4611-9957-c440886883de] succeeded in 0.007468400523066521s: None
+[2024-10-07 21:56:08,612: INFO/MainProcess] Task common.tasks.check_server_performance_period[815b76a5-1654-4392-91ee-142805248fc5] received
+[2024-10-07 21:56:08,624: INFO/MainProcess] Task common.tasks.check_server_performance_period[815b76a5-1654-4392-91ee-142805248fc5] succeeded in 0.010747856460511684s: None
+[2024-10-07 21:57:08,613: INFO/MainProcess] Task common.tasks.check_server_performance_period[f6e74c2b-adf5-4ae5-b7fd-d229abc06c1b] received
+[2024-10-07 21:57:08,622: INFO/MainProcess] Task common.tasks.check_server_performance_period[f6e74c2b-adf5-4ae5-b7fd-d229abc06c1b] succeeded in 0.006810416467487812s: None
+[2024-10-07 21:58:08,613: INFO/MainProcess] Task common.tasks.check_server_performance_period[122ee1cf-4bc4-49ab-a8ce-392ab23ed481] received
+[2024-10-07 21:58:08,622: INFO/MainProcess] Task common.tasks.check_server_performance_period[122ee1cf-4bc4-49ab-a8ce-392ab23ed481] succeeded in 0.007041218690574169s: None
+[2024-10-07 21:59:08,614: INFO/MainProcess] Task common.tasks.check_server_performance_period[ee3aeb47-410b-4af0-821e-04be0117178f] received
+[2024-10-07 21:59:08,623: INFO/MainProcess] Task common.tasks.check_server_performance_period[ee3aeb47-410b-4af0-821e-04be0117178f] succeeded in 0.007176436483860016s: None
+[2024-10-07 22:00:08,614: INFO/MainProcess] Task common.tasks.check_server_performance_period[8281e167-3fd8-4b30-a05d-83dfd39dd319] received
+[2024-10-07 22:00:08,627: INFO/MainProcess] Task common.tasks.check_server_performance_period[8281e167-3fd8-4b30-a05d-83dfd39dd319] succeeded in 0.011208714917302132s: None
+[2024-10-07 22:01:08,614: INFO/MainProcess] Task common.tasks.check_server_performance_period[984b06d4-fd6c-4f77-b708-9a770e4c5eee] received
+[2024-10-07 22:01:08,649: INFO/MainProcess] Task common.tasks.check_server_performance_period[984b06d4-fd6c-4f77-b708-9a770e4c5eee] succeeded in 0.03298868332058191s: None
+[2024-10-07 22:02:08,616: INFO/MainProcess] Task common.tasks.check_server_performance_period[ba9c8671-5beb-4860-8b62-ffc63e650fe3] received
+[2024-10-07 22:02:08,625: INFO/MainProcess] Task common.tasks.check_server_performance_period[ba9c8671-5beb-4860-8b62-ffc63e650fe3] succeeded in 0.007872032932937145s: None
+[2024-10-07 22:03:08,615: INFO/MainProcess] Task common.tasks.check_server_performance_period[fe3e2a09-20f4-4e63-b187-abcd1a61cdd2] received
+[2024-10-07 22:03:08,627: INFO/MainProcess] Task common.tasks.check_server_performance_period[fe3e2a09-20f4-4e63-b187-abcd1a61cdd2] succeeded in 0.009268148802220821s: None
+[2024-10-07 22:04:08,616: INFO/MainProcess] Task common.tasks.check_server_performance_period[d266aa88-2457-4728-8b24-e6958c3f53d4] received
+[2024-10-07 22:04:08,627: INFO/MainProcess] Task common.tasks.check_server_performance_period[d266aa88-2457-4728-8b24-e6958c3f53d4] succeeded in 0.009535069577395916s: None
+[2024-10-07 22:05:08,617: INFO/MainProcess] Task common.tasks.check_server_performance_period[ea6292d3-06cf-426a-a85d-f03d15491142] received
+[2024-10-07 22:05:08,628: INFO/MainProcess] Task common.tasks.check_server_performance_period[ea6292d3-06cf-426a-a85d-f03d15491142] succeeded in 0.0098906634375453s: None
+[2024-10-07 22:06:08,616: INFO/MainProcess] Task common.tasks.check_server_performance_period[8885a6ea-2470-465b-904a-e5f2a507f117] received
+[2024-10-07 22:06:08,625: INFO/MainProcess] Task common.tasks.check_server_performance_period[8885a6ea-2470-465b-904a-e5f2a507f117] succeeded in 0.007831578142940998s: None
+[2024-10-07 22:07:08,617: INFO/MainProcess] Task common.tasks.check_server_performance_period[f28a57a3-927f-4891-b3e0-68b4f931ee37] received
+[2024-10-07 22:07:08,631: INFO/MainProcess] Task common.tasks.check_server_performance_period[f28a57a3-927f-4891-b3e0-68b4f931ee37] succeeded in 0.01254463940858841s: None
+[2024-10-07 22:08:08,616: INFO/MainProcess] Task common.tasks.check_server_performance_period[46f1cbc6-bea5-4d78-8d9c-c7cec868bfb7] received
+[2024-10-07 22:08:08,625: INFO/MainProcess] Task common.tasks.check_server_performance_period[46f1cbc6-bea5-4d78-8d9c-c7cec868bfb7] succeeded in 0.007705686613917351s: None
+[2024-10-07 22:09:08,616: INFO/MainProcess] Task common.tasks.check_server_performance_period[5b14793b-7fce-4f08-b1a8-e8e5642c57b2] received
+[2024-10-07 22:09:08,626: INFO/MainProcess] Task common.tasks.check_server_performance_period[5b14793b-7fce-4f08-b1a8-e8e5642c57b2] succeeded in 0.0093577541410923s: None
+[2024-10-07 22:10:08,617: INFO/MainProcess] Task common.tasks.check_server_performance_period[a6127948-0018-442a-befa-6df81e7a4a78] received
+[2024-10-07 22:10:08,627: INFO/MainProcess] Task common.tasks.check_server_performance_period[a6127948-0018-442a-befa-6df81e7a4a78] succeeded in 0.008985132910311222s: None
+[2024-10-07 22:11:08,617: INFO/MainProcess] Task common.tasks.check_server_performance_period[e6a62540-2137-4f3a-a45d-2b3d8f2dfafb] received
+[2024-10-07 22:11:08,629: INFO/MainProcess] Task common.tasks.check_server_performance_period[e6a62540-2137-4f3a-a45d-2b3d8f2dfafb] succeeded in 0.010329915210604668s: None
+[2024-10-07 22:12:08,618: INFO/MainProcess] Task common.tasks.check_server_performance_period[08a9b726-1f88-4684-9ed2-4b20084b5dc5] received
+[2024-10-07 22:12:08,627: INFO/MainProcess] Task common.tasks.check_server_performance_period[08a9b726-1f88-4684-9ed2-4b20084b5dc5] succeeded in 0.007797056809067726s: None
+[2024-10-07 22:13:08,619: INFO/MainProcess] Task common.tasks.check_server_performance_period[8caaca8b-eec8-454a-a0cb-77587578918f] received
+[2024-10-07 22:13:08,630: INFO/MainProcess] Task common.tasks.check_server_performance_period[8caaca8b-eec8-454a-a0cb-77587578918f] succeeded in 0.010134559124708176s: None
+[2024-10-07 22:14:08,619: INFO/MainProcess] Task common.tasks.check_server_performance_period[380b7fb6-a620-4f2e-a5a1-dccd13d124bb] received
+[2024-10-07 22:14:08,630: INFO/MainProcess] Task common.tasks.check_server_performance_period[380b7fb6-a620-4f2e-a5a1-dccd13d124bb] succeeded in 0.00938698835670948s: None
+[2024-10-07 22:15:08,619: INFO/MainProcess] Task common.tasks.check_server_performance_period[26f914e9-e6e1-4ba9-9eb4-74e52ed40bc1] received
+[2024-10-07 22:15:08,629: INFO/MainProcess] Task common.tasks.check_server_performance_period[26f914e9-e6e1-4ba9-9eb4-74e52ed40bc1] succeeded in 0.00837527122348547s: None
+[2024-10-07 22:16:08,619: INFO/MainProcess] Task common.tasks.check_server_performance_period[b5ab0d6d-b3b2-4c3a-a968-9d513f1b5410] received
+[2024-10-07 22:16:08,635: INFO/MainProcess] Task common.tasks.check_server_performance_period[b5ab0d6d-b3b2-4c3a-a968-9d513f1b5410] succeeded in 0.014530203305184841s: None
+[2024-10-07 22:17:08,620: INFO/MainProcess] Task common.tasks.check_server_performance_period[17a8894e-6e58-4524-bd17-40a7c5fc1a46] received
+[2024-10-07 22:17:08,630: INFO/MainProcess] Task common.tasks.check_server_performance_period[17a8894e-6e58-4524-bd17-40a7c5fc1a46] succeeded in 0.009113428182899952s: None
+[2024-10-07 22:18:08,621: INFO/MainProcess] Task common.tasks.check_server_performance_period[c2d17535-be3b-4d4b-b324-638495318453] received
+[2024-10-07 22:18:08,634: INFO/MainProcess] Task common.tasks.check_server_performance_period[c2d17535-be3b-4d4b-b324-638495318453] succeeded in 0.011437040753662586s: None
+[2024-10-07 22:19:08,621: INFO/MainProcess] Task common.tasks.check_server_performance_period[e0f07f69-a8ff-420d-aea8-8ff3bfc00d37] received
+[2024-10-07 22:19:08,635: INFO/MainProcess] Task common.tasks.check_server_performance_period[e0f07f69-a8ff-420d-aea8-8ff3bfc00d37] succeeded in 0.011674136854708195s: None
+[2024-10-07 22:20:08,622: INFO/MainProcess] Task common.tasks.check_server_performance_period[69f16f53-712e-416f-a5c5-38a737e1037a] received
+[2024-10-07 22:20:08,631: INFO/MainProcess] Task common.tasks.check_server_performance_period[69f16f53-712e-416f-a5c5-38a737e1037a] succeeded in 0.00749385729432106s: None
+[2024-10-07 22:21:08,621: INFO/MainProcess] Task common.tasks.check_server_performance_period[2c23021f-46ca-4dc0-8ccc-3cd3ca46c1d7] received
+[2024-10-07 22:21:08,630: INFO/MainProcess] Task common.tasks.check_server_performance_period[2c23021f-46ca-4dc0-8ccc-3cd3ca46c1d7] succeeded in 0.007328744977712631s: None
+[2024-10-07 22:22:08,622: INFO/MainProcess] Task common.tasks.check_server_performance_period[eaf52b25-c6ce-48bf-a407-3b5906fa3242] received
+[2024-10-07 22:22:08,642: INFO/MainProcess] Task common.tasks.check_server_performance_period[eaf52b25-c6ce-48bf-a407-3b5906fa3242] succeeded in 0.016609391197562218s: None
+[2024-10-07 22:23:08,623: INFO/MainProcess] Task common.tasks.check_server_performance_period[f9d2fe08-fe51-476b-9d35-672c5b8c7a54] received
+[2024-10-07 22:23:08,633: INFO/MainProcess] Task common.tasks.check_server_performance_period[f9d2fe08-fe51-476b-9d35-672c5b8c7a54] succeeded in 0.008657506667077541s: None
+[2024-10-07 22:24:08,623: INFO/MainProcess] Task common.tasks.check_server_performance_period[1c5ea616-6460-43e9-960a-f118b94f7a7a] received
+[2024-10-07 22:24:08,634: INFO/MainProcess] Task common.tasks.check_server_performance_period[1c5ea616-6460-43e9-960a-f118b94f7a7a] succeeded in 0.009324897080659866s: None
+[2024-10-07 22:25:08,623: INFO/MainProcess] Task common.tasks.check_server_performance_period[5e40ae24-e463-43ad-a74f-b7c635a5fd5f] received
+[2024-10-07 22:25:08,633: INFO/MainProcess] Task common.tasks.check_server_performance_period[5e40ae24-e463-43ad-a74f-b7c635a5fd5f] succeeded in 0.008324066177010536s: None
+[2024-10-07 22:26:08,624: INFO/MainProcess] Task common.tasks.check_server_performance_period[4862a3a3-d4b4-4bbf-ae47-18f7a1b3f738] received
+[2024-10-07 22:26:08,638: INFO/MainProcess] Task common.tasks.check_server_performance_period[4862a3a3-d4b4-4bbf-ae47-18f7a1b3f738] succeeded in 0.01193662267178297s: None
+[2024-10-07 22:27:08,624: INFO/MainProcess] Task common.tasks.check_server_performance_period[c134f5ca-474b-45cc-a06d-837b07cd5ba0] received
+[2024-10-07 22:27:08,636: INFO/MainProcess] Task common.tasks.check_server_performance_period[c134f5ca-474b-45cc-a06d-837b07cd5ba0] succeeded in 0.009506936185061932s: None
+[2024-10-07 22:28:08,624: INFO/MainProcess] Task common.tasks.check_server_performance_period[07fc76ae-ef86-42ee-8cd4-cc99067ad1f5] received
+[2024-10-07 22:28:08,634: INFO/MainProcess] Task common.tasks.check_server_performance_period[07fc76ae-ef86-42ee-8cd4-cc99067ad1f5] succeeded in 0.009227544069290161s: None
+[2024-10-07 22:29:08,625: INFO/MainProcess] Task common.tasks.check_server_performance_period[23e16f69-245f-4203-b63e-c67a8c3e6b6a] received
+[2024-10-07 22:29:08,634: INFO/MainProcess] Task common.tasks.check_server_performance_period[23e16f69-245f-4203-b63e-c67a8c3e6b6a] succeeded in 0.007266273722052574s: None
+[2024-10-07 22:30:08,625: INFO/MainProcess] Task common.tasks.check_server_performance_period[5753901f-4c02-4f20-b68c-691651e2885e] received
+[2024-10-07 22:30:08,636: INFO/MainProcess] Task common.tasks.check_server_performance_period[5753901f-4c02-4f20-b68c-691651e2885e] succeeded in 0.009975185617804527s: None
+[2024-10-07 22:31:08,625: INFO/MainProcess] Task common.tasks.check_server_performance_period[a18824b3-f9f1-4e29-bc53-6f2692315320] received
+[2024-10-07 22:31:08,636: INFO/MainProcess] Task common.tasks.check_server_performance_period[a18824b3-f9f1-4e29-bc53-6f2692315320] succeeded in 0.008655649609863758s: None
+[2024-10-07 22:32:08,625: INFO/MainProcess] Task common.tasks.check_server_performance_period[3015a2f0-da26-463c-80e4-19db5222392d] received
+[2024-10-07 22:32:08,638: INFO/MainProcess] Task common.tasks.check_server_performance_period[3015a2f0-da26-463c-80e4-19db5222392d] succeeded in 0.01258759293705225s: None
+[2024-10-07 22:33:08,625: INFO/MainProcess] Task common.tasks.check_server_performance_period[f87e2973-dcfe-4d04-8e21-ec47c7191b1c] received
+[2024-10-07 22:33:08,636: INFO/MainProcess] Task common.tasks.check_server_performance_period[f87e2973-dcfe-4d04-8e21-ec47c7191b1c] succeeded in 0.009156600572168827s: None
+[2024-10-07 22:34:08,625: INFO/MainProcess] Task common.tasks.check_server_performance_period[905ebf78-8a73-4b4f-b525-26927a44cf43] received
+[2024-10-07 22:34:08,638: INFO/MainProcess] Task common.tasks.check_server_performance_period[905ebf78-8a73-4b4f-b525-26927a44cf43] succeeded in 0.011953800916671753s: None
+[2024-10-07 22:35:08,626: INFO/MainProcess] Task common.tasks.check_server_performance_period[7767bdd8-7052-4609-b488-69df26edf46f] received
+[2024-10-07 22:35:08,635: INFO/MainProcess] Task common.tasks.check_server_performance_period[7767bdd8-7052-4609-b488-69df26edf46f] succeeded in 0.008548887446522713s: None
+[2024-10-07 22:36:08,628: INFO/MainProcess] Task common.tasks.check_server_performance_period[0ae3f065-ad60-4a9d-8393-ccf6cafdcf93] received
+[2024-10-07 22:36:08,641: INFO/MainProcess] Task common.tasks.check_server_performance_period[0ae3f065-ad60-4a9d-8393-ccf6cafdcf93] succeeded in 0.011877546086907387s: None
+[2024-10-07 22:37:08,441: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[9bed2737-882f-4b87-92ee-3fd689a068b1] received
+[2024-10-07 22:37:08,454: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[9bed2737-882f-4b87-92ee-3fd689a068b1] succeeded in 0.010326533578336239s: None
+[2024-10-07 22:37:08,627: INFO/MainProcess] Task common.tasks.check_server_performance_period[6a240493-502f-441e-80ee-1fad0808690c] received
+[2024-10-07 22:37:08,639: INFO/MainProcess] Task common.tasks.check_server_performance_period[6a240493-502f-441e-80ee-1fad0808690c] succeeded in 0.010084027424454689s: None
+[2024-10-07 22:38:08,628: INFO/MainProcess] Task common.tasks.check_server_performance_period[78c86e6c-ef9b-4f7d-a3d4-47663059c9ff] received
+[2024-10-07 22:38:08,637: INFO/MainProcess] Task common.tasks.check_server_performance_period[78c86e6c-ef9b-4f7d-a3d4-47663059c9ff] succeeded in 0.007759083062410355s: None
+[2024-10-07 22:39:08,628: INFO/MainProcess] Task common.tasks.check_server_performance_period[556914e7-168c-46c1-91e3-9453b7a69f0c] received
+[2024-10-07 22:39:08,639: INFO/MainProcess] Task common.tasks.check_server_performance_period[556914e7-168c-46c1-91e3-9453b7a69f0c] succeeded in 0.009716663509607315s: None
+[2024-10-07 22:40:08,629: INFO/MainProcess] Task common.tasks.check_server_performance_period[ea5c2b92-481b-47b0-852e-53ef2eb38108] received
+[2024-10-07 22:40:08,639: INFO/MainProcess] Task common.tasks.check_server_performance_period[ea5c2b92-481b-47b0-852e-53ef2eb38108] succeeded in 0.00798829272389412s: None
+[2024-10-07 22:41:08,629: INFO/MainProcess] Task common.tasks.check_server_performance_period[ca8c2e58-55df-4e59-851d-9d503b31bf75] received
+[2024-10-07 22:41:08,640: INFO/MainProcess] Task common.tasks.check_server_performance_period[ca8c2e58-55df-4e59-851d-9d503b31bf75] succeeded in 0.009025136940181255s: None
+[2024-10-07 22:42:08,629: INFO/MainProcess] Task common.tasks.check_server_performance_period[13a20547-10c2-487b-a212-2982cb813fb6] received
+[2024-10-07 22:42:08,639: INFO/MainProcess] Task common.tasks.check_server_performance_period[13a20547-10c2-487b-a212-2982cb813fb6] succeeded in 0.008745415136218071s: None
+[2024-10-07 22:43:08,631: INFO/MainProcess] Task common.tasks.check_server_performance_period[ce70a1b4-1e2c-49ec-84e4-56d3a093b91b] received
+[2024-10-07 22:43:08,642: INFO/MainProcess] Task common.tasks.check_server_performance_period[ce70a1b4-1e2c-49ec-84e4-56d3a093b91b] succeeded in 0.009715606458485126s: None
+[2024-10-07 22:44:08,632: INFO/MainProcess] Task common.tasks.check_server_performance_period[2e84af12-d773-490d-bde6-94da534b1a19] received
+[2024-10-07 22:44:08,639: INFO/MainProcess] Task common.tasks.check_server_performance_period[2e84af12-d773-490d-bde6-94da534b1a19] succeeded in 0.006696488708257675s: None
+[2024-10-07 22:45:08,632: INFO/MainProcess] Task common.tasks.check_server_performance_period[733af1c3-db17-463f-9226-9311e62ee0d3] received
+[2024-10-07 22:45:08,644: INFO/MainProcess] Task common.tasks.check_server_performance_period[733af1c3-db17-463f-9226-9311e62ee0d3] succeeded in 0.009793396107852459s: None
+[2024-10-07 22:46:08,632: INFO/MainProcess] Task common.tasks.check_server_performance_period[e7d55ae7-ae24-4f63-ba7c-d1a700a3eb17] received
+[2024-10-07 22:46:08,643: INFO/MainProcess] Task common.tasks.check_server_performance_period[e7d55ae7-ae24-4f63-ba7c-d1a700a3eb17] succeeded in 0.0108475461602211s: None
+[2024-10-07 22:47:08,633: INFO/MainProcess] Task common.tasks.check_server_performance_period[1147260c-6242-4031-ac15-e8c7faca0217] received
+[2024-10-07 22:47:08,646: INFO/MainProcess] Task common.tasks.check_server_performance_period[1147260c-6242-4031-ac15-e8c7faca0217] succeeded in 0.010751310735940933s: None
+[2024-10-07 22:48:08,633: INFO/MainProcess] Task common.tasks.check_server_performance_period[6da46039-f852-46d0-9849-c1e1c24d8f0e] received
+[2024-10-07 22:48:08,645: INFO/MainProcess] Task common.tasks.check_server_performance_period[6da46039-f852-46d0-9849-c1e1c24d8f0e] succeeded in 0.01153892744332552s: None
+[2024-10-07 22:49:08,634: INFO/MainProcess] Task common.tasks.check_server_performance_period[ab1555c6-80af-4c7f-bf19-9d7c5487a3a3] received
+[2024-10-07 22:49:08,644: INFO/MainProcess] Task common.tasks.check_server_performance_period[ab1555c6-80af-4c7f-bf19-9d7c5487a3a3] succeeded in 0.008222226984798908s: None
+[2024-10-07 22:50:08,634: INFO/MainProcess] Task common.tasks.check_server_performance_period[9248e47a-910f-4592-8110-1fb5aad47fa0] received
+[2024-10-07 22:50:08,647: INFO/MainProcess] Task common.tasks.check_server_performance_period[9248e47a-910f-4592-8110-1fb5aad47fa0] succeeded in 0.011141268536448479s: None
+[2024-10-07 22:51:08,634: INFO/MainProcess] Task common.tasks.check_server_performance_period[f39df744-3f07-42a4-9c44-764efc5ff547] received
+[2024-10-07 22:51:08,648: INFO/MainProcess] Task common.tasks.check_server_performance_period[f39df744-3f07-42a4-9c44-764efc5ff547] succeeded in 0.011824402958154678s: None
+[2024-10-07 22:52:08,635: INFO/MainProcess] Task common.tasks.check_server_performance_period[275bb93a-48e4-4ecc-829a-a2e7975cf89b] received
+[2024-10-07 22:52:08,648: INFO/MainProcess] Task common.tasks.check_server_performance_period[275bb93a-48e4-4ecc-829a-a2e7975cf89b] succeeded in 0.011241949163377285s: None
+[2024-10-07 22:53:08,635: INFO/MainProcess] Task common.tasks.check_server_performance_period[936487f4-ad2d-474c-ae6b-82691a768447] received
+[2024-10-07 22:53:08,648: INFO/MainProcess] Task common.tasks.check_server_performance_period[936487f4-ad2d-474c-ae6b-82691a768447] succeeded in 0.011235378682613373s: None
+[2024-10-07 22:54:08,635: INFO/MainProcess] Task common.tasks.check_server_performance_period[ce4dc24e-6836-4b60-aede-3654b125a513] received
+[2024-10-07 22:54:08,648: INFO/MainProcess] Task common.tasks.check_server_performance_period[ce4dc24e-6836-4b60-aede-3654b125a513] succeeded in 0.011343192309141159s: None
+[2024-10-07 22:55:08,635: INFO/MainProcess] Task common.tasks.check_server_performance_period[7c569b26-c9a7-42f5-9e9c-75f2e5216e58] received
+[2024-10-07 22:55:08,643: INFO/MainProcess] Task common.tasks.check_server_performance_period[7c569b26-c9a7-42f5-9e9c-75f2e5216e58] succeeded in 0.00724070705473423s: None
+[2024-10-07 22:56:08,634: INFO/MainProcess] Task common.tasks.check_server_performance_period[4f201324-1ce4-45f6-917f-6768328316fa] received
+[2024-10-07 22:56:08,645: INFO/MainProcess] Task common.tasks.check_server_performance_period[4f201324-1ce4-45f6-917f-6768328316fa] succeeded in 0.010376517660915852s: None
+[2024-10-07 22:57:08,635: INFO/MainProcess] Task common.tasks.check_server_performance_period[7ffa2eb9-ef02-4d58-ae99-ed31001c6dfd] received
+[2024-10-07 22:57:08,645: INFO/MainProcess] Task common.tasks.check_server_performance_period[7ffa2eb9-ef02-4d58-ae99-ed31001c6dfd] succeeded in 0.008513438515365124s: None
+[2024-10-07 22:58:08,636: INFO/MainProcess] Task common.tasks.check_server_performance_period[ab567686-74fc-456b-bba3-f57bc2dc51b7] received
+[2024-10-07 22:58:08,645: INFO/MainProcess] Task common.tasks.check_server_performance_period[ab567686-74fc-456b-bba3-f57bc2dc51b7] succeeded in 0.007654350250959396s: None
+[2024-10-07 22:59:08,638: INFO/MainProcess] Task common.tasks.check_server_performance_period[9363d584-dbbe-420c-8ded-8ba4cad85195] received
+[2024-10-07 22:59:08,650: INFO/MainProcess] Task common.tasks.check_server_performance_period[9363d584-dbbe-420c-8ded-8ba4cad85195] succeeded in 0.00987233966588974s: None
+[2024-10-07 23:00:08,637: INFO/MainProcess] Task common.tasks.check_server_performance_period[0d91f10c-7f89-4a1d-a5f3-4b76183c2fd3] received
+[2024-10-07 23:00:08,649: INFO/MainProcess] Task common.tasks.check_server_performance_period[0d91f10c-7f89-4a1d-a5f3-4b76183c2fd3] succeeded in 0.01098498236387968s: None
+[2024-10-07 23:01:08,636: INFO/MainProcess] Task common.tasks.check_server_performance_period[3f91910b-797b-480f-9467-3132d6d82ec8] received
+[2024-10-07 23:01:08,646: INFO/MainProcess] Task common.tasks.check_server_performance_period[3f91910b-797b-480f-9467-3132d6d82ec8] succeeded in 0.00939220655709505s: None
+[2024-10-07 23:02:08,639: INFO/MainProcess] Task common.tasks.check_server_performance_period[5cbd2346-9eb8-454e-a473-0292c1f62520] received
+[2024-10-07 23:02:08,650: INFO/MainProcess] Task common.tasks.check_server_performance_period[5cbd2346-9eb8-454e-a473-0292c1f62520] succeeded in 0.009081744588911533s: None
+[2024-10-07 23:03:08,638: INFO/MainProcess] Task common.tasks.check_server_performance_period[064580d3-4ee2-4653-9f05-6a0c367037f3] received
+[2024-10-07 23:03:08,652: INFO/MainProcess] Task common.tasks.check_server_performance_period[064580d3-4ee2-4653-9f05-6a0c367037f3] succeeded in 0.011779607273638248s: None
+[2024-10-07 23:04:08,638: INFO/MainProcess] Task common.tasks.check_server_performance_period[25a142cd-a989-4a00-9db8-e3f53eddf1bc] received
+[2024-10-07 23:04:08,650: INFO/MainProcess] Task common.tasks.check_server_performance_period[25a142cd-a989-4a00-9db8-e3f53eddf1bc] succeeded in 0.009645979851484299s: None
+[2024-10-07 23:05:08,639: INFO/MainProcess] Task common.tasks.check_server_performance_period[7cbce93e-5c6f-4c0b-be2d-bc90c8eda321] received
+[2024-10-07 23:05:08,648: INFO/MainProcess] Task common.tasks.check_server_performance_period[7cbce93e-5c6f-4c0b-be2d-bc90c8eda321] succeeded in 0.007814914919435978s: None
+[2024-10-07 23:06:08,639: INFO/MainProcess] Task common.tasks.check_server_performance_period[97bdad8a-9461-4b0b-a692-a2b6cb54eabd] received
+[2024-10-07 23:06:08,652: INFO/MainProcess] Task common.tasks.check_server_performance_period[97bdad8a-9461-4b0b-a692-a2b6cb54eabd] succeeded in 0.01218644343316555s: None
+[2024-10-07 23:07:08,638: INFO/MainProcess] Task common.tasks.check_server_performance_period[307d0c3d-9ff2-4a2d-a907-52a553d9a20b] received
+[2024-10-07 23:07:08,650: INFO/MainProcess] Task common.tasks.check_server_performance_period[307d0c3d-9ff2-4a2d-a907-52a553d9a20b] succeeded in 0.010896352119743824s: None
+[2024-10-07 23:08:08,639: INFO/MainProcess] Task common.tasks.check_server_performance_period[efd543a7-b3fc-4f49-a760-fa97bdc398b6] received
+[2024-10-07 23:08:08,651: INFO/MainProcess] Task common.tasks.check_server_performance_period[efd543a7-b3fc-4f49-a760-fa97bdc398b6] succeeded in 0.011414625681936741s: None
+[2024-10-07 23:09:08,639: INFO/MainProcess] Task common.tasks.check_server_performance_period[019e8e7b-465f-430d-941c-b4bfd326f9ab] received
+[2024-10-07 23:09:08,649: INFO/MainProcess] Task common.tasks.check_server_performance_period[019e8e7b-465f-430d-941c-b4bfd326f9ab] succeeded in 0.008057870902121067s: None
+[2024-10-07 23:10:08,640: INFO/MainProcess] Task common.tasks.check_server_performance_period[049d0665-fc6c-4e6b-8e1f-3fcfb6a425ef] received
+[2024-10-07 23:10:08,653: INFO/MainProcess] Task common.tasks.check_server_performance_period[049d0665-fc6c-4e6b-8e1f-3fcfb6a425ef] succeeded in 0.010469228029251099s: None
+[2024-10-07 23:11:08,642: INFO/MainProcess] Task common.tasks.check_server_performance_period[f9458888-ea43-4889-8c33-213c88eb8d92] received
+[2024-10-07 23:11:08,654: INFO/MainProcess] Task common.tasks.check_server_performance_period[f9458888-ea43-4889-8c33-213c88eb8d92] succeeded in 0.01071325596421957s: None
+[2024-10-07 23:12:08,642: INFO/MainProcess] Task common.tasks.check_server_performance_period[9d9e7c4c-bbce-4a14-9e1e-a8f8aac15860] received
+[2024-10-07 23:12:08,658: INFO/MainProcess] Task common.tasks.check_server_performance_period[9d9e7c4c-bbce-4a14-9e1e-a8f8aac15860] succeeded in 0.014004556462168694s: None
+[2024-10-07 23:13:08,641: INFO/MainProcess] Task common.tasks.check_server_performance_period[65884d49-61ae-47a2-a6c1-07f40545faa8] received
+[2024-10-07 23:13:08,649: INFO/MainProcess] Task common.tasks.check_server_performance_period[65884d49-61ae-47a2-a6c1-07f40545faa8] succeeded in 0.007259434089064598s: None
+[2024-10-07 23:14:08,643: INFO/MainProcess] Task common.tasks.check_server_performance_period[06b8dcad-cd8f-43a3-bcb1-294f01204c1e] received
+[2024-10-07 23:14:08,653: INFO/MainProcess] Task common.tasks.check_server_performance_period[06b8dcad-cd8f-43a3-bcb1-294f01204c1e] succeeded in 0.009775923565030098s: None
+[2024-10-07 23:15:08,643: INFO/MainProcess] Task common.tasks.check_server_performance_period[ebba07bb-9590-4741-8020-9532cd46f16b] received
+[2024-10-07 23:15:08,654: INFO/MainProcess] Task common.tasks.check_server_performance_period[ebba07bb-9590-4741-8020-9532cd46f16b] succeeded in 0.009183503687381744s: None
+[2024-10-07 23:16:08,642: INFO/MainProcess] Task common.tasks.check_server_performance_period[84c32693-4787-49ba-97af-75e7973a7727] received
+[2024-10-07 23:16:08,654: INFO/MainProcess] Task common.tasks.check_server_performance_period[84c32693-4787-49ba-97af-75e7973a7727] succeeded in 0.009650204330682755s: None
+[2024-10-07 23:17:08,643: INFO/MainProcess] Task common.tasks.check_server_performance_period[25238dc8-0c6b-4b30-b9d8-ac9d0de4d26e] received
+[2024-10-07 23:17:08,655: INFO/MainProcess] Task common.tasks.check_server_performance_period[25238dc8-0c6b-4b30-b9d8-ac9d0de4d26e] succeeded in 0.009639269672334194s: None
+[2024-10-07 23:18:08,644: INFO/MainProcess] Task common.tasks.check_server_performance_period[ae8097d7-31bc-45d7-b6c0-8c42f11ea672] received
+[2024-10-07 23:18:08,657: INFO/MainProcess] Task common.tasks.check_server_performance_period[ae8097d7-31bc-45d7-b6c0-8c42f11ea672] succeeded in 0.011552028357982635s: None
+[2024-10-07 23:19:08,643: INFO/MainProcess] Task common.tasks.check_server_performance_period[bef4ea3c-027d-40e4-8d71-51b645dfd651] received
+[2024-10-07 23:19:08,653: INFO/MainProcess] Task common.tasks.check_server_performance_period[bef4ea3c-027d-40e4-8d71-51b645dfd651] succeeded in 0.010001473128795624s: None
+[2024-10-07 23:20:08,644: INFO/MainProcess] Task common.tasks.check_server_performance_period[9982c2a0-c123-45c2-ba6d-38f794f06d52] received
+[2024-10-07 23:20:08,656: INFO/MainProcess] Task common.tasks.check_server_performance_period[9982c2a0-c123-45c2-ba6d-38f794f06d52] succeeded in 0.011121266521513462s: None
+[2024-10-07 23:21:08,645: INFO/MainProcess] Task common.tasks.check_server_performance_period[e0bb8957-c056-4fe4-a5dd-e065986cdb92] received
+[2024-10-07 23:21:08,659: INFO/MainProcess] Task common.tasks.check_server_performance_period[e0bb8957-c056-4fe4-a5dd-e065986cdb92] succeeded in 0.012143122032284737s: None
+[2024-10-07 23:22:08,645: INFO/MainProcess] Task common.tasks.check_server_performance_period[5c3524fa-d1eb-4bff-8cad-1ccfc417ab55] received
+[2024-10-07 23:22:08,656: INFO/MainProcess] Task common.tasks.check_server_performance_period[5c3524fa-d1eb-4bff-8cad-1ccfc417ab55] succeeded in 0.009973673149943352s: None
+[2024-10-07 23:23:08,644: INFO/MainProcess] Task common.tasks.check_server_performance_period[3269d470-6104-4e11-bc8b-b5838f444381] received
+[2024-10-07 23:23:08,658: INFO/MainProcess] Task common.tasks.check_server_performance_period[3269d470-6104-4e11-bc8b-b5838f444381] succeeded in 0.013176902197301388s: None
+[2024-10-07 23:24:08,646: INFO/MainProcess] Task common.tasks.check_server_performance_period[f9130225-6a30-4958-be4b-6d577afb13a1] received
+[2024-10-07 23:24:08,657: INFO/MainProcess] Task common.tasks.check_server_performance_period[f9130225-6a30-4958-be4b-6d577afb13a1] succeeded in 0.00949177984148264s: None
+[2024-10-07 23:25:08,646: INFO/MainProcess] Task common.tasks.check_server_performance_period[cba596ee-5d50-4d6e-b3a5-6a6c64639c89] received
+[2024-10-07 23:25:08,655: INFO/MainProcess] Task common.tasks.check_server_performance_period[cba596ee-5d50-4d6e-b3a5-6a6c64639c89] succeeded in 0.007138841785490513s: None
+[2024-10-07 23:26:08,647: INFO/MainProcess] Task common.tasks.check_server_performance_period[87b14331-266c-4d29-aed9-fecaa7098b75] received
+[2024-10-07 23:26:08,657: INFO/MainProcess] Task common.tasks.check_server_performance_period[87b14331-266c-4d29-aed9-fecaa7098b75] succeeded in 0.008725453168153763s: None
+[2024-10-07 23:27:08,647: INFO/MainProcess] Task common.tasks.check_server_performance_period[b4bb1f38-137c-402c-92b8-bc1360a03f3b] received
+[2024-10-07 23:27:08,661: INFO/MainProcess] Task common.tasks.check_server_performance_period[b4bb1f38-137c-402c-92b8-bc1360a03f3b] succeeded in 0.012602219358086586s: None
+[2024-10-07 23:28:08,645: INFO/MainProcess] Task common.tasks.check_server_performance_period[6d603034-10a9-401b-9e92-821f2e7dff66] received
+[2024-10-07 23:28:08,657: INFO/MainProcess] Task common.tasks.check_server_performance_period[6d603034-10a9-401b-9e92-821f2e7dff66] succeeded in 0.010459717363119125s: None
+[2024-10-07 23:29:08,646: INFO/MainProcess] Task common.tasks.check_server_performance_period[b15e84f3-b01b-473a-89d0-26d93c10783e] received
+[2024-10-07 23:29:08,657: INFO/MainProcess] Task common.tasks.check_server_performance_period[b15e84f3-b01b-473a-89d0-26d93c10783e] succeeded in 0.009431558661162853s: None
+[2024-10-07 23:30:08,648: INFO/MainProcess] Task common.tasks.check_server_performance_period[99a8bf7b-1162-49f1-8f13-aedc94ec80d0] received
+[2024-10-07 23:30:08,660: INFO/MainProcess] Task common.tasks.check_server_performance_period[99a8bf7b-1162-49f1-8f13-aedc94ec80d0] succeeded in 0.009852870367467403s: None
+[2024-10-07 23:31:08,648: INFO/MainProcess] Task common.tasks.check_server_performance_period[2f9ccbaa-0101-43cb-a156-e0494c2b8a5d] received
+[2024-10-07 23:31:08,660: INFO/MainProcess] Task common.tasks.check_server_performance_period[2f9ccbaa-0101-43cb-a156-e0494c2b8a5d] succeeded in 0.009827827103435993s: None
+[2024-10-07 23:32:08,648: INFO/MainProcess] Task common.tasks.check_server_performance_period[64b42c58-3a82-48d4-a6b7-99b686a8e0c6] received
+[2024-10-07 23:32:08,658: INFO/MainProcess] Task common.tasks.check_server_performance_period[64b42c58-3a82-48d4-a6b7-99b686a8e0c6] succeeded in 0.008872770704329014s: None
+[2024-10-07 23:33:08,648: INFO/MainProcess] Task common.tasks.check_server_performance_period[c68b9d18-634a-4fee-b9f9-31da111a1266] received
+[2024-10-07 23:33:08,661: INFO/MainProcess] Task common.tasks.check_server_performance_period[c68b9d18-634a-4fee-b9f9-31da111a1266] succeeded in 0.010933400131762028s: None
+[2024-10-07 23:34:08,648: INFO/MainProcess] Task common.tasks.check_server_performance_period[fd5acfce-f1a7-413c-88c5-4078f3066a7c] received
+[2024-10-07 23:34:08,659: INFO/MainProcess] Task common.tasks.check_server_performance_period[fd5acfce-f1a7-413c-88c5-4078f3066a7c] succeeded in 0.009234041906893253s: None
+[2024-10-07 23:35:08,648: INFO/MainProcess] Task common.tasks.check_server_performance_period[22455587-9833-4b1d-9ae0-d54aa944b340] received
+[2024-10-07 23:35:08,660: INFO/MainProcess] Task common.tasks.check_server_performance_period[22455587-9833-4b1d-9ae0-d54aa944b340] succeeded in 0.011466370895504951s: None
+[2024-10-07 23:36:08,650: INFO/MainProcess] Task common.tasks.check_server_performance_period[9c8076c1-f8d8-4d9b-92e5-f9408d4bdadf] received
+[2024-10-07 23:36:08,663: INFO/MainProcess] Task common.tasks.check_server_performance_period[9c8076c1-f8d8-4d9b-92e5-f9408d4bdadf] succeeded in 0.011073928326368332s: None
+[2024-10-07 23:37:08,440: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[f5560e76-a3f5-4361-939b-5e249b9093ee] received
+[2024-10-07 23:37:08,452: INFO/MainProcess] Task common.tasks.auto_clean_monitor_logs[f5560e76-a3f5-4361-939b-5e249b9093ee] succeeded in 0.010064182803034782s: None
+[2024-10-07 23:37:08,650: INFO/MainProcess] Task common.tasks.check_server_performance_period[534a32ab-fc31-4941-9c99-02a70c0f43a6] received
+[2024-10-07 23:37:08,659: INFO/MainProcess] Task common.tasks.check_server_performance_period[534a32ab-fc31-4941-9c99-02a70c0f43a6] succeeded in 0.008645382709801197s: None
+[2024-10-07 23:38:08,650: INFO/MainProcess] Task common.tasks.check_server_performance_period[0d23cf80-7d1c-405d-9a4c-cf9416a4e7bf] received
+[2024-10-07 23:38:08,659: INFO/MainProcess] Task common.tasks.check_server_performance_period[0d23cf80-7d1c-405d-9a4c-cf9416a4e7bf] succeeded in 0.00797241646796465s: None
+[2024-10-07 23:39:08,650: INFO/MainProcess] Task common.tasks.check_server_performance_period[f4c6f1e5-1f52-49c9-bb51-a56da5740123] received
+[2024-10-07 23:39:08,661: INFO/MainProcess] Task common.tasks.check_server_performance_period[f4c6f1e5-1f52-49c9-bb51-a56da5740123] succeeded in 0.010327892377972603s: None
+[2024-10-07 23:40:08,650: INFO/MainProcess] Task common.tasks.check_server_performance_period[bdcf4f98-444a-4e9c-82b3-a6535787128f] received
+[2024-10-07 23:40:08,659: INFO/MainProcess] Task common.tasks.check_server_performance_period[bdcf4f98-444a-4e9c-82b3-a6535787128f] succeeded in 0.008359531871974468s: None
+[2024-10-07 23:41:08,650: INFO/MainProcess] Task common.tasks.check_server_performance_period[51c8698e-b0cd-4486-b91e-ba527f19ae5c] received
+[2024-10-07 23:41:08,660: INFO/MainProcess] Task common.tasks.check_server_performance_period[51c8698e-b0cd-4486-b91e-ba527f19ae5c] succeeded in 0.009841173887252808s: None
+[2024-10-07 23:42:08,651: INFO/MainProcess] Task common.tasks.check_server_performance_period[e0bed2e3-9125-4963-989c-4ccb8be0e96c] received
+[2024-10-07 23:42:08,663: INFO/MainProcess] Task common.tasks.check_server_performance_period[e0bed2e3-9125-4963-989c-4ccb8be0e96c] succeeded in 0.00997383613139391s: None
+[2024-10-07 23:43:08,652: INFO/MainProcess] Task common.tasks.check_server_performance_period[b0c85957-c5bd-402a-8b1b-19043e3dde24] received
+[2024-10-07 23:43:08,664: INFO/MainProcess] Task common.tasks.check_server_performance_period[b0c85957-c5bd-402a-8b1b-19043e3dde24] succeeded in 0.010242296382784843s: None
+[2024-10-07 23:44:08,651: INFO/MainProcess] Task common.tasks.check_server_performance_period[30c72962-35a1-481d-959c-786b14f8d729] received
+[2024-10-07 23:44:08,662: INFO/MainProcess] Task common.tasks.check_server_performance_period[30c72962-35a1-481d-959c-786b14f8d729] succeeded in 0.010221865959465504s: None
+[2024-10-07 23:45:08,653: INFO/MainProcess] Task common.tasks.check_server_performance_period[4bd4b09c-4c34-4141-b5ef-2328eb3049eb] received
+[2024-10-07 23:45:08,673: INFO/MainProcess] Task common.tasks.check_server_performance_period[4bd4b09c-4c34-4141-b5ef-2328eb3049eb] succeeded in 0.019067331217229366s: None
+[2024-10-07 23:46:08,654: INFO/MainProcess] Task common.tasks.check_server_performance_period[7ff27b21-8399-429a-9471-0636c20608d7] received
+[2024-10-07 23:46:08,663: INFO/MainProcess] Task common.tasks.check_server_performance_period[7ff27b21-8399-429a-9471-0636c20608d7] succeeded in 0.008098766207695007s: None
+[2024-10-07 23:47:08,655: INFO/MainProcess] Task common.tasks.check_server_performance_period[c1ad62ec-346c-4f86-99d6-0c2a8b7656f8] received
+[2024-10-07 23:47:08,668: INFO/MainProcess] Task common.tasks.check_server_performance_period[c1ad62ec-346c-4f86-99d6-0c2a8b7656f8] succeeded in 0.011180981993675232s: None
+[2024-10-07 23:48:08,653: INFO/MainProcess] Task common.tasks.check_server_performance_period[377732f3-6b14-471b-af4b-b7086ff154d6] received
+[2024-10-07 23:48:08,665: INFO/MainProcess] Task common.tasks.check_server_performance_period[377732f3-6b14-471b-af4b-b7086ff154d6] succeeded in 0.010386921465396881s: None
+[2024-10-07 23:49:08,654: INFO/MainProcess] Task common.tasks.check_server_performance_period[36f63664-418a-41a4-a605-1da0c68b559c] received
+[2024-10-07 23:49:08,663: INFO/MainProcess] Task common.tasks.check_server_performance_period[36f63664-418a-41a4-a605-1da0c68b559c] succeeded in 0.00749729759991169s: None
+[2024-10-07 23:50:08,655: INFO/MainProcess] Task common.tasks.check_server_performance_period[2de63636-5318-46b5-808b-22539da245d7] received
+[2024-10-07 23:50:08,667: INFO/MainProcess] Task common.tasks.check_server_performance_period[2de63636-5318-46b5-808b-22539da245d7] succeeded in 0.010459083132445812s: None
+[2024-10-07 23:51:08,656: INFO/MainProcess] Task common.tasks.check_server_performance_period[c3c28553-041c-40ab-948d-d4685714bda9] received
+[2024-10-07 23:51:08,668: INFO/MainProcess] Task common.tasks.check_server_performance_period[c3c28553-041c-40ab-948d-d4685714bda9] succeeded in 0.010010220110416412s: None
+[2024-10-07 23:52:08,657: INFO/MainProcess] Task common.tasks.check_server_performance_period[ea0d1b2e-1cb7-428e-bbf9-f29e13d758bf] received
+[2024-10-07 23:52:08,670: INFO/MainProcess] Task common.tasks.check_server_performance_period[ea0d1b2e-1cb7-428e-bbf9-f29e13d758bf] succeeded in 0.01155451126396656s: None
+[2024-10-07 23:53:08,658: INFO/MainProcess] Task common.tasks.check_server_performance_period[1dc5c8e6-a67f-46cb-bf6e-7ca49baf319f] received
+[2024-10-07 23:53:08,671: INFO/MainProcess] Task common.tasks.check_server_performance_period[1dc5c8e6-a67f-46cb-bf6e-7ca49baf319f] succeeded in 0.011219915933907032s: None
+[2024-10-07 23:54:08,657: INFO/MainProcess] Task common.tasks.check_server_performance_period[ee9e20ef-ac0b-4e40-9c09-38ab9215abae] received
+[2024-10-07 23:54:08,669: INFO/MainProcess] Task common.tasks.check_server_performance_period[ee9e20ef-ac0b-4e40-9c09-38ab9215abae] succeeded in 0.010717235505580902s: None
+[2024-10-07 23:55:08,657: INFO/MainProcess] Task common.tasks.check_server_performance_period[24b7092b-798b-4891-a853-7fe521c8e015] received
+[2024-10-07 23:55:08,670: INFO/MainProcess] Task common.tasks.check_server_performance_period[24b7092b-798b-4891-a853-7fe521c8e015] succeeded in 0.010538298636674881s: None
+[2024-10-07 23:56:08,657: INFO/MainProcess] Task common.tasks.check_server_performance_period[366c0186-6acb-48be-84b9-91cf6f837628] received
+[2024-10-07 23:56:08,668: INFO/MainProcess] Task common.tasks.check_server_performance_period[366c0186-6acb-48be-84b9-91cf6f837628] succeeded in 0.01003242563456297s: None
+[2024-10-07 23:57:08,658: INFO/MainProcess] Task common.tasks.check_server_performance_period[e72c7e90-dd12-427d-8b70-591ff359c280] received
+[2024-10-07 23:57:08,668: INFO/MainProcess] Task common.tasks.check_server_performance_period[e72c7e90-dd12-427d-8b70-591ff359c280] succeeded in 0.009081415832042694s: None
+[2024-10-07 23:58:08,658: INFO/MainProcess] Task common.tasks.check_server_performance_period[0c39b500-f825-4d2d-a752-062828d84c20] received
+[2024-10-07 23:58:08,668: INFO/MainProcess] Task common.tasks.check_server_performance_period[0c39b500-f825-4d2d-a752-062828d84c20] succeeded in 0.008086878806352615s: None
+[2024-10-07 23:59:08,659: INFO/MainProcess] Task common.tasks.check_server_performance_period[09e26c46-280a-4e16-86ef-7a098251ff75] received
+[2024-10-07 23:59:08,672: INFO/MainProcess] Task common.tasks.check_server_performance_period[09e26c46-280a-4e16-86ef-7a098251ff75] succeeded in 0.01102290116250515s: None

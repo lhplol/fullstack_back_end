@@ -1,0 +1,498 @@
+127.0.0.1:36048 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:36054 - "GET /api/system/login HTTP/1.1" 200
+127.0.0.1:36064 - "POST /api/system/refresh HTTP/1.1" 200
+127.0.0.1:36080 - "GET /api/system/auth/token HTTP/1.1" 200
+127.0.0.1:36094 - "GET /api/system/auth/captcha HTTP/1.1" 200
+127.0.0.1:36098 - "GET /api/system/captcha/image/92b8b3424dccee63d0b30fea018ac35efcc81b75/ HTTP/1.1" 200
+127.0.0.1:36106 - "POST /api/system/login HTTP/1.1" 200
+127.0.0.1:36116 - "GET /api/system/auth/token HTTP/1.1" 200
+127.0.0.1:46992 - "GET /api/system/auth/captcha HTTP/1.1" 200
+127.0.0.1:46998 - "GET /api/system/captcha/image/fd13cb5cff9c8c7e6a637071db0a2488f91dbd24/ HTTP/1.1" 200
+127.0.0.1:47012 - "POST /api/system/login HTTP/1.1" 200
+127.0.0.1:47024 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:47036 - "GET /api/system/userinfo/self HTTP/1.1" 200
+[2024-10-06 10:49:32 +0800] [250144] [INFO] ('127.0.0.1', 47048) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 10:49:32 +0800] [250144] [INFO] connection open
+127.0.0.1:47044 - "GET /api/system/routes HTTP/1.1" 200
+127.0.0.1:47104 - "GET /api/system/dashboard/today-operate-total HTTP/1.1" 200
+127.0.0.1:47074 - "GET /api/system/dashboard/user-login-trend HTTP/1.1" 200
+127.0.0.1:47066 - "GET /api/system/dashboard/user-total HTTP/1.1" 200
+127.0.0.1:47114 - "GET /api/system/dashboard/user-registered-trend HTTP/1.1" 200
+127.0.0.1:47090 - "GET /api/system/dashboard/user-login-total HTTP/1.1" 200
+127.0.0.1:47050 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:47110 - "GET /api/system/dashboard/user-active HTTP/1.1" 200
+127.0.0.1:47126 - "GET /api/system/logs/operation?page=1&size=20&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:47134 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:47140 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:47150 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:40248 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:42164 - "GET /api/system/dashboard/user-registered-trend HTTP/1.1" 200
+127.0.0.1:42114 - "GET /api/system/dashboard/user-login-trend HTTP/1.1" 200
+127.0.0.1:42138 - "GET /api/system/dashboard/today-operate-total HTTP/1.1" 200
+127.0.0.1:42100 - "GET /api/system/dashboard/user-total HTTP/1.1" 200
+127.0.0.1:42124 - "GET /api/system/dashboard/user-login-total HTTP/1.1" 200
+127.0.0.1:42150 - "GET /api/system/dashboard/user-active HTTP/1.1" 200
+127.0.0.1:42178 - "GET /api/system/logs/operation?page=1&size=20&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:42180 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:42196 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:42208 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:42222 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:43932 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:43940 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:43944 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:43946 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 11:01:55 +0800] [250144] [INFO] connection closed
+127.0.0.1:35206 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:35212 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:35234 - "GET /api/system/routes HTTP/1.1" 200
+127.0.0.1:35218 - "GET /api/system/userinfo/self HTTP/1.1" 200
+[2024-10-06 11:01:58 +0800] [250143] [INFO] ('127.0.0.1', 35248) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 11:01:58 +0800] [250143] [INFO] connection open
+[2024-10-06 11:02:06 +0800] [250143] [INFO] connection closed
+127.0.0.1:54030 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:54038 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:54054 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:54064 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 11:02:08 +0800] [250144] [INFO] ('127.0.0.1', 45420) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 11:02:08 +0800] [250144] [INFO] connection open
+[2024-10-06 11:02:39 +0800] [250144] [INFO] connection closed
+127.0.0.1:36430 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:36436 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:36450 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:36454 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 11:02:40 +0800] [250142] [INFO] ('127.0.0.1', 36458) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 11:02:40 +0800] [250142] [INFO] connection open
+127.0.0.1:36486 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:36500 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:36472 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:36502 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:41856 - "POST /api/system/refresh HTTP/1.1" 200
+127.0.0.1:41862 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:41874 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:41886 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 11:57:24 +0800] [250142] [INFO] connection closed
+127.0.0.1:42854 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:42860 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:42884 - "GET /api/system/routes HTTP/1.1" 200
+127.0.0.1:42872 - "GET /api/system/userinfo/self HTTP/1.1" 200
+[2024-10-06 11:57:31 +0800] [250146] [INFO] ('127.0.0.1', 42890) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 11:57:31 +0800] [250146] [INFO] connection open
+127.0.0.1:42924 - "GET /api/system/dashboard/user-login-total HTTP/1.1" 200
+127.0.0.1:42942 - "GET /api/system/dashboard/user-active HTTP/1.1" 200
+127.0.0.1:42946 - "GET /api/system/dashboard/user-registered-trend HTTP/1.1" 200
+127.0.0.1:42916 - "GET /api/system/dashboard/user-total HTTP/1.1" 200
+127.0.0.1:42934 - "GET /api/system/dashboard/today-operate-total HTTP/1.1" 200
+127.0.0.1:42920 - "GET /api/system/dashboard/user-login-trend HTTP/1.1" 200
+127.0.0.1:42906 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:42956 - "GET /api/system/logs/operation?page=1&size=20&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:42982 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:42972 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:42984 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:33908 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:33904 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:33912 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 11:57:47 +0800] [250146] [INFO] connection closed
+127.0.0.1:33926 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:33934 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:33944 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:33958 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 11:57:48 +0800] [250144] [INFO] ('127.0.0.1', 33968) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 11:57:48 +0800] [250144] [INFO] connection open
+127.0.0.1:57302 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:57324 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:57308 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:57334 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:48404 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:48416 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:48420 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:48434 - "GET /api/system/dashboard/user-total HTTP/1.1" 200
+127.0.0.1:48440 - "GET /api/system/dashboard/user-login-trend HTTP/1.1" 200
+127.0.0.1:48466 - "GET /api/system/dashboard/today-operate-total HTTP/1.1" 200
+127.0.0.1:48484 - "GET /api/system/dashboard/user-registered-trend HTTP/1.1" 200
+127.0.0.1:48472 - "GET /api/system/dashboard/user-active HTTP/1.1" 200
+127.0.0.1:48452 - "GET /api/system/dashboard/user-login-total HTTP/1.1" 200
+127.0.0.1:48498 - "GET /api/system/logs/operation?page=1&size=20&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:48514 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:48516 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:48524 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:58140 - "GET /api/system/dashboard/user-total HTTP/1.1" 200
+127.0.0.1:58162 - "GET /api/system/dashboard/user-login-total HTTP/1.1" 200
+127.0.0.1:58168 - "GET /api/system/dashboard/today-operate-total HTTP/1.1" 200
+127.0.0.1:58152 - "GET /api/system/dashboard/user-login-trend HTTP/1.1" 200
+127.0.0.1:58174 - "GET /api/system/dashboard/user-registered-trend HTTP/1.1" 200
+127.0.0.1:58170 - "GET /api/system/dashboard/user-active HTTP/1.1" 200
+127.0.0.1:58182 - "GET /api/system/logs/operation?page=1&size=20&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 11:58:24 +0800] [250144] [INFO] connection closed
+127.0.0.1:58194 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:58224 - "GET /api/system/routes HTTP/1.1" 200
+127.0.0.1:58216 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:58206 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+[2024-10-06 11:58:26 +0800] [250147] [INFO] ('127.0.0.1', 58230) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 11:58:26 +0800] [250147] [INFO] connection open
+127.0.0.1:58244 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:58266 - "GET /api/system/dashboard/user-login-trend HTTP/1.1" 200
+127.0.0.1:58290 - "GET /api/system/dashboard/user-registered-trend HTTP/1.1" 200
+127.0.0.1:58276 - "GET /api/system/dashboard/today-operate-total HTTP/1.1" 200
+127.0.0.1:58260 - "GET /api/system/dashboard/user-total HTTP/1.1" 200
+127.0.0.1:58272 - "GET /api/system/dashboard/user-login-total HTTP/1.1" 200
+127.0.0.1:58280 - "GET /api/system/dashboard/user-active HTTP/1.1" 200
+127.0.0.1:58302 - "GET /api/system/logs/operation?page=1&size=20&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:60088 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:60082 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:60102 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:33406 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:33420 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:33436 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:42124 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:42132 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:42134 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:42016 - "GET /api/system/dashboard/user-total HTTP/1.1" 200
+127.0.0.1:42038 - "GET /api/system/dashboard/user-login-total HTTP/1.1" 200
+127.0.0.1:42076 - "GET /api/system/dashboard/user-registered-trend HTTP/1.1" 200
+127.0.0.1:42046 - "GET /api/system/dashboard/today-operate-total HTTP/1.1" 200
+127.0.0.1:42024 - "GET /api/system/dashboard/user-login-trend HTTP/1.1" 200
+127.0.0.1:42062 - "GET /api/system/dashboard/user-active HTTP/1.1" 200
+127.0.0.1:42086 - "GET /api/system/logs/operation?page=1&size=20&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:42098 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:42110 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:42120 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 11:59:23 +0800] [250147] [INFO] connection closed
+127.0.0.1:39310 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:39314 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:39320 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:39330 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 11:59:25 +0800] [250148] [INFO] ('127.0.0.1', 39340) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 11:59:25 +0800] [250148] [INFO] connection open
+127.0.0.1:39366 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:39356 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:39342 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:39382 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:35480 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:35494 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:35504 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:58976 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:58964 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:58990 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:45528 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:45540 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:45550 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 12:00:51 +0800] [250148] [INFO] connection closed
+127.0.0.1:38888 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:38908 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:38892 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:38920 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 12:00:52 +0800] [250146] [INFO] ('127.0.0.1', 38930) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 12:00:52 +0800] [250146] [INFO] connection open
+127.0.0.1:38958 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:38942 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:38936 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:38972 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 12:01:02 +0800] [250146] [INFO] connection closed
+127.0.0.1:50688 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:50702 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:50690 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:50716 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 12:01:03 +0800] [250148] [INFO] ('127.0.0.1', 50726) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 12:01:03 +0800] [250148] [INFO] connection open
+127.0.0.1:50736 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:50754 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:50740 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:50770 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:49738 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:49732 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:49754 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 12:01:18 +0800] [250148] [INFO] connection closed
+127.0.0.1:55100 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:55114 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:55120 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:55128 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 12:01:19 +0800] [250147] [INFO] ('127.0.0.1', 55134) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 12:01:19 +0800] [250147] [INFO] connection open
+127.0.0.1:55176 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:55150 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:55160 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:55190 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:41540 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:41548 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:41564 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 12:01:59 +0800] [250147] [INFO] connection closed
+127.0.0.1:34588 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:34590 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:34598 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:34614 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 12:02:01 +0800] [250144] [INFO] ('127.0.0.1', 34622) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 12:02:01 +0800] [250144] [INFO] connection open
+127.0.0.1:34644 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:34628 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:34642 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:34658 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:36252 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:36240 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:36254 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 12:02:17 +0800] [250144] [INFO] connection closed
+127.0.0.1:36262 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:36294 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:36278 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:36298 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 12:02:17 +0800] [250147] [INFO] ('127.0.0.1', 36306) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 12:02:17 +0800] [250147] [INFO] connection open
+127.0.0.1:50106 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:50122 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:50108 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:50128 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 16:35:58 +0800] [250137] [INFO] Handling signal: term
+[2024-10-06 16:35:58 +0800] [250142] [INFO] Shutting down
+[2024-10-06 16:35:58 +0800] [250148] [INFO] Shutting down
+[2024-10-06 16:35:58 +0800] [250146] [INFO] Shutting down
+[2024-10-06 16:35:58 +0800] [250138] [INFO] Shutting down
+[2024-10-06 16:35:58 +0800] [250139] [INFO] Shutting down
+[2024-10-06 16:35:58 +0800] [250143] [INFO] Shutting down
+[2024-10-06 16:35:58 +0800] [250145] [INFO] Shutting down
+[2024-10-06 16:35:58 +0800] [250144] [INFO] Shutting down
+[2024-10-06 16:35:58 +0800] [250147] [INFO] Shutting down
+[2024-10-06 16:35:58 +0800] [250147] [INFO] connection closed
+[2024-10-06 16:35:58 +0800] [250142] [INFO] Finished server process [250142]
+[2024-10-06 16:35:58 +0800] [250146] [INFO] Finished server process [250146]
+[2024-10-06 16:35:58 +0800] [250148] [INFO] Finished server process [250148]
+[2024-10-06 16:35:58 +0800] [250137] [ERROR] Worker (pid:250142) was sent SIGTERM!
+[2024-10-06 16:35:58 +0800] [250137] [ERROR] Worker (pid:250146) was sent SIGTERM!
+[2024-10-06 16:35:58 +0800] [250137] [ERROR] Worker (pid:250148) was sent SIGTERM!
+[2024-10-06 16:35:58 +0800] [250138] [INFO] Finished server process [250138]
+[2024-10-06 16:35:58 +0800] [250139] [INFO] Finished server process [250139]
+[2024-10-06 16:35:58 +0800] [250145] [INFO] Finished server process [250145]
+[2024-10-06 16:35:58 +0800] [250137] [ERROR] Worker (pid:250139) was sent SIGTERM!
+[2024-10-06 16:35:58 +0800] [250143] [INFO] Finished server process [250143]
+[2024-10-06 16:35:58 +0800] [250137] [ERROR] Worker (pid:250145) was sent SIGTERM!
+[2024-10-06 16:35:58 +0800] [250144] [INFO] Finished server process [250144]
+[2024-10-06 16:35:58 +0800] [250147] [INFO] Finished server process [250147]
+[2024-10-06 16:35:58 +0800] [250137] [ERROR] Worker (pid:250144) was sent SIGTERM!
+[2024-10-06 16:35:58 +0800] [250137] [ERROR] Worker (pid:250147) was sent SIGTERM!
+[2024-10-06 16:35:58 +0800] [250137] [ERROR] Worker (pid:250138) was sent SIGTERM!
+[2024-10-06 16:35:58 +0800] [250137] [ERROR] Worker (pid:250143) was sent SIGTERM!
+[2024-10-06 16:35:58 +0800] [250137] [INFO] Shutting down: Master
+[2024-10-06 16:36:05 +0800] [808525] [INFO] Starting gunicorn 22.0.0
+[2024-10-06 16:36:05 +0800] [808525] [INFO] Listening at: http://0.0.0.0:8896 (808525)
+[2024-10-06 16:36:05 +0800] [808525] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-10-06 16:36:05 +0800] [808528] [INFO] Booting worker with pid: 808528
+[2024-10-06 16:36:05 +0800] [808529] [INFO] Booting worker with pid: 808529
+[2024-10-06 16:36:05 +0800] [808530] [INFO] Booting worker with pid: 808530
+[2024-10-06 16:36:05 +0800] [808531] [INFO] Booting worker with pid: 808531
+[2024-10-06 16:36:05 +0800] [808532] [INFO] Booting worker with pid: 808532
+[2024-10-06 16:36:05 +0800] [808533] [INFO] Booting worker with pid: 808533
+[2024-10-06 16:36:05 +0800] [808535] [INFO] Booting worker with pid: 808535
+[2024-10-06 16:36:05 +0800] [808536] [INFO] Booting worker with pid: 808536
+[2024-10-06 16:36:05 +0800] [808534] [INFO] Booting worker with pid: 808534
+[2024-10-06 16:36:10 +0800] [808529] [INFO] Started server process [808529]
+[2024-10-06 16:36:10 +0800] [808529] [INFO] Waiting for application startup.
+[2024-10-06 16:36:10 +0800] [808529] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-10-06 16:36:10 +0800] [808529] [INFO] Application startup complete.
+[2024-10-06 16:36:11 +0800] [808532] [INFO] Started server process [808532]
+[2024-10-06 16:36:11 +0800] [808532] [INFO] Waiting for application startup.
+[2024-10-06 16:36:11 +0800] [808532] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-10-06 16:36:11 +0800] [808532] [INFO] Application startup complete.
+[2024-10-06 16:36:11 +0800] [808535] [INFO] Started server process [808535]
+[2024-10-06 16:36:11 +0800] [808535] [INFO] Waiting for application startup.
+[2024-10-06 16:36:11 +0800] [808535] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-10-06 16:36:11 +0800] [808535] [INFO] Application startup complete.
+[2024-10-06 16:36:11 +0800] [808531] [INFO] Started server process [808531]
+[2024-10-06 16:36:11 +0800] [808531] [INFO] Waiting for application startup.
+[2024-10-06 16:36:11 +0800] [808531] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-10-06 16:36:11 +0800] [808531] [INFO] Application startup complete.
+[2024-10-06 16:36:11 +0800] [808533] [INFO] Started server process [808533]
+[2024-10-06 16:36:11 +0800] [808533] [INFO] Waiting for application startup.
+[2024-10-06 16:36:11 +0800] [808533] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-10-06 16:36:11 +0800] [808533] [INFO] Application startup complete.
+[2024-10-06 16:36:11 +0800] [808528] [INFO] Started server process [808528]
+[2024-10-06 16:36:11 +0800] [808528] [INFO] Waiting for application startup.
+[2024-10-06 16:36:11 +0800] [808528] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-10-06 16:36:11 +0800] [808528] [INFO] Application startup complete.
+[2024-10-06 16:36:11 +0800] [808536] [INFO] Started server process [808536]
+[2024-10-06 16:36:11 +0800] [808536] [INFO] Waiting for application startup.
+[2024-10-06 16:36:11 +0800] [808536] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-10-06 16:36:11 +0800] [808536] [INFO] Application startup complete.
+[2024-10-06 16:36:11 +0800] [808534] [INFO] Started server process [808534]
+[2024-10-06 16:36:11 +0800] [808534] [INFO] Waiting for application startup.
+[2024-10-06 16:36:11 +0800] [808534] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-10-06 16:36:11 +0800] [808534] [INFO] Application startup complete.
+[2024-10-06 16:36:11 +0800] [808530] [INFO] Started server process [808530]
+[2024-10-06 16:36:11 +0800] [808530] [INFO] Waiting for application startup.
+[2024-10-06 16:36:11 +0800] [808530] [INFO] ASGI 'lifespan' protocol appears unsupported.
+[2024-10-06 16:36:11 +0800] [808530] [INFO] Application startup complete.
+127.0.0.1:47484 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:47500 - "POST /api/system/refresh HTTP/1.1" 200
+127.0.0.1:47502 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:47514 - "GET /api/system/userinfo/self HTTP/1.1" 200
+[2024-10-06 16:36:32 +0800] [808531] [INFO] ('127.0.0.1', 47534) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 16:36:32 +0800] [808531] [INFO] connection open
+127.0.0.1:47518 - "GET /api/system/routes HTTP/1.1" 200
+127.0.0.1:47570 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:47562 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:47548 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:47578 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:52252 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:52262 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:52238 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:40486 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:40478 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:40496 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 16:40:10 +0800] [808531] [INFO] connection closed
+127.0.0.1:59320 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:59334 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:59358 - "GET /api/system/routes HTTP/1.1" 200
+127.0.0.1:59346 - "GET /api/system/userinfo/self HTTP/1.1" 200
+[2024-10-06 16:40:12 +0800] [808530] [INFO] ('127.0.0.1', 59360) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 16:40:12 +0800] [808530] [INFO] connection open
+127.0.0.1:59376 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:59372 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:59382 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:59362 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:43198 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:43210 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:43216 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:59244 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:59252 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:59260 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:48062 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:48074 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:48080 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:54162 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:54172 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:54182 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:56154 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:56150 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:56166 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 16:44:04 +0800] [808530] [INFO] connection closed
+127.0.0.1:56180 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:56188 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:56196 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 16:44:06 +0800] [808534] [INFO] ('127.0.0.1', 56206) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 16:44:06 +0800] [808534] [INFO] connection open
+127.0.0.1:56186 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:56212 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:56232 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:56226 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:56240 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:57752 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:57754 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:57770 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 16:44:56 +0800] [808534] [INFO] connection closed
+127.0.0.1:57784 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:57810 - "GET /api/system/routes HTTP/1.1" 200
+127.0.0.1:57790 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:57796 - "GET /api/system/userinfo/self HTTP/1.1" 200
+[2024-10-06 16:44:58 +0800] [808534] [INFO] ('127.0.0.1', 57820) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 16:44:58 +0800] [808534] [INFO] connection open
+127.0.0.1:45120 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:45128 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:45142 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:45158 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:40144 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:40132 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:40146 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 16:45:21 +0800] [808534] [INFO] connection closed
+127.0.0.1:39894 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:39908 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:39924 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:39930 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 16:45:23 +0800] [808534] [INFO] ('127.0.0.1', 39936) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 16:45:23 +0800] [808534] [INFO] connection open
+127.0.0.1:39964 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:39942 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:39952 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:39980 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:58266 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:58280 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:58296 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 16:45:36 +0800] [808534] [INFO] connection closed
+127.0.0.1:58308 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:58314 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:58318 - "GET /api/system/routes HTTP/1.1" 200
+127.0.0.1:58316 - "GET /api/system/userinfo/self HTTP/1.1" 200
+[2024-10-06 16:45:38 +0800] [808528] [INFO] ('127.0.0.1', 58334) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 16:45:38 +0800] [808528] [INFO] connection open
+127.0.0.1:52618 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:52624 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:52620 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:52640 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:36210 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:36216 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:36226 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 16:45:53 +0800] [808528] [INFO] connection closed
+127.0.0.1:36234 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:36256 - "GET /api/system/routes HTTP/1.1" 200
+127.0.0.1:36254 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:36248 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+[2024-10-06 16:45:55 +0800] [808534] [INFO] ('127.0.0.1', 36260) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 16:45:55 +0800] [808534] [INFO] connection open
+127.0.0.1:36276 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:36278 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:36290 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:36300 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:48298 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:48296 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:48312 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 16:46:08 +0800] [808534] [INFO] connection closed
+127.0.0.1:41764 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:41780 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:41790 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:41802 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 16:46:10 +0800] [808530] [INFO] ('127.0.0.1', 41814) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 16:46:10 +0800] [808530] [INFO] connection open
+127.0.0.1:41852 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:41838 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:41828 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:41866 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:37888 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:37880 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:37904 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 16:46:33 +0800] [808530] [INFO] connection closed
+127.0.0.1:37906 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:37918 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:37936 - "GET /api/system/routes HTTP/1.1" 200
+127.0.0.1:37920 - "GET /api/system/userinfo/self HTTP/1.1" 200
+[2024-10-06 16:46:35 +0800] [808531] [INFO] ('127.0.0.1', 37950) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 16:46:35 +0800] [808531] [INFO] connection open
+127.0.0.1:37972 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:37956 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:37970 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:37982 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:59334 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:59322 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:59336 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 16:47:23 +0800] [808531] [INFO] connection closed
+127.0.0.1:52970 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:52984 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:52996 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:53012 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 16:47:25 +0800] [808536] [INFO] ('127.0.0.1', 53026) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 16:47:25 +0800] [808536] [INFO] connection open
+127.0.0.1:53028 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:53050 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:53044 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:53056 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+127.0.0.1:50714 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:50704 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:50728 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 16:48:19 +0800] [808536] [INFO] connection closed
+127.0.0.1:51108 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:51122 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:51132 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:51142 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 16:48:21 +0800] [808528] [INFO] ('127.0.0.1', 51152) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 16:48:21 +0800] [808528] [INFO] connection open
+127.0.0.1:51166 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:51186 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:51174 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:51188 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 16:51:00 +0800] [808528] [INFO] connection closed
+127.0.0.1:39764 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:39776 - "GET /api/system/userinfo/self HTTP/1.1" 200
+127.0.0.1:39774 - "GET /api/system/configs/WEB_SITE_CONFIG HTTP/1.1" 200
+127.0.0.1:39790 - "GET /api/system/routes HTTP/1.1" 200
+[2024-10-06 16:51:02 +0800] [808528] [INFO] ('127.0.0.1', 39794) - "WebSocket /ws/message/xadmin/admin" [accepted]
+[2024-10-06 16:51:02 +0800] [808528] [INFO] connection open
+127.0.0.1:39816 - "GET /api/logistics/freightbill/search-fields HTTP/1.1" 200
+127.0.0.1:39804 - "GET /api/logistics/freightbill/search-columns HTTP/1.1" 200
+127.0.0.1:39802 - "GET /api/system/user/notice/unread HTTP/1.1" 200
+127.0.0.1:39818 - "GET /api/logistics/freightbill?page=1&size=15&ordering=-created_time HTTP/1.1" 200
+[2024-10-06 17:02:08 +0800] [808528] [INFO] connection closed

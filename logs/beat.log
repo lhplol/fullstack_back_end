@@ -1,8 +1,132 @@
-[2024-08-05 08:41:59,626: INFO/MainProcess] beat: Starting...
-[2024-08-05 08:41:59,741: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+[2024-10-07 23:59:08,655: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:00:08,655: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:01:08,656: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:02:08,657: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:03:08,658: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:04:08,658: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:05:08,659: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:06:08,659: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:07:08,660: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:08:08,661: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:09:08,661: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:10:08,661: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:11:08,662: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:12:08,662: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:13:08,662: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:14:08,662: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:15:08,663: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:16:08,663: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:17:08,664: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:18:08,664: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:19:08,664: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:20:08,664: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:21:08,665: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:22:08,665: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:23:08,666: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:24:08,666: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:25:08,667: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:26:08,667: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:27:08,668: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:28:08,668: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:29:08,669: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:30:08,669: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:31:08,670: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:32:08,670: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:33:08,670: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:34:08,671: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:35:08,671: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:36:08,671: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:37:08,436: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-08 00:37:08,671: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:38:08,672: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:39:08,672: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:40:08,672: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:41:08,672: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:42:08,673: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:43:08,673: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:44:08,673: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:45:08,674: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:46:08,674: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:47:08,674: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:48:08,675: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:49:08,675: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:50:08,675: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:51:08,676: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:52:08,676: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:53:08,676: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:54:08,677: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:55:08,677: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:56:08,678: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:57:08,678: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:58:08,678: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 00:59:08,679: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:00:08,679: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:01:08,679: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:02:08,680: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:03:08,681: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:04:08,681: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:05:08,682: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:06:08,682: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:07:08,682: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:08:08,683: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:09:08,684: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:10:08,684: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:11:08,684: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:12:08,684: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:13:08,685: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:14:08,685: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:15:08,686: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:16:08,686: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:17:08,686: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:18:08,687: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:19:08,687: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:20:08,687: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:21:08,688: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:22:08,689: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:23:08,689: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:24:08,689: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:25:08,690: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:26:08,690: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:27:08,690: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:28:08,691: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:29:08,691: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:30:08,692: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:31:08,692: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:32:08,692: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:33:08,693: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:34:08,693: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:35:08,693: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:36:08,694: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:37:08,437: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-08 01:37:08,694: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:38:08,695: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:39:08,695: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:40:08,695: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:41:08,695: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:42:08,696: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:43:08,696: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:44:08,696: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:45:08,696: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:46:08,697: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:47:08,697: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:48:08,698: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:49:08,698: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:50:08,698: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:51:08,699: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:52:08,699: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:53:08,700: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:54:08,700: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:55:08,700: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:56:08,701: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:57:08,701: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:58:08,701: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 01:59:08,702: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:00:08,702: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:01:08,703: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:02:00,000: INFO/MainProcess] Scheduler: Sending due task system.tasks.auto_clean_operation_job (system.tasks.auto_clean_operation_job)
 celery beat v5.4.0 (opalescent) is starting.
 __    -    ... __   -        _
-LocalTime -> 2024-08-05 08:41:59
+LocalTime -> 2024-10-08 02:02:19
 Configuration ->
     . broker -> redis://:**@redis:6379/3
     . loader -> celery.loaders.app.AppLoader
@@ -10,513 +134,478 @@ Configuration ->
 
     . logfile -> [stderr]@%INFO
     . maxinterval -> 1.00 minute (60s)
-[2024-08-05 10:50:27,998: INFO/MainProcess] beat: Starting...
-[2024-08-05 10:50:28,058: INFO/MainProcess] DatabaseScheduler: Schedule changed.
-[2024-08-05 11:16:28,139: ERROR/MainProcess] Database gave error: OperationalError(2013, 'Lost connection to server during query')
-Traceback (most recent call last):
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 299, in _commit
-    return self.connection.commit()
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-MySQLdb.OperationalError: (2013, 'Lost connection to server during query')
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 263, in schedule_changed
-    transaction.commit()
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/transaction.py", line 40, in commit
-    get_connection(using).commit()
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/asyncio.py", line 26, in inner
-    return func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 323, in commit
-    self._commit()
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 298, in _commit
-    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 299, in _commit
-    return self.connection.commit()
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-django.db.utils.OperationalError: (2013, 'Lost connection to server during query')
-[2024-08-05 11:22:28,159: ERROR/MainProcess] Database gave error: OperationalError(2013, 'Lost connection to server during query')
-Traceback (most recent call last):
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 299, in _commit
-    return self.connection.commit()
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-MySQLdb.OperationalError: (2013, 'Lost connection to server during query')
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 263, in schedule_changed
-    transaction.commit()
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/transaction.py", line 40, in commit
-    get_connection(using).commit()
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/asyncio.py", line 26, in inner
-    return func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 323, in commit
-    self._commit()
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 298, in _commit
-    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/backends/base/base.py", line 299, in _commit
-    return self.connection.commit()
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-django.db.utils.OperationalError: (2013, 'Lost connection to server during query')
-celery beat v5.4.0 (opalescent) is starting.
-__    -    ... __   -        _
-LocalTime -> 2024-08-05 10:50:27
-Configuration ->
-    . broker -> redis://:**@redis:6379/3
-    . loader -> celery.loaders.app.AppLoader
-    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
-
-    . logfile -> [stderr]@%INFO
-    . maxinterval -> 1.00 minute (60s)
-[2024-08-05 11:50:57,720: INFO/MainProcess] beat: Starting...
-[2024-08-05 11:50:57,796: INFO/MainProcess] DatabaseScheduler: Schedule changed.
-celery beat v5.4.0 (opalescent) is starting.
-__    -    ... __   -        _
-LocalTime -> 2024-08-05 11:50:57
-Configuration ->
-    . broker -> redis://:**@redis:6379/3
-    . loader -> celery.loaders.app.AppLoader
-    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
-
-    . logfile -> [stderr]@%INFO
-    . maxinterval -> 1.00 minute (60s)
-[2024-08-05 11:51:50,441: INFO/MainProcess] beat: Starting...
-[2024-08-05 11:51:50,509: INFO/MainProcess] DatabaseScheduler: Schedule changed.
-celery beat v5.4.0 (opalescent) is starting.
-__    -    ... __   -        _
-LocalTime -> 2024-08-05 11:51:50
-Configuration ->
-    . broker -> redis://:**@redis:6379/3
-    . loader -> celery.loaders.app.AppLoader
-    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
-
-    . logfile -> [stderr]@%INFO
-    . maxinterval -> 1.00 minute (60s)
-[2024-08-05 13:26:34,515: INFO/MainProcess] beat: Starting...
-[2024-08-05 13:26:34,605: INFO/MainProcess] DatabaseScheduler: Schedule changed.
-celery beat v5.4.0 (opalescent) is starting.
-__    -    ... __   -        _
-LocalTime -> 2024-08-05 13:26:34
-Configuration ->
-    . broker -> redis://:**@redis:6379/3
-    . loader -> celery.loaders.app.AppLoader
-    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
-
-    . logfile -> [stderr]@%INFO
-    . maxinterval -> 1.00 minute (60s)
-[2024-08-05 13:27:22,329: INFO/MainProcess] beat: Starting...
-[2024-08-05 13:27:22,392: INFO/MainProcess] DatabaseScheduler: Schedule changed.
-[2024-08-05 13:51:21,577: INFO/MainProcess] beat: Starting...
-[2024-08-05 13:51:21,640: INFO/MainProcess] DatabaseScheduler: Schedule changed.
-[2024-08-05 14:03:56,472: WARNING/MainProcess] Exception ignored in atexit callback
-[2024-08-05 14:03:56,472: WARNING/MainProcess] : 
-[2024-08-05 14:03:56,473: WARNING/MainProcess] <function _exit_function at 0x7fa10db63ec0>
-[2024-08-05 14:03:56,473: WARNING/MainProcess] Traceback (most recent call last):
-[2024-08-05 14:03:56,473: WARNING/MainProcess]   File "/usr/lib64/python3.12/multiprocessing/util.py", line 337, in _exit_function
-[2024-08-05 14:03:56,486: WARNING/MainProcess]     
-[2024-08-05 14:03:56,486: WARNING/MainProcess] _run_finalizers(0)
-[2024-08-05 14:03:56,486: WARNING/MainProcess]   File "/usr/lib64/python3.12/multiprocessing/util.py", line 303, in _run_finalizers
-[2024-08-05 14:03:56,487: WARNING/MainProcess]     
-[2024-08-05 14:03:56,487: WARNING/MainProcess] finalizer()
-[2024-08-05 14:03:56,487: WARNING/MainProcess]   File "/usr/lib64/python3.12/multiprocessing/util.py", line 227, in __call__
-[2024-08-05 14:03:56,488: WARNING/MainProcess]     
-[2024-08-05 14:03:56,488: WARNING/MainProcess] res = self._callback(*self._args, **self._kwargs)
-[2024-08-05 14:03:56,488: WARNING/MainProcess]  
-[2024-08-05 14:03:56,488: WARNING/MainProcess]  
-[2024-08-05 14:03:56,488: WARNING/MainProcess]  
-[2024-08-05 14:03:56,488: WARNING/MainProcess]  
-[2024-08-05 14:03:56,488: WARNING/MainProcess]  
-[2024-08-05 14:03:56,488: WARNING/MainProcess]  
-[2024-08-05 14:03:56,488: WARNING/MainProcess]  
-[2024-08-05 14:03:56,488: WARNING/MainProcess]  
-[2024-08-05 14:03:56,488: WARNING/MainProcess]  
-[2024-08-05 14:03:56,488: WARNING/MainProcess]  
-[2024-08-05 14:03:56,488: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,488: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,488: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,488: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,489: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,490: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,491: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/django_celery_beat/schedulers.py", line 298, in sync
-[2024-08-05 14:03:56,491: WARNING/MainProcess]     
-[2024-08-05 14:03:56,491: WARNING/MainProcess] close_old_connections()
-[2024-08-05 14:03:56,491: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/django/db/__init__.py", line 56, in close_old_connections
-[2024-08-05 14:03:56,491: WARNING/MainProcess]     
-[2024-08-05 14:03:56,491: WARNING/MainProcess] for conn in connections.all(initialized_only=True):
-[2024-08-05 14:03:56,491: WARNING/MainProcess]  
-[2024-08-05 14:03:56,491: WARNING/MainProcess]  
-[2024-08-05 14:03:56,491: WARNING/MainProcess]  
-[2024-08-05 14:03:56,491: WARNING/MainProcess]  
-[2024-08-05 14:03:56,491: WARNING/MainProcess]  
-[2024-08-05 14:03:56,491: WARNING/MainProcess]  
-[2024-08-05 14:03:56,491: WARNING/MainProcess]  
-[2024-08-05 14:03:56,491: WARNING/MainProcess]  
-[2024-08-05 14:03:56,492: WARNING/MainProcess]  
-[2024-08-05 14:03:56,492: WARNING/MainProcess]  
-[2024-08-05 14:03:56,492: WARNING/MainProcess]  
-[2024-08-05 14:03:56,492: WARNING/MainProcess]  
-[2024-08-05 14:03:56,492: WARNING/MainProcess]  
-[2024-08-05 14:03:56,492: WARNING/MainProcess]  
-[2024-08-05 14:03:56,492: WARNING/MainProcess]  
-[2024-08-05 14:03:56,492: WARNING/MainProcess]  
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,492: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,493: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,493: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,493: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,493: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,493: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,493: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,493: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/django/utils/connection.py", line 80, in all
-[2024-08-05 14:03:56,493: WARNING/MainProcess]     
-[2024-08-05 14:03:56,493: WARNING/MainProcess] if not initialized_only or hasattr(self._connections, alias)
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,493: WARNING/MainProcess]  
-[2024-08-05 14:03:56,494: WARNING/MainProcess]  
-[2024-08-05 14:03:56,494: WARNING/MainProcess]  
-[2024-08-05 14:03:56,494: WARNING/MainProcess]  
-[2024-08-05 14:03:56,494: WARNING/MainProcess]  
-[2024-08-05 14:03:56,494: WARNING/MainProcess]  
-[2024-08-05 14:03:56,494: WARNING/MainProcess]  
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,494: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/asgiref/local.py", line 117, in __getattr__
-[2024-08-05 14:03:56,495: WARNING/MainProcess]     
-[2024-08-05 14:03:56,495: WARNING/MainProcess] with self._lock_storage() as storage:
-[2024-08-05 14:03:56,495: WARNING/MainProcess]  
-[2024-08-05 14:03:56,495: WARNING/MainProcess]  
-[2024-08-05 14:03:56,495: WARNING/MainProcess]  
-[2024-08-05 14:03:56,495: WARNING/MainProcess]  
-[2024-08-05 14:03:56,495: WARNING/MainProcess]  
-[2024-08-05 14:03:56,495: WARNING/MainProcess]  
-[2024-08-05 14:03:56,495: WARNING/MainProcess]  
-[2024-08-05 14:03:56,495: WARNING/MainProcess]  
-[2024-08-05 14:03:56,495: WARNING/MainProcess]  
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,495: WARNING/MainProcess]   File "/usr/lib64/python3.12/contextlib.py", line 301, in helper
-[2024-08-05 14:03:56,496: WARNING/MainProcess]     
-[2024-08-05 14:03:56,496: WARNING/MainProcess] return _GeneratorContextManager(func, args, kwds)
-[2024-08-05 14:03:56,496: WARNING/MainProcess]  
-[2024-08-05 14:03:56,496: WARNING/MainProcess]  
-[2024-08-05 14:03:56,496: WARNING/MainProcess]  
-[2024-08-05 14:03:56,496: WARNING/MainProcess]  
-[2024-08-05 14:03:56,496: WARNING/MainProcess]  
-[2024-08-05 14:03:56,496: WARNING/MainProcess]  
-[2024-08-05 14:03:56,496: WARNING/MainProcess]  
-[2024-08-05 14:03:56,496: WARNING/MainProcess]  
-[2024-08-05 14:03:56,496: WARNING/MainProcess]  
-[2024-08-05 14:03:56,496: WARNING/MainProcess]  
-[2024-08-05 14:03:56,496: WARNING/MainProcess]  
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,496: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess] ^
-[2024-08-05 14:03:56,497: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/celery/apps/beat.py", line 159, in _sync
-[2024-08-05 14:03:56,497: WARNING/MainProcess]     
-[2024-08-05 14:03:56,497: WARNING/MainProcess] raise SystemExit()
-[2024-08-05 14:03:56,497: WARNING/MainProcess] SystemExit
-[2024-08-05 14:03:56,497: WARNING/MainProcess] : 
-celery beat v5.4.0 (opalescent) is starting.
-__    -    ... __   -        _
-LocalTime -> 2024-08-05 13:51:21
-Configuration ->
-    . broker -> redis://:**@redis:6379/3
-    . loader -> celery.loaders.app.AppLoader
-    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
-
-    . logfile -> [stderr]@%INFO
-    . maxinterval -> 1.00 minute (60s)
-[2024-08-05 14:04:08,784: INFO/MainProcess] beat: Starting...
-[2024-08-05 14:04:08,904: INFO/MainProcess] DatabaseScheduler: Schedule changed.
-celery beat v5.4.0 (opalescent) is starting.
-__    -    ... __   -        _
-LocalTime -> 2024-08-05 14:04:08
-Configuration ->
-    . broker -> redis://:**@redis:6379/3
-    . loader -> celery.loaders.app.AppLoader
-    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
-
-    . logfile -> [stderr]@%INFO
-    . maxinterval -> 1.00 minute (60s)
-[2024-08-05 16:26:47,449: INFO/MainProcess] beat: Starting...
-[2024-08-05 16:26:47,500: INFO/MainProcess] DatabaseScheduler: Schedule changed.
-[2024-08-06 13:43:41,999: INFO/MainProcess] beat: Starting...
-[2024-08-06 13:43:42,099: INFO/MainProcess] DatabaseScheduler: Schedule changed.
-celery beat v5.4.0 (opalescent) is starting.
-__    -    ... __   -        _
-LocalTime -> 2024-08-06 13:43:41
-Configuration ->
-    . broker -> redis://:**@redis:6379/3
-    . loader -> celery.loaders.app.AppLoader
-    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
-
-    . logfile -> [stderr]@%INFO
-    . maxinterval -> 1.00 minute (60s)
-[2024-08-07 07:55:42,356: INFO/MainProcess] beat: Starting...
-[2024-08-07 07:55:42,413: INFO/MainProcess] DatabaseScheduler: Schedule changed.
-celery beat v5.4.0 (opalescent) is starting.
-__    -    ... __   -        _
-LocalTime -> 2024-08-07 07:55:42
-Configuration ->
-    . broker -> redis://:**@redis:6379/3
-    . loader -> celery.loaders.app.AppLoader
-    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
-
-    . logfile -> [stderr]@%INFO
-    . maxinterval -> 1.00 minute (60s)
-[2024-08-07 10:17:53,279: INFO/MainProcess] beat: Starting...
-[2024-08-07 10:17:53,358: INFO/MainProcess] DatabaseScheduler: Schedule changed.
-[2024-08-07 11:08:13,348: WARNING/MainProcess] Exception ignored in: 
-[2024-08-07 11:08:13,348: WARNING/MainProcess] <module 'threading' from '/usr/lib64/python3.12/threading.py'>
-[2024-08-07 11:08:13,348: WARNING/MainProcess] Traceback (most recent call last):
-[2024-08-07 11:08:13,349: WARNING/MainProcess]   File "/usr/lib64/python3.12/threading.py", line 1595, in _shutdown
-[2024-08-07 11:08:13,350: WARNING/MainProcess]     
-[2024-08-07 11:08:13,350: WARNING/MainProcess] _main_thread._stop()
-[2024-08-07 11:08:13,350: WARNING/MainProcess]   File "/usr/lib64/python3.12/threading.py", line 1104, in _stop
-[2024-08-07 11:08:13,351: WARNING/MainProcess]     
-[2024-08-07 11:08:13,351: WARNING/MainProcess] _maintain_shutdown_locks()
-[2024-08-07 11:08:13,351: WARNING/MainProcess]   File "/usr/lib64/python3.12/threading.py", line 855, in _maintain_shutdown_locks
-[2024-08-07 11:08:13,351: WARNING/MainProcess]     
-[2024-08-07 11:08:13,351: WARNING/MainProcess] def _maintain_shutdown_locks():
-[2024-08-07 11:08:13,351: WARNING/MainProcess]  
-[2024-08-07 11:08:13,351: WARNING/MainProcess]  
-[2024-08-07 11:08:13,351: WARNING/MainProcess]  
-[2024-08-07 11:08:13,351: WARNING/MainProcess]  
-[2024-08-07 11:08:13,352: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/celery/apps/beat.py", line 159, in _sync
-[2024-08-07 11:08:13,352: WARNING/MainProcess]     
-[2024-08-07 11:08:13,352: WARNING/MainProcess] raise SystemExit()
-[2024-08-07 11:08:13,352: WARNING/MainProcess] SystemExit
-[2024-08-07 11:08:13,352: WARNING/MainProcess] : 
-celery beat v5.4.0 (opalescent) is starting.
-__    -    ... __   -        _
-LocalTime -> 2024-08-07 10:17:53
-Configuration ->
-    . broker -> redis://:**@redis:6379/3
-    . loader -> celery.loaders.app.AppLoader
-    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
-
-    . logfile -> [stderr]@%INFO
-    . maxinterval -> 1.00 minute (60s)
-[2024-08-07 11:08:33,117: INFO/MainProcess] beat: Starting...
-[2024-08-07 11:08:33,168: INFO/MainProcess] DatabaseScheduler: Schedule changed.
-[2024-08-07 17:04:09,796: WARNING/MainProcess] Exception ignored in atexit callback
-[2024-08-07 17:04:09,796: WARNING/MainProcess] : 
-[2024-08-07 17:04:09,796: WARNING/MainProcess] <function shutdown at 0x7f5c0c0ccc20>
-[2024-08-07 17:04:09,796: WARNING/MainProcess] Traceback (most recent call last):
-[2024-08-07 17:04:09,796: WARNING/MainProcess]   File "/usr/lib64/python3.12/logging/__init__.py", line 2265, in shutdown
-[2024-08-07 17:04:09,798: WARNING/MainProcess]     
-[2024-08-07 17:04:09,798: WARNING/MainProcess] h.close()
-[2024-08-07 17:04:09,798: WARNING/MainProcess]   File "/usr/lib64/python3.12/logging/__init__.py", line 1253, in close
-[2024-08-07 17:04:09,799: WARNING/MainProcess]     
-[2024-08-07 17:04:09,799: WARNING/MainProcess] StreamHandler.close(self)
-[2024-08-07 17:04:09,799: WARNING/MainProcess]   File "/usr/lib64/python3.12/logging/__init__.py", line 1064, in close
-[2024-08-07 17:04:09,800: WARNING/MainProcess]     
-[2024-08-07 17:04:09,800: WARNING/MainProcess] _releaseLock()
-[2024-08-07 17:04:09,800: WARNING/MainProcess]   File "/usr/lib64/python3.12/logging/__init__.py", line 243, in _releaseLock
-[2024-08-07 17:04:09,801: WARNING/MainProcess]     
-[2024-08-07 17:04:09,801: WARNING/MainProcess] def _releaseLock():
-[2024-08-07 17:04:09,801: WARNING/MainProcess]  
-[2024-08-07 17:04:09,801: WARNING/MainProcess]  
-[2024-08-07 17:04:09,801: WARNING/MainProcess]  
-[2024-08-07 17:04:09,801: WARNING/MainProcess]  
-[2024-08-07 17:04:09,801: WARNING/MainProcess]   File "/data/xadmin/py312/lib64/python3.12/site-packages/celery/apps/beat.py", line 159, in _sync
-[2024-08-07 17:04:09,801: WARNING/MainProcess]     
-[2024-08-07 17:04:09,801: WARNING/MainProcess] raise SystemExit()
-[2024-08-07 17:04:09,801: WARNING/MainProcess] SystemExit
-[2024-08-07 17:04:09,801: WARNING/MainProcess] : 
-celery beat v5.4.0 (opalescent) is starting.
-__    -    ... __   -        _
-LocalTime -> 2024-08-07 11:08:33
-Configuration ->
-    . broker -> redis://:**@redis:6379/3
-    . loader -> celery.loaders.app.AppLoader
-    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
-
-    . logfile -> [stderr]@%INFO
-    . maxinterval -> 1.00 minute (60s)
+[2024-10-08 02:02:19,606: INFO/MainProcess] beat: Starting...
+[2024-10-08 02:03:19,655: INFO/MainProcess] DatabaseScheduler: Schedule changed.
+[2024-10-08 02:03:20,132: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:04:20,129: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:05:20,130: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:06:20,132: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:07:20,132: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:08:20,132: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:09:20,132: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:10:20,133: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:11:20,133: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:12:00,001: INFO/MainProcess] Scheduler: Sending due task captcha.tasks.auto_clean_expired_captcha_job (captcha.tasks.auto_clean_expired_captcha_job)
+[2024-10-08 02:12:20,134: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:13:20,141: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:14:20,142: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:15:20,142: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:16:20,143: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:17:20,143: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:18:20,144: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:19:20,144: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:20:20,144: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:21:20,144: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:22:00,000: INFO/MainProcess] Scheduler: Sending due task system.tasks.auto_clean_black_token_job (system.tasks.auto_clean_black_token_job)
+[2024-10-08 02:22:20,145: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:23:20,145: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:24:20,146: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:25:20,147: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:26:20,147: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:27:20,149: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:28:20,149: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:29:20,149: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:30:20,150: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:31:20,150: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:32:00,000: INFO/MainProcess] Scheduler: Sending due task system.tasks.auto_clean_tmp_file_job (system.tasks.auto_clean_tmp_file_job)
+[2024-10-08 02:32:20,151: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:33:20,151: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:34:20,156: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:35:20,157: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:36:20,157: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:37:20,157: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:38:20,158: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:39:20,158: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:40:20,159: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:41:20,159: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:42:20,159: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:43:20,160: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:44:20,160: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:45:20,160: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:46:20,161: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:47:20,161: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:48:20,162: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:49:20,162: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:50:20,162: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:51:20,163: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:52:20,164: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:53:20,164: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:54:20,165: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:55:20,165: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:56:20,166: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:57:20,166: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:58:20,166: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 02:59:20,167: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:00:20,167: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:01:20,167: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:02:20,105: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-08 03:02:20,168: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:03:20,169: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:04:20,169: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:05:20,172: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:06:20,174: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:07:20,174: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:08:20,174: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:09:20,175: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:10:20,176: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:11:20,176: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:12:20,176: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:13:20,177: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:14:20,178: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:15:20,178: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:16:20,179: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:17:20,179: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:18:20,180: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:19:20,180: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:20:20,180: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:21:20,180: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:22:20,181: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:23:20,181: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:24:20,182: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:25:20,182: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:26:20,184: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:27:20,184: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:28:20,184: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:29:20,184: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:30:20,185: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:31:20,186: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:32:20,186: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:33:20,186: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:34:20,186: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:35:20,187: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:36:20,187: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:37:20,187: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:38:20,188: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:39:20,188: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:40:20,189: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:41:20,189: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:42:20,189: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:43:20,190: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:44:20,190: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:45:20,190: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:46:20,191: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:47:20,193: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:48:20,193: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:49:20,193: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:50:20,193: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:51:20,194: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:52:20,194: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:53:20,194: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:54:20,195: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:55:20,195: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:56:20,196: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:57:20,196: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:58:20,197: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 03:59:20,197: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:00:00,000: INFO/MainProcess] Scheduler: Sending due task celery.backend_cleanup (celery.backend_cleanup)
+[2024-10-08 04:00:20,198: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:01:20,206: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:02:20,106: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-08 04:02:20,209: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:03:20,209: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:04:20,210: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:05:20,210: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:06:20,211: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:07:20,211: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:08:20,211: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:09:20,212: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:10:20,212: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:11:20,212: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:12:20,214: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:13:20,215: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:14:20,215: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:15:20,220: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:16:20,221: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:17:20,221: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:18:20,222: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:19:20,222: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:20:20,222: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:21:20,222: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:22:20,223: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:23:20,223: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:24:20,224: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:25:20,225: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:26:20,225: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:27:20,225: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:28:20,226: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:29:20,226: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:30:20,226: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:31:20,227: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:32:20,227: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:33:20,227: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:34:20,228: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:35:20,228: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:36:20,229: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:37:20,229: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:38:20,230: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:39:20,230: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:40:20,231: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:41:20,231: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:42:20,232: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:43:20,232: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:44:20,233: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:45:20,233: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:46:20,234: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:47:20,234: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:48:20,234: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:49:20,235: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:50:20,236: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:51:20,236: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:52:20,236: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:53:20,237: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:54:20,238: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:55:20,238: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:56:20,238: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:57:20,239: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:58:20,240: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 04:59:20,240: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:00:20,241: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:01:20,241: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:02:20,106: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-08 05:02:20,241: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:03:20,242: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:04:20,242: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:05:20,242: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:06:20,243: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:07:20,243: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:08:20,243: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:09:20,244: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:10:20,245: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:11:20,246: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:12:20,246: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:13:20,246: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:14:20,247: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:15:20,247: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:16:20,247: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:17:20,248: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:18:20,248: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:19:20,248: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:20:20,249: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:21:20,249: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:22:20,250: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:23:20,250: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:24:20,251: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:25:20,251: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:26:20,252: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:27:20,252: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:28:20,252: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:29:20,253: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:30:20,253: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:31:20,254: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:32:20,255: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:33:20,255: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:34:20,255: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:35:20,256: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:36:20,257: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:37:20,257: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:38:20,258: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:39:20,259: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:40:20,259: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:41:20,259: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:42:20,260: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:43:20,260: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:44:20,260: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:45:20,261: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:46:20,262: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:47:20,263: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:48:20,263: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:49:20,264: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:50:20,264: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:51:20,264: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:52:20,265: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:53:20,266: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:54:20,267: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:55:20,268: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:56:20,268: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:57:20,269: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:58:20,269: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 05:59:20,270: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:00:20,271: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:01:20,271: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:02:20,106: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-08 06:02:20,271: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:03:20,271: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:04:20,272: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:05:20,272: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:06:20,273: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:07:20,273: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:08:20,274: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:09:20,274: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:10:20,275: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:11:20,275: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:12:20,276: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:13:20,276: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:14:20,276: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:15:20,276: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:16:20,277: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:17:20,278: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:18:20,278: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:19:20,278: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:20:20,278: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:21:20,279: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:22:20,279: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:23:20,280: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:24:20,280: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:25:20,281: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:26:20,281: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:27:20,282: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:28:20,283: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:29:20,283: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:30:20,283: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:31:20,284: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:32:20,284: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:33:20,284: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:34:20,285: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:35:20,285: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:36:20,285: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:37:20,285: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:38:20,286: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:39:20,286: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:40:20,287: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:41:20,287: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:42:20,289: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:43:20,290: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:44:20,290: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:45:20,290: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:46:20,291: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:47:20,291: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:48:20,291: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:49:20,293: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:50:20,293: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:51:20,294: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:52:20,294: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:53:20,295: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:54:20,295: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:55:20,296: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:56:20,296: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:57:20,296: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:58:20,297: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 06:59:20,297: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:00:20,297: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:01:20,298: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:02:20,107: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-08 07:02:20,298: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:03:20,302: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:04:20,303: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:05:20,303: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:06:20,304: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:07:20,304: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:08:20,304: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:09:20,305: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:10:20,305: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:11:20,305: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:12:20,306: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:13:20,306: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:14:20,307: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:15:20,307: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:16:20,307: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:17:20,309: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:18:20,309: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:19:20,310: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:20:20,310: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:21:20,310: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:22:20,310: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:23:20,310: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:24:20,310: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:25:20,311: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:26:20,311: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:27:20,312: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:28:20,312: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:29:20,312: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:30:20,312: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:31:20,312: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:32:20,312: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:33:20,313: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:34:20,313: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:35:20,313: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:36:20,314: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:37:20,314: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:38:20,314: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:39:20,315: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:40:20,317: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:41:20,317: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:42:20,317: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:43:20,317: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:44:20,318: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:45:20,318: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:46:20,319: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:47:20,319: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:48:20,320: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:49:20,320: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:50:20,322: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:51:20,322: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:52:20,324: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:53:20,324: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:54:20,324: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:55:20,325: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:56:20,327: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:57:20,327: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:58:20,328: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 07:59:20,328: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:00:20,329: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:01:20,329: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:02:20,107: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-08 08:02:20,330: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:03:20,331: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:04:20,331: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:05:20,332: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:06:20,333: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:07:20,333: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:08:20,333: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:09:20,334: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:10:20,335: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:11:20,335: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:12:20,336: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:13:20,336: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:14:20,337: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:15:20,338: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:16:20,338: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:17:20,338: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:18:20,339: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:19:20,339: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:20:20,340: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:21:20,340: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:22:20,340: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:23:20,341: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:24:20,341: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:25:20,342: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:26:20,342: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:27:20,342: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:28:20,342: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:29:20,342: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:30:20,343: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:31:20,343: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:32:20,343: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:33:20,344: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:34:20,345: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:35:20,345: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:36:20,346: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:37:20,346: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:38:20,346: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:39:20,347: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:40:20,347: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:41:20,348: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:42:20,348: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:43:20,349: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:44:20,349: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:45:20,349: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:46:20,349: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:47:20,350: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:48:20,350: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:49:20,351: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:50:20,351: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:51:20,352: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:52:20,352: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:53:20,352: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:54:20,352: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:55:20,353: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:56:20,353: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:57:20,354: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:58:20,354: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 08:59:20,354: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:00:20,354: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:01:20,355: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:02:20,108: INFO/MainProcess] Scheduler: Sending due task common.tasks.auto_clean_monitor_logs (common.tasks.auto_clean_monitor_logs)
+[2024-10-08 09:02:20,355: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:03:20,356: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:04:20,356: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:05:20,357: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:06:20,357: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:07:20,358: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:08:20,358: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:09:20,359: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:10:20,359: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:11:20,360: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:12:20,361: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:13:20,361: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:14:20,362: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:15:20,362: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:16:20,363: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:17:20,363: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:18:20,363: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:19:20,364: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:20:20,364: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:21:20,365: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:22:20,365: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:23:20,366: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:24:20,366: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:25:20,367: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:26:20,367: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:27:20,368: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:28:20,368: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:29:20,368: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:30:20,369: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:31:20,369: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:32:20,369: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:33:20,370: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:34:20,371: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:35:20,371: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:36:20,371: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:37:20,372: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:38:20,372: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:39:20,373: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:40:20,375: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:41:20,375: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:42:20,375: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:43:20,375: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)
+[2024-10-08 09:44:20,375: INFO/MainProcess] Scheduler: Sending due task common.tasks.check_server_performance_period (common.tasks.check_server_performance_period)

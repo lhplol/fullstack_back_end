@@ -1,4 +1,5 @@
 .idea/
 server/__pycache__/
 *.mo
-*.log
+logs/*
+!logs/.gitkeep
